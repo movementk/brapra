@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.maven, .product-list .list li a .details .title span, .product-list .list li a .details .title strong {
+  font-family: 'Maven Pro', sans-serif; }
+
+/* product-list 공통 */
+.product-list {
+  text-align: center;
+  margin-top: 16.66px; }
+  .product-list .dropdown {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    margin-right: 10px; }
+    .product-list .dropdown .btn {
+      width: 100%;
+      font-size: 11px;
+      height: 26.66px;
+      color: #fff;
+      text-align: left;
+      padding: 5px 10px;
+      border-radius: 0;
+      background-color: #ffb3ba; }
+      .product-list .dropdown .btn:focus {
+        box-shadow: none; }
+      .product-list .dropdown .btn .caret {
+        float: right;
+        margin-top: 5px;
+        text-align: right; }
+    .product-list .dropdown .dropdown-menu {
+      width: 100%;
+      padding: 0;
+      border-radius: 0;
+      border: 1px solid #ddd; }
+      .product-list .dropdown .dropdown-menu li a {
+        height: 26.66px;
+        font-size: 11px;
+        color: #666; }
+  .product-list .select-form {
+    display: inline-block;
+    overflow: hidden; }
+    .product-list .select-form .form-control {
+      float: left;
+      width: 80px;
+      border-color: #ddd;
+      background-color: #fafafa; }
+    .product-list .select-form .btn {
+      width: 26.66px;
+      height: 26.66px;
+      font-size: 11px;
+      padding: 0;
+      color: #666;
+      border-radius: 0;
+      border: 1px solid #ddd;
+      border-left: 0;
+      background-color: #fafafa; }
+  .product-list .list {
+    margin-top: 16.66px; }
+    .product-list .list li {
+      margin-bottom: 22px; }
+      .product-list .list li:last-child {
+        margin-bottom: 0; }
+      .product-list .list li a {
+        text-align: center; }
+        .product-list .list li a:hover, .product-list .list li a:focus {
+          text-decoration: none; }
+        .product-list .list li a .item img {
+          display: inline-block; }
+        .product-list .list li a .details {
+          text-align: center;
+          padding-top: 8px; }
+          .product-list .list li a .details .title {
+            font-size: 10px;
+            color: #666;
+            line-height: 16px; }
+            .product-list .list li a .details .title span {
+              display: inline-block;
+              font-size: 11px;
+              color: #666;
+              margin-top: 3px;
+              margin-right: 20px;
+              text-decoration: line-through; }
+            .product-list .list li a .details .title strong {
+              font-size: 11px;
+              color: #333;
+              margin-top: 3px; }
+  .product-list .paging {
+    margin: 35px 0 43.33px; }
+
+/* procudt-list2 */
+.list-tab2 .select-form .btn {
+  display: inline-block;
+  z-index: 9999;
+  background-image: url(/design/brapra/mobile/images/product_list/btn_two.png);
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  background-position: 50% 50%; }
+.list-tab2 .paging {
+  margin: 10px 0 43.33px !important; }
+
+/*# sourceMappingURL=product-list.css.map */
