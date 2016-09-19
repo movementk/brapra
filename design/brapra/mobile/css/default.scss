@@ -26,15 +26,15 @@ ul, ol {
     list-style: none;
 }
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     .row {
         margin-left: -10px;
         margin-right: -10px;
         @for $i from 1 through 12 {
             .col-xs-#{$i} {
-                padding-left: 5px;
-                padding-right: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
             }
         }
     }
@@ -106,12 +106,9 @@ ul, ol {
         }
     }
 }
-
-
-
-
 #primary-menu {
-    height: 27.33px;
+    height: 28px;
+    border-bottom: 1px solid #eee;
     ul {
         overflow: hidden;
         li {
@@ -142,18 +139,16 @@ ul, ol {
     }
 }
 
-
-
-
-#content {
-    #visual {
+/* footer */
+#footer {
+    background-color: #fff;
+    .banner {
         position: relative;
-        border-top: 1px solid #565a64;
-        border-bottom: 1px solid #e3e4e8;
         ul {
             li {
                 text-align: center;
                 a {
+                    display: block;
                     img {
                         display: inline-block;
                     }
@@ -162,42 +157,27 @@ ul, ol {
         }
         .bx-controls {
             position: absolute;
-            bottom: 12px;
+            bottom: 10%;
             width: 100%;
             .bx-pager {
-                text-align: center;
                 .bx-pager-item {
+                    padding-left: 5%;
                     text-indent: -9999px;
-                    display: inline-block;
-                    margin: 0 3.5px;
+                    display: block;
+                    margin: 3.5px 0;
                     .bx-pager-link {
                         display: block;
-                        width: 12px;
-                        height: 12px;
+                        width: 8px;
+                        height: 8px;
                         border: 1px solid #fff;
+                        background-color: #fff;
                         border-radius: 50%;
                     }
                     .active {
-                        background-color: #fff;
+                        background-color: #333;
+                        border-color: #333;
                     }
                 }
-            }
-        }
-    }
-}
-
-
-
-
-
-
-#footer {
-    background-color: #fff;
-    .banner {
-        text-align: center;
-        a {
-            img {
-                display: inline-block;
             }
         }
     }
@@ -268,7 +248,7 @@ ul, ol {
                     margin-bottom: 10px;
                     &:nth-of-type(1) {
                         a {
-                            background-image: url(/design/brapra/mobile/images/main/foot_btn01.gif);
+                            background-image: url(/design/brapra/mobile/images/main/foot_btn01.png);
                             background-repeat: no-repeat;
                             background-size: 17.33px 19.33px;
                             background-position: 50% 35%;
@@ -277,7 +257,7 @@ ul, ol {
                     }
                     &:nth-of-type(2) {
                         a {
-                            background-image: url(/design/brapra/mobile/images/main/foot_btn02.gif);
+                            background-image: url(/design/brapra/mobile/images/main/foot_btn02.png);
                             background-repeat: no-repeat;
                             background-size: 15.66px 23px;
                             background-position: 50% 35%;
@@ -285,7 +265,7 @@ ul, ol {
                     }
                     &:nth-of-type(3) {
                         a {
-                            background-image: url(/design/brapra/mobile/images/main/foot_btn03.gif);
+                            background-image: url(/design/brapra/mobile/images/main/foot_btn03.png);
                             background-repeat: no-repeat;
                             background-size: 28px 20px;
                             background-position: 50% 35%;
@@ -293,7 +273,7 @@ ul, ol {
                     }
                     &:nth-of-type(4) {
                         a {
-                            background-image: url(/design/brapra/mobile/images/main/foot_btn04.gif);
+                            background-image: url(/design/brapra/mobile/images/main/foot_btn04.png);
                             background-repeat: no-repeat;
                             background-size: 20.66px 22.33px;
                             background-position: 50% 35%;
@@ -301,7 +281,7 @@ ul, ol {
                     }
                     &:nth-of-type(5) {
                         a {
-                            background-image: url(/design/brapra/mobile/images/main/foot_btn05.gif);
+                            background-image: url(/design/brapra/mobile/images/main/foot_btn05.png);
                             background-repeat: no-repeat;
                             background-size: 21.66px 20px;
                             background-position: 50% 35%;
@@ -309,7 +289,7 @@ ul, ol {
                     }
                     &:nth-of-type(6) {
                         a {
-                            background-image: url(/design/brapra/mobile/images/main/foot_btn06.gif);
+                            background-image: url(/design/brapra/mobile/images/main/foot_btn06.png);
                             background-repeat: no-repeat;
                             background-size: 28px 18.66px;
                             background-position: 50% 35%;
@@ -317,7 +297,7 @@ ul, ol {
                     }
                     &:nth-of-type(7) {
                         a {
-                            background-image: url(/design/brapra/mobile/images/main/foot_btn07.gif);
+                            background-image: url(/design/brapra/mobile/images/main/foot_btn07.png);
                             background-repeat: no-repeat;
                             background-size: 20px 23.66px;
                             background-position: 50% 35%;
@@ -325,7 +305,7 @@ ul, ol {
                     }
                     &:nth-of-type(8) {
                         a {
-                            background-image: url(/design/brapra/mobile/images/main/foot_btn08.gif);
+                            background-image: url(/design/brapra/mobile/images/main/foot_btn08.png);
                             background-repeat: no-repeat;
                             background-size: 25px 24.33px;
                             background-position: 50% 35%;
@@ -398,43 +378,61 @@ ul, ol {
                     }
                 }
             }
-            .information {
-                li {
+            dl {
+                dt{
+                    font-size: 11px;
+                    color: #999;
                     line-height: 16px;
+                    font-weight: 300;
                     display: inline-block;
                     &:after {
-                        color: #999;
-                        padding: 0 4px 0 5px;
-                        content: "|";
+                        content: ":";
+                        padding: 0 1px 0 3px;
                     }
-                    dl {
-                        display: inline;
-                        dt {
-                            font-size: 11px;
-                            color: #999;
-                            font-weight: 300;
-                            line-height: 16px;
-                            display: inline-block;
-                            &:after {
-                                color: #999;
-                                content: ":";
-                                padding: 0 1px 0 2px;
-                            }
-                        }
-                        dd {
-                            font-size: 11px;
-                            color: #999;
-                            line-height: 16px;
-                            display: inline-block;
-                            .mcorset {
-                                font-style: normal;
-                                color: #333;
-                            }
-                            i {
-                                font-style: normal;
-                                color: #ef677d;
-                            }
-                        }
+                    &:nth-of-type(2):before {
+                        content: "|";
+                        color: #999;
+                        padding: 0 6px 0 5px;
+                    }
+                }
+                dd {
+                    font-size: 11px;
+                    color: #999;
+                    line-height: 16px;
+                    display: inline-block;
+                    a {
+                        color: #999;
+                    }
+                    i {
+                        font-style: normal;
+                        color: #ef677d;
+                    }
+                }
+                .mcorset {
+                    color: #333;
+                }
+            }
+            .copyright {
+                font-size: 11px;
+                color: #999;
+                margin: 20px 0;
+                i {
+                    font-style: normal;
+                    color: #bbbbbb;
+                    a {
+                        color: #bbbbbb;
+                    }
+                }
+            }
+        }
+        .sns {
+            text-align: center;
+            li {
+                display: inline-block;
+                margin: 0 7px;
+                a {
+                    img {
+                        width: 27.33px;
                     }
                 }
             }
@@ -442,6 +440,22 @@ ul, ol {
     }
 }
 
+#footer {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        .row {
+            margin-left: -10px;
+            margin-right: -10px;
+            @for $i from 1 through 12 {
+                .col-xs-#{$i} {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+}
 
 
 

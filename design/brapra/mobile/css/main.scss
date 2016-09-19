@@ -1,0 +1,339 @@
+.maven {
+    font-family: 'Maven Pro', sans-serif;
+}
+.noto {
+    font-family: 'Noto Sans', sans-serif;
+}
+#content {
+    #visual {
+        position: relative;
+        border-top: 1px solid #565a64;
+        border-bottom: 1px solid #e3e4e8;
+        ul {
+            li {
+                text-align: center;
+                a {
+                    img {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        .bx-controls {
+            position: absolute;
+            bottom: 12px;
+            width: 100%;
+            .bx-pager {
+                text-align: center;
+                .bx-pager-item {
+                    text-indent: -9999px;
+                    display: inline-block;
+                    margin: 0 3.5px;
+                    .bx-pager-link {
+                        display: block;
+                        width: 12px;
+                        height: 12px;
+                        border: 1px solid #fff;
+                        border-radius: 50%;
+                    }
+                    .active {
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .best-content {
+        .container {
+            > div {
+                margin-top: 41.33px;
+                border-top: 1px solid #d7d7d7;
+                h3 {
+                    width: 120px;
+                    font-size: 13px;
+                    color: #333;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-top: -9px;
+                    background-color: #fff;
+                    i {
+                        font-style: normal;
+                        font-size: 15px;
+                        font-weight: 300;
+                        color: #c2c2c2;
+                        @extend .maven;
+                    }
+                }
+                .best-product {
+                    margin-top: 36.33px;
+                    li {
+                        display: inline-block;
+                        margin-right: 20px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        .item {
+                            img {
+                                width: 120px;
+                                height: 120px;
+                            }
+                        }
+                        .details {
+                            width: 120px;
+                            padding-top: 10px;
+                            .product-info {
+                                font-size: 10px;
+                                color: #666;
+                                line-height: 16px;
+                                letter-spacing: -.5px;
+                                text-align: center;
+                            }
+                            .amount {
+                                margin-top: 5px;
+                                font-size: 11px;
+                                font-weight: bold;
+                                color: #333;
+                                text-align: center;
+                                span {
+                                    display: inline-block;
+                                    font-weight: 300;
+                                    color: #666;
+                                    text-decoration: line-through;
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .revisionbra-best {
+                padding-bottom: 36.33px;
+            }
+        }
+    }
+    .bra-top {
+        position: relative;
+        padding: 20px 20px 16.33px;
+        background-color: #aebdc2;
+        ul {
+            li {
+                a {
+                    .title {
+                        margin: 0 auto;
+                        max-width: 840px;
+                        font-size: 12px;
+                        text-align: center;
+                        padding: 21.66px 0;
+                        color: #444;
+                        line-height: 16px;
+                        background-color: #fff;
+                        border-bottom: 1px solid #e4e4e4;
+                        strong {
+                            color: #111;
+                            line-height: 16px;
+                        }
+                    }
+                    .bratop-img {
+                        text-align: center;
+                        img {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+        .bx-controls {
+            width: 45px;
+            height: 10px;
+            margin: 0 auto;
+            margin-top: 10px;
+            .bx-pager {
+                .bx-pager-item {
+                    text-indent: -9999px;
+                    display: inline-block;
+                    margin: 0 2.5px;
+                    .bx-pager-link {
+                        display: block;
+                        width: 10px;
+                        height: 10px;
+                        border: 1px solid #fff;
+                        border-radius: 50%;
+                    }
+                    .active {
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .brand-product {
+        padding-top: 30px;
+        ul {
+            width: 300px;
+            margin: 0 auto;
+            overflow: hidden;
+            li {
+                float: left;
+                width: 148px;
+                height: 148px;
+                text-align: center;
+                margin-bottom: -1px;
+                border: 1px solid #e3e3e3;
+                a {
+                    font-size: 12px;
+                    color: #fff;
+                    line-height: 16px;
+                    img {
+                        margin-top: 55.33px;
+                    }
+                    h3 {
+                        font-size: 11px;
+                        color: #666;
+                        margin-top: 10px;
+                    }
+                }
+                &:nth-of-type(even) {
+                    margin-left: -1px;
+                }
+                &:nth-of-type(1) {
+                    padding-top: 58px;
+                    background-image: url(/design/brapra/mobile/images/main/brand_img01.jpg);
+                    background-repeat: no-repeat;
+                    background-size: 148px 148px;
+                    background-position: 50% 50%;
+                }
+                &:nth-of-type(2) {
+                    a {
+                        img {
+                            width: 107.33px;
+                        }
+                    }
+                }
+                &:nth-of-type(3) {
+                    a {
+                        img {
+                            width: 99.33px;
+                        }
+                    }
+                }
+                &:nth-of-type(4) {
+                    padding-top: 58px;
+                    background-image: url(/design/brapra/mobile/images/main/brand_img02.jpg);
+                    background-repeat: no-repeat;
+                    background-size: 148px 148px;
+                    background-position: 50% 50%;
+                }
+                &:nth-of-type(5) {
+                    padding-top: 58px;
+                    margin-bottom: 1px;
+                    background-image: url(/design/brapra/mobile/images/main/brand_img03.jpg);
+                    background-repeat: no-repeat;
+                    background-size: 148px 148px;
+                    background-position: 50% 50%;
+                }
+                &:nth-of-type(6) {
+                    margin-bottom: 1px;
+                    a {
+                        img {
+                            width: 102px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .product-best {
+        .container {
+            > div{
+                margin-top: 41.33px;
+                margin-bottom: 10px;
+                border-top: 1px solid #d7d7d7;
+                h3 {
+                    width: 120px;
+                    font-size: 13px;
+                    color: #333;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-top: -9px;
+                    background-color: #fff;
+                    i {
+                        font-style: normal;
+                        font-size: 15px;
+                        font-weight: 300;
+                        color: #c2c2c2;
+                        @extend .maven;
+                    }
+                }
+                ul {
+                    margin-top: 30px;
+                    li {
+                        margin-bottom: 20px;
+                        a {
+                            text-align: center;
+                            .details {
+                                padding-top: 10px;
+                                .product-info {
+                                    font-size: 10px;
+                                    color: #666;
+                                    line-height: 16px;
+                                }
+                                .amount {
+                                    margin-top: 5px;
+                                    font-size: 11px;
+                                    font-weight: bold;
+                                    color: #333;
+                                    text-align: center;
+                                    span {
+                                        display: inline-block;
+                                        font-weight: 300;
+                                        color: #666;
+                                        text-decoration: line-through;
+                                        margin-right: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .btn-area {
+                    text-align: center;
+                    p {
+                        .btn-more {
+                            width: 140px;
+                            height: 30px;
+                            display: inline-block;
+                            font-size: 10px;
+                            color: #666;
+                            text-align: center;
+                            border: 1px solid #ddd;
+                            border-radius: 0;
+                        }
+                    }
+                }
+            }
+            .wire-best {
+                ul {
+                    li {
+                        a {
+                            .details {
+                                height: 90px;
+                            }
+                        }
+                    }
+                }
+            }
+            .lace-best {
+                padding-bottom: 20px;
+                ul {
+                    li {
+                        a {
+                            .details {
+                                height: 80px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

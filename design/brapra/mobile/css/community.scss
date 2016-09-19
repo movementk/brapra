@@ -1,0 +1,616 @@
+.maven {
+    font-family: 'Maven Pro', sans-serif;
+}
+.event {
+    .table-wrap {
+        margin-top: 20px;
+    }
+    .paging {
+        margin-top: 26.66px;
+        padding-bottom: 35.66px;
+    }
+}
+/* view */
+.view {
+    .event-area {
+        width: 100%;
+        height: 33.33px;
+        font-size: 10px;
+        color: #333;
+        line-height: 33.33px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        border-top: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+        background-color: #f7f7f7;
+    }
+    .event-img {
+        padding-bottom: 17px;
+        text-align: center;
+        img {
+            display: inline-block;
+        }
+    }
+    .btn-area {
+        overflow: hidden;
+        padding: 16.66px 0 31.66px;
+        border-top: 1px solid #f0f0f0;
+        .btn {
+            float: left;
+        }
+        .btn-sm {
+            float: right;
+        }
+    }
+    .reply-form {
+        .reply {
+            width: 100%;
+            padding: 12px 10.66px;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            background-color: #f7f7f7;
+            .form-control {
+                display: inline-block;
+                width: 75%;
+                height: 23.33px;
+                margin-right: 10px;
+            }
+            p {
+                vertical-align: top;
+                display: inline-block;
+                .btn-pink {
+                    width: 57px;
+                    height: 23.33px;
+                    font-size: 10px;
+                    color: #fff;
+                    padding: 0;
+                    line-height: 23.33px;
+                    border-radius: 0;
+                    background-color: #ee5766;
+                }
+            }
+        }
+        .reply-list {
+            li {
+                padding: 10px 12px;
+                border-bottom: 1px solid #f0f0f0;
+                dl {
+                    display: block;
+                    margin-bottom: 3.66px;
+                    dt {
+                        width: 46px;
+                        display: inline-block;
+                        font-size: 10px;
+                        color: #333;
+                    }
+                    dd {
+                        display: inline-block;
+                        font-size: 10px;
+                        color: #666;
+                        @extend .maven;
+                    }
+                }
+                .reply-content {
+                    font-size: 10px;
+                    color: #999;
+                }
+            }
+            .reply-text {
+                padding-left: 31px;
+                background-image: url(/design/brapra/mobile/images/community/reply_bg.gif);
+                background-size: 8.66px auto;
+                background-repeat: no-repeat;
+                background-position: 14.6px 50%;
+            }
+        }
+    }
+    .paging {
+        margin: 28.33px 0 38.66px;
+    }
+}
+/* review */
+.community-review {
+    .page-header {
+        hr {
+            margin-bottom: 10px;
+        }
+    }
+}
+.review {
+    .review-title {
+        font-size: 10px;
+        color: #666;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: -.5px;
+        margin-bottom: 26.66px;
+    }
+    .review-list {
+        li {
+            margin-bottom: 20px;
+            a {
+                .details {
+                    padding: 10px;
+                    border: 1px solid #dfdfdf;
+                    border-top: 0;
+                    h3 {
+                        font-size: 12px;
+                        color: #333;
+                        margin-bottom: 5px;
+                    }
+                    .details-content {
+                        font-size: 10px;
+                        color: #666;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        margin-bottom: 5px;
+                    }
+                    dl {
+                        dt {
+                            font-size: 10px;
+                            color: #666;
+                            font-weight: 300;
+                            line-height: 16px;
+                            display: inline-block;
+                            &:after {
+                                content: "|";
+                                font-weight: bold;
+                                color: #999;
+                                padding: 0 7px;
+                            }
+                        }
+                        dd {
+                            display: inline-block;
+                            img {
+                                margin-top: 4px;
+                                vertical-align: top;
+                                display: inline;
+                                width: 8px;
+                                height: 7.33px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .search-form {
+        margin-top: 6.66px;
+        margin-bottom: 20.66px;
+    }
+    .table-wrap {
+        .table {
+            thead {
+                tr {
+                    th {
+
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        text-align: center;
+                        vertical-align: middle;
+                        padding: 6.66px 0;
+                        p {
+                            img {
+                                display: inline-block;
+                                width: 46.66px;
+                                height: 46.66px;
+                            }
+                        }
+                    }
+                    .review-subject {
+                        padding: 0 13px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+    .paging {
+        margin: 28.33px 0 38.66px;
+    }
+}
+/* faq */
+.faq {
+    .faq-list {
+        overflow: hidden;
+        li {
+            float: left;
+            width: 33.33%;
+            height: 40px;
+            text-align: left;
+            margin-top: -1px;
+            border-top: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+            background-color: #f7f7f7;
+            a {
+                display: block;
+                font-size: 10px;
+                line-height: 13.33px;
+                color: #333;
+                padding: 13px 0;
+                padding-left: 10px;
+                background-image: url(/design/brapra/mobile/images/community/faq_non_active.gif);
+                background-repeat: no-repeat;
+                background-size: 4px auto;
+                background-position: 90% 50%;
+            }
+            &:nth-of-type(1) {
+                margin-top: 0;
+                margin-left: 0;
+            }
+            &:nth-of-type(2) {
+                margin-top: 0;
+                border-left: 1px solid #f0f0f0;
+                border-right: 1px solid #f0f0f0;
+            }
+            &:nth-of-type(3) {
+                margin-top: 0;
+                a {
+                    padding: 6px 0;
+                    padding-left: 10px;
+                }
+            }
+            &:nth-of-type(5) {
+                border-left: 1px solid #f0f0f0;
+                border-right: 1px solid #f0f0f0;
+            }
+            &:nth-of-type(8) {
+                border-left: 1px solid #f0f0f0;
+                border-right: 1px solid #f0f0f0;
+            }
+        }
+        .active {
+            background-color: #fff;
+            a {
+                color: #ee5766;
+                background-image: url(/design/brapra/mobile/images/community/faq_active.gif);
+                background-repeat: no-repeat;
+                background-size: 4px auto;
+                background-position: 90% 50%;
+            }
+        }
+    }
+    .search-form {
+        margin: 26.66px 0 20px;
+    }
+    .panel-area {
+        .faq-classify {
+            overflow: hidden;
+            padding: 11px 0;
+            border-top: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+            background-color: #f7f7f7;
+            dt {
+                float: left;
+                width: 35%;
+                font-size: 10px;
+                color: #333;
+                font-weight: 300;
+                text-align: center;
+            }
+            dd {
+                float: left;
+                width: 65%;
+                font-size: 10px;
+                color: #333;
+                text-align: center;
+            }
+        }
+        .panel-group {
+            margin: 0;
+            .panel {
+                margin: 0;
+                border-radius: 0;
+                border: 0;
+                box-shadow: none;
+                border-bottom: 1px solid #f0f0f0;
+                .panel-heading {
+                    padding: 0;
+                    .panel-title {
+                        a {
+
+                            dl {
+                                overflow: hidden;
+                                padding: 13px 0;
+                                background-color: #fff;
+                                dt {
+                                    float: left;
+                                    width: 30%;
+                                    font-size: 10px;
+                                    color: #333;
+                                    font-weight: 300;
+                                    text-align: left;
+                                    padding-left: 11px;
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                    text-overflow: ellipsis;
+                                }
+                                dd {
+                                    float: left;
+                                    width: 70%;
+                                    font-size: 10px;
+                                    color: #333;
+                                    text-align: left;
+                                    padding: 0 24px 0 11px;
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                    text-overflow: ellipsis;
+                                    background-image: url(/design/brapra/mobile/images/community/panel_active.gif);
+                                    background-repeat: no-repeat;
+                                    background-size: 9.33px auto;
+                                    background-position: 95% 50%;
+                                }
+                            }
+                        }
+                        .collapsed {
+                            dl {
+                                dd {
+                                    background-image: url(/design/brapra/mobile/images/community/panel_non_active.gif);
+                                }
+                            }
+                        }
+                    }
+                }
+                .panel-body {
+                    font-size: 10px;
+                    color: #666;
+                    line-height: 14.33px;
+                    padding: 16.66px 10px;
+                    border: 0;
+                    border-top: 1px solid #f0f0f0;
+                    background-color: #f7f7f7;
+                }
+            }
+        }
+    }
+    .paging {
+        margin: 28.33px 0 38.66px;
+    }
+}
+/* qna */
+.qna {
+    .search-form {
+        margin-bottom: 20px;
+    }
+    .table-wrap {
+        .table {
+            table-layout: fixed;
+            thead {
+                tr {
+                    th {
+
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        height: 60px;
+                        text-align: center;
+                        vertical-align: middle;
+                        padding: 6.66px 0;
+                        p {
+                            img {
+                                display: inline-block;
+                                width: 46.66px;
+                                height: 46.66px;
+                            }
+                        }
+                    }
+                    .review-subject {
+                        padding: 0 13px;
+                        text-align: left;
+                    }
+                    .reply {
+                        text-align: left;
+                        padding-left: 25px;
+                        background-image: url(/design/brapra/mobile/images/community/reply_bg.gif);
+                        background-repeat: no-repeat;
+                        background-size: 8.6px auto;
+                        background-position: 10px 50%;
+                    }
+                }
+            }
+        }
+    }
+    .btn-area {
+        margin-top: 16.66px;
+        text-align: right;
+    }
+    .paging {
+        margin: 20px 0 38.66px;
+    }
+}
+/* qna-view */
+.qna-view {
+    .article-header {
+        overflow: hidden;
+        margin-bottom: 20px;
+        padding: 10px 9.33px;
+        border: 1px solid #f0f0f0;
+        p {
+            float: left;
+        }
+        .item {
+            margin-right: 9px;
+            img {
+                width: 46.66px;
+                height: 46.66px;
+            }
+        }
+        .details {
+            display: block;
+            width: 80%;
+            height: 46.66px;
+            font-size: 10px;
+            color: #333;
+            line-height: 14.33px;
+            padding: 8px 0;
+        }
+    }
+    .article-content {
+        margin-bottom: 16.66px;
+        border-top: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+        .subject {
+            font-size: 10px;
+            color: #333;
+            span {
+                float: right;
+            }
+            padding: 12.33px 10.66px;
+            border-bottom: 1px solid #f0f0f0;
+            background-color: #f7f7f7;
+        }
+        .details {
+            font-size: 10px;
+            color: #666;
+            line-height: 16px;
+            padding: 16px 9.33px 42.33px;
+        }
+    }
+    .btn-area {
+        overflow: hidden;
+        margin-bottom: 40px;
+        p {
+            .btn {
+                float: left;
+            }
+            .btn-sm {
+                float: right;
+            }
+        }
+    }
+}
+/* qna_write */
+.qna-write {
+    .article-header {
+        overflow: hidden;
+        margin-bottom: 20px;
+        padding: 10px 9.33px;
+        border: 1px solid #f0f0f0;
+        p {
+            float: left;
+        }
+        .item {
+            margin-right: 9px;
+            img {
+                width: 46.66px;
+                height: 46.66px;
+            }
+        }
+        .details {
+            display: block;
+            width: 80%;
+            height: 46.66px;
+            font-size: 10px;
+            color: #333;
+            line-height: 14.33px;
+            padding: 8px 0;
+        }
+    }
+    .table-wrap {
+        .table {
+            tbody {
+                th {
+                    font-size: 10px;
+                    color: #333;
+                    vertical-align: middle;
+                    border-left: 0;
+                    border-right: 0;
+                    border-color: #f0f0f0;
+                    background-color: #f7f7f7;
+                    label {
+                        font-size: 10px;
+                        color: #333;
+                        margin: 0;
+                    }
+                }
+                td {
+                    padding: 4.33px 10px;
+                    .form-control {
+                        height: 23.33px;
+                        font-size: 10px;
+                        color: #666;
+                        padding: 0;
+                        padding-left: 5px;
+                    }
+                    textarea {
+                        height: 120px;
+                    }
+                }
+            }
+        }
+    }
+    .btn-area {
+        margin: 16px 0 38px;
+        text-align: right;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

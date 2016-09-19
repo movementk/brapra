@@ -1,0 +1,118 @@
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
+<link href="/design/brapra/mobile/css/sub.css" rel="stylesheet">
+<link href="/design/brapra/mobile/css/community.css" rel="stylesheet">
+</head>
+<body>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
+<main class="content community">
+    <div class="container">
+         <div class="page-header">
+             <h2>이벤트</h2>
+             <hr>
+         </div>
+         <article class="event">
+            <div class="search-form">
+                <form>
+                    <select class="form-control">
+                        <option value="">전체</option>
+                        <option value="">전체1</option>
+                    </select>
+                    <input type="text" class="form-control" id="search">
+                    <label for="search" class="sr-only">검색하기</label>
+                    <button type="button" class="btn btn-search"><span class="glyphicon glyphicon-search"></span></button>
+                </form>
+            </div>
+            <div class="table-wrap">
+                <table class="table table-bordered">
+                    <colgroup>
+                        <col style="width: 50px;">
+                        <col style="width: 180px;">
+                        <col style="width: 70px;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>번호</th>
+                            <th>제목</th>
+                            <th>작성일</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="count">10</td>
+                            <td><a href="#">[당첨자 발표] 라인 친구프렌즈~ 1만원 쿠폰</a></td>
+                            <td class="date">2016.02.07</td>
+                        </tr>
+                        <tr>
+                            <td class="count">9</td>
+                            <td><a href="#">[당첨자 발표] 라인 친구프렌즈~ 1만원 쿠폰</a></td>
+                            <td class="date">2016.02.07</td>
+                        </tr>
+                        <tr>
+                            <td class="count">8</td>
+                            <td><a href="#">[당첨자 발표] 라인 친구프렌즈~ 1만원 쿠폰</a></td>
+                            <td class="date">2016.02.07</td>
+                        </tr>
+                        <tr>
+                            <td class="count">7</td>
+                            <td><a href="#">[당첨자 발표] 라인 친구프렌즈~ 1만원 쿠폰</a></td>
+                            <td class="date">2016.02.07</td>
+                        </tr>
+                        <tr>
+                            <td class="count">6</td>
+                            <td><a href="#">[당첨자 발표] 라인 친구프렌즈~ 1만원 쿠폰</a></td>
+                            <td class="date">2016.02.07</td>
+                        </tr>
+                        <tr>
+                            <td class="count">5</td>
+                            <td><a href="#">[당첨자 발표] 라인 친구프렌즈~ 1만원 쿠폰</a></td>
+                            <td class="date">2016.02.07</td>
+                        </tr>
+                        <tr>
+                            <td class="count">4</td>
+                            <td><a href="#">[당첨자 발표] 라인 친구프렌즈~ 1만원 쿠폰</a></td>
+                            <td class="date">2016.02.07</td>
+                        </tr>
+                        <tr>
+                            <td class="count">3</td>
+                            <td><a href="#">[당첨자 발표] 라인 친구프렌즈~ 1만원 쿠폰</a></td>
+                            <td class="date">2016.02.07</td>
+                        </tr>
+                        <tr>
+                            <td class="count">2</td>
+                            <td><a href="#">[당첨자 발표] 라인 친구프렌즈~ 1만원 쿠폰</a></td>
+                            <td class="date">2016.02.07</td>
+                        </tr>
+                        <tr>
+                            <td class="count">1</td>
+                            <td><a href="#">[당첨자 발표] 라인 친구프렌즈~ 1만원 쿠폰</a></td>
+                            <td class="date">2016.02.07</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <nav class="paging">
+                <ul class="pagination">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&lt;</span>
+                        </a>
+                    </li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&gt;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+         </article>
+    </div>
+</main>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
+</body>
+</html>

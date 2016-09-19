@@ -53,16 +53,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-5">
-                    메뉴 #1
+                    <ul class="category">
+                        <li><a href="#">브라</a></li>
+                        <li><a href="#">팬티</a></li>
+                        <li><a href="#">보정</a></li>
+                        <li><a href="#">남성</a></li>
+                        <li><a href="#">웨어</a></li>
+                        <li><a href="#">기타</a></li>
+                    </ul>
                 </div>
                 <div class="col-xs-1">
-                    사선
+                    <span class="split"></span>
                 </div>
                 <div class="col-xs-4">
-                    메뉴 #2
+                    <ul class="event">
+                        <li><a href="#">NEW 5%</a></li>
+                        <li><a href="#">BEST</a></li>
+                        <li><a href="#">이달의 쿠폰</a></li>
+                        <li><a href="#">UP TO 80%</a></li>
+                    </ul>
                 </div>
                 <div class="col-xs-2">
-                    메뉴 #3
+                    <a class="all-brand" href="#">ALL BRAND</a>
                 </div>
             </div>
         </div>

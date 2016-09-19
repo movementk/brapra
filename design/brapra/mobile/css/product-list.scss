@@ -1,0 +1,621 @@
+.maven {
+    font-family: 'Maven Pro', sans-serif;
+}
+/* product-list 공통 */
+.product-list {
+    text-align: center;
+    margin-top: 16.66px;
+    .dropdown {
+        display: inline-block;
+        width: 60%;
+        vertical-align: top;
+        margin-right: 10px;
+        .btn {
+            width: 100%;
+            font-size: 11px;
+            height: 26.66px;
+            color: #fff;
+            text-align: left;
+            padding: 5px 10px;
+            border-radius: 0;
+            background-color: #ffb3ba;
+            &:focus {
+                box-shadow: none;
+            }
+            .caret {
+                float: right;
+                margin-top: 5px;
+                text-align: right;
+            }
+        }
+        .dropdown-menu {
+            width: 100%;
+            padding: 0;
+            border-radius: 0;
+            border: 1px solid #ddd;
+            li {
+                a {
+                    height: 26.66px;
+                    font-size: 11px;
+                    color: #666;
+                }
+            }
+        }
+    }
+    .select-form {
+        display: inline-block;
+        overflow: hidden;
+        .form-control {
+            float: left;
+            width: 80px;
+            border-color: #ddd;
+            background-color: #fafafa;
+        }
+        .btn {
+            width: 26.66px;
+            height: 26.66px;
+            font-size: 11px;
+            padding: 0;
+            color: #666;
+            border-radius: 0;
+            border: 1px solid #ddd;
+            border-left: 0;
+            background-color: #fafafa;
+        }
+    }
+    .list {
+        margin-top: 16.66px;
+        li {
+            margin-bottom: 22px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            a {
+                text-align: center;
+                &:hover,
+                &:focus {
+                    text-decoration: none;
+                }
+                .item {
+                    img {
+                        display: inline-block;
+                    }
+                }
+                .details {
+                    text-align: center;
+                    padding-top: 8px;
+                    .title {
+                        font-size: 10px;
+                        color: #666;
+                        line-height: 16px;
+                        span {
+                            display: inline-block;
+                            font-size: 11px;
+                            color: #666;
+                            margin-top: 3px;
+                            margin-right: 20px;
+                            text-decoration: line-through;
+                            @extend .maven;
+                        }
+                        strong {
+                            font-size: 11px;
+                            color: #333;
+                            margin-top: 3px;
+                            @extend .maven;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .paging {
+        margin: 35px 0 43.33px;
+    }
+}
+/* procudt-list2 */
+.list-tab2 {
+    .select-form {
+        .btn {
+            display: inline-block;
+            z-index: 9999;
+            background-image: url(/design/brapra/mobile/images/product_list/btn_two.png);
+            background-repeat: no-repeat;
+            background-size: 10px 10px;
+            background-position: 50% 50%;
+        }
+    }
+    .paging {
+        margin: 10px 0 43.33px !important;
+    }
+}
+
+/* view */
+.product-view {
+    .title {
+        font-size: 15px;
+        color: #333;
+        line-height: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin: 30px 0 16px;
+    }
+    .details {
+        padding-top: 16.66px;
+        .information {
+            overflow: hidden;
+            dt {
+                float: left;
+                clear: both;
+                width: 80px;
+                font-size: 10px;
+                color: #333;
+                font-weight: 300;
+                line-height: 21.66px;
+            }
+            dd {
+                float: left;
+                width: 73%;
+                font-size: 10px;
+                color: #777;
+                line-height: 21.66px;
+                i {
+                    font-size: 15px;
+                    color: #ee5766;
+                    font-style: normal;
+                }
+                .terms {
+                    line-height: 13.33px;
+                }
+                p {
+                    display: inline-block;
+                    .btn-quick {
+                        vertical-align: top;
+                        margin-top: 2px;
+                        margin-left: 10px;
+                        width: 46.66px;
+                        height: 16.66px;
+                        font-size: 10px;
+                        color: #666;
+                        border: 1px solid #ddd;
+                        border-radius: 0;
+                        padding: 0;
+                    }
+                }
+            }
+            .normalcy {
+                text-decoration: line-through;
+            }
+        }
+    }
+    .option-info {
+        overflow: hidden;
+        dt {
+            float: left;
+            clear: both;
+            width: 80px;
+            line-height: 26.33px;
+            font-size: 10px;
+            color: #333;
+            font-weight: 300;
+            vertical-align: middle;
+            padding: 5px 0;
+        }
+        dd {
+            float: left;
+            width: 73%;
+            font-size: 10px;
+            color: #777;
+            vertical-align: middle;
+            padding: 5px 0;
+            .option-size {
+                width: 100%;
+                height: 20px;
+                font-size: 11px;
+                color: #777;
+                text-align: center;
+                line-height: 20px;
+                background-color: #eee;
+                margin-bottom: 4px;
+            }
+            .btn-count {
+                display: inline-block;
+                p {
+                    overflow: hidden;
+                    .btn {
+                        float: left;
+                        width: 26.66px;
+                        height: 26.66px;
+                        border-radius: 0;
+                        border: 1px solid #ddd;
+                    }
+                    span {
+                        float: left;
+                        width: 31.33px;
+                        height: 26.66px;
+                        text-align: center;
+                        font-size: 10px;
+                        color: #777;
+                        line-height: 26.66px;
+                        border-top: 1px solid #ddd;
+                        border-bottom: 1px solid #ddd;
+                    }
+                    .btn-plus {
+                        background-image: url(/design/brapra/mobile/images/product_list/btn_plus.gif);
+                        background-repeat: no-repeat;
+                        background-size: 9.66px auto;
+                        background-position: 50% 50%;
+                    }
+                    .btn-minus {
+                        background-image: url(/design/brapra/mobile/images/product_list/btn_minus.gif);
+                        background-repeat: no-repeat;
+                        background-size: 9.66px auto;
+                        background-position: 50% 50%;
+                    }
+                }
+            }
+
+            .del {
+                float: right;
+                padding-bottom: 10px;
+                p {
+                    line-height: 26.66px;
+                    font-size: 11px;
+                    color: #777;
+                    .btn-del {
+                        vertical-align: top;
+                        width: 26.66px;
+                        height: 26.66px;
+                        border-radius: 0;
+                        border: 1px solid #ddd;
+                        margin-left: 5px;
+                        background-image: url(/design/brapra/mobile/images/product_list/btn_del.gif);
+                        background-repeat: no-repeat;
+                        background-size: 8px auto;
+                        background-position: 50% 50%;
+                    }
+                }
+            }
+        }
+    }
+    .btn-area {
+        width: 100%;
+        padding-top: 15px;
+        border-top: 1px solid #e3e3e3;
+        .amount {
+            overflow: hidden;
+            display: block;
+            font-size: 12px;
+            color: #333;
+            line-height: 17.66px;
+            text-align: right;
+            margin-bottom: 20px;
+            i {
+                margin-left: 5px;
+                font-size: 16.66px;
+                color: #ee5766;
+                font-style: normal;
+            }
+            .btn-share {
+                float: left;
+                width: 15.66px;
+                height: 17.66px;
+                background-image: url(/design/brapra/mobile/images/product_list/share_btn.gif);
+                background-repeat: no-repeat;
+                background-size: 15.66px 17.66px;
+                background-position: 50% 50%;
+            }
+        }
+        p {
+            .btn-basics {
+                width: 93px;
+                height: 33.66px;
+                padding: 8px 0;
+            }
+            .btn-charcoal {
+                color: #fff;
+                background-color: #999;
+            }
+        }
+    }
+    .product-details {
+        .product-information {
+            padding-top: 50px;
+            padding-bottom: 19px;
+            overflow: hidden;
+            li {
+                float: left;
+                width: 33.33%;
+                text-align: center;
+                padding-bottom: 7px;
+                border-bottom: 1px solid #e3e3e3;
+                a {
+                    font-size: 10px;
+                    color: #666;
+                }
+            }
+            .active {
+                border-color: #ee5766;
+                a {
+                    color: #ee5766;
+                }
+            }
+        }
+        .detail-img {
+            text-align: center;
+            padding: 0 34px;
+            img {
+                display: inline-block;
+                margin-bottom: 7px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        h3 {
+            font-size: 12px;
+            color: #333;
+            margin: 26px 0 6px;
+        }
+        .table-wrap {
+            .table {
+                border: 0;
+                tbody {
+                    tr {
+                        th {
+                            font-size: 10px;
+                            color: #333;
+                            padding-left: 10px;
+                            text-align: left;
+                            vertical-align: middle;
+                            border: 0;
+                            border-top: 1px solid #f0f0f0;
+                            border-bottom: 1px solid #f0f0f0;
+                            background-color: #f7f7f7;
+                        }
+                        td {
+                            font-size: 10px;
+                            color: #666;
+                            text-align: left;
+                            padding: 13px 10px;
+                            border: 0;
+                            border-top: 1px solid #f0f0f0;
+                            border-bottom: 1px solid #f0f0f0;
+                            a {
+                                display: inline;
+                                color: #666;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .dot-list {
+            li {
+                position: relative;
+                font-size: 10px;
+                color: #666;
+                line-height: 14.33px;
+                padding-left: 10px;
+                &:before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    content: "ㆍ";
+                    font-size: 10px;
+                    color: #333;
+                }
+            }
+        }
+        .related-list {
+            li {
+                display: inline-block;
+                margin-right: 20px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                .item {
+                    img {
+                        width: 120px;
+                        height: 120px;
+                    }
+                }
+                .details {
+                    width: 120px;
+                    padding-top: 11px;
+                    padding-bottom: 56px;
+                    text-align: center;
+                    .product-info {
+                        font-size: 10px;
+                        color: #666;
+                        line-height: 16px;
+                    }
+                    .amount {
+                        margin-top: 5px;
+                        font-size: 11px;
+                        color: #333;
+                        font-weight: bold;
+                        span {
+                            display: inline-block;
+                            margin-right: 10px;
+                            text-decoration: line-through;
+                            font-size: 11px;
+                            font-weight: 300;
+                            color: #666;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* share-modal */
+.share-modal {
+    padding-top: 150px;
+    .modal-dialog {
+        .modal-content {
+            margin: 0 auto;
+            width: 260px;
+            border: 0;
+            border-radius: 0;
+            box-shadow: none;
+            .modal-header {
+                position: relative;
+                width: 260px;
+                height: 33.33px;
+                padding: 0;
+                border: 0;
+                color: #fff;
+                text-align: center;
+                background-color: #ffb3ba;
+                .modal-title {
+                    font-size: 12px;
+                    color: #fff;
+                    line-height: 33.33px;
+                    margin: 0;
+                }
+                .close {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    color: #fff;
+                    opacity: 1;
+                    font-weight: 300;
+                    font-size: 17px;
+                }
+            }
+            .modal-body {
+                padding-top: 19.33px;
+                height: 90px;
+                background-color: #fff;
+                .sns-list {
+                    overflow: hidden;
+                    li {
+                        float: left;
+                        width: 25%;
+                        text-align: center;
+                        .sns-img {
+                            text-align: center;
+                            img {
+                                display: inline-block;
+                                width: 31.33px;
+                                margin-bottom: 8px;
+                            }
+                        }
+                        .details {
+                            font-size: 10px;
+                            color: #666;
+                            text-align: center;
+                            letter-spacing: -.5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* brand-list */
+.brand-list {
+    .bra-best {
+        margin-top: 41.33px;
+        padding-bottom: 29.3px;
+        border-top: 1px solid #d7d7d7;
+        border-bottom: 1px solid #e3e3e3;
+        h3 {
+            width: 120px;
+            font-size: 13px;
+            color: #333;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: -9px;
+            background-color: #fff;
+            i {
+                font-style: normal;
+                font-size: 15px;
+                font-weight: 300;
+                color: #c2c2c2;
+                @extend .maven;
+            }
+        }
+        .best-product {
+            overflow: hidden;
+            margin-top: 36.33px;
+            li {
+                float: left;
+                margin-right: 20px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                .item {
+                    img {
+                        width: 120px;
+                        height: 120px;
+                    }
+                }
+                .details {
+                    width: 120px;
+                    padding-top: 10px;
+                    .product-info {
+                        font-size: 10px;
+                        color: #666;
+                        line-height: 16px;
+                        letter-spacing: -.5px;
+                        text-align: center;
+                    }
+                    .amount {
+                        margin-top: 5px;
+                        font-size: 11px;
+                        font-weight: bold;
+                        color: #333;
+                        text-align: center;
+                        span {
+                            display: inline-block;
+                            font-weight: 300;
+                            color: #666;
+                            text-decoration: line-through;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .select-form {
+        margin-top: 6.77px;
+        overflow: hidden;
+        float: right;
+    }
+    .list {
+        clear: both;
+        padding-top: 16.66px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

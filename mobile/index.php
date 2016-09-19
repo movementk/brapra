@@ -1,178 +1,471 @@
-<!DOCTYPE html>
-<html lang="ko">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>브라프라닷컴</title>
-        <link href="/design/brapra/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/design/brapra/mobile/css/default.css" rel="stylesheet">
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body>
-        <header id="header">
-            <button type="button" class="btn btn-menu">
-                <span class="bar"></span>
-                <span class="sr-only">메뉴버튼</span>
-            </button>
-            <h1><img src="/design/brapra/mobile/images/main/logo.jpg" alt="브라프라 로고 이미지"></h1>
-            <div class="quick-btn">
-                <button type="button" class="btn btn-search"><snap class="search"></snap></button>
-                <button type="button" class="btn btn-basket"><snap class="basket"></snap></button>
-            </div>
-        </header>
-        <nav id="primary-menu">
-            <ul>
-                <li><a href="#">NEW 5%</a></li>
-                <li><a href="#">BEST ITEM</a></li>
-                <li><a href="#">이달의 쿠폰</a></li>
-                <li><a href="#">UP TO 80%</a></li>
-            </ul>
-        </nav>
-        <main id="content">
-            <div id="visual">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="/design/brapra/mobile/images/main/main_visual.jpg" class="img-responsive" alt="메인 이미지">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="/design/brapra/mobile/images/main/main_visual.jpg" class="img-responsive" alt="메인 이미지">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="/design/brapra/mobile/images/main/main_visual.jpg" class="img-responsive" alt="메인 이미지">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </main>
-        <footer id="footer">
-            <nav class="banner">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
+<link href="/design/brapra/mobile/css/main.css" rel="stylesheet">
+</head>
+<body>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
+<main id="content">
+    <div id="visual">
+        <ul>
+            <li>
                 <a href="#">
-                    <img src="/design/brapra/mobile/images/main/footer_bg01.png" class="img-responsive" alt="푸터 배너 이미지">
+                    <img src="/design/brapra/mobile/images/main/main_visual.jpg" class="img-responsive" alt="메인 이미지">
                 </a>
-            </nav>
-            <div class="cs-center">
-                <h3>CS CENTER</h3>
-                <p class="cs-img">
-                    <a href="tel:1455-6101">
-                        <img src="/design/brapra/mobile/images/main/coll_center.png" alt="상담 센터">
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/design/brapra/mobile/images/main/main_visual.jpg" class="img-responsive" alt="메인 이미지">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/design/brapra/mobile/images/main/main_visual.jpg" class="img-responsive" alt="메인 이미지">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="best-content">
+        <div class="container">
+            <div class="wonderbra-best">
+               <h3>원더브라 <i>BEST</i></h3>
+               <ul class="best-product">
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
+               </ul>
+            </div>
+            <div class="bra-best">
+                <h3>브라 <i>BEST</i></h3>
+                <ul class="best-product">
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
+               </ul>
+            </div>
+            <div class="revisionbra-best">
+                <h3>보정 <i>BEST</i></h3>
+                <ul class="best-product">
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
+               </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bra-top">
+        <ul>
+            <li>
+                <a href="#">
+                    <p class="title">
+                        이제는 운동을 해야할때!<br>
+                        <strong>운동할때는 편하게 브라탑</strong>
+                    </p>
+                    <p class="bratop-img">
+                        <img src="/design/brapra/mobile/images/main/bra_top_img.jpg" class="img-responsive" alt="브라탑 이미지">
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p class="title">
+                        이제는 운동을 해야할때!<br>
+                        <strong>운동할때는 편하게 브라탑</strong>
+                    </p>
+                    <p class="bratop-img">
+                        <img src="/design/brapra/mobile/images/main/bra_top_img.jpg" class="img-responsive" alt="브라탑 이미지">
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p class="title">
+                        이제는 운동을 해야할때!<br>
+                        <strong>운동할때는 편하게 브라탑</strong>
+                    </p>
+                    <p class="bratop-img">
+                        <img src="/design/brapra/mobile/images/main/bra_top_img.jpg" class="img-responsive" alt="브라탑 이미지">
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="brand-product">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="#">극강 볼륨이란<br>이런것!</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/design/brapra/mobile/images/main/brand_bg01.jpg" alt="원더브라 로고">
+                        <h3>원더브라</h3>
                     </a>
-                </p>
-                <ul class="cs-info">
-                    <li>
-                        <dl>
-                            <dt>평일</dt>
-                            <dd>10:00~17:00</dd>
-                        </dl>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/design/brapra/mobile/images/main/brand_bg02.jpg" alt="베어리데어 로고">
+                        <h3>베어리데어</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">이제는 알고싶다!<br>내 사이즈 측정법</a>
+                </li>
+                <li>
+                    <a href="#">노와이어는<br>여기 다 모았다!</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="/design/brapra/mobile/images/main/brand_bg03.jpg" alt="르페 로고">
+                        <h3>르페</h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="product-best">
+        <div class="container">
+            <div class="curvy-up">
+                <h3>볼륨업 <i>BEST</i></h3>
+                <ul class="row">
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/lefee_img01.jpg" class="img-responsive" alt="볼륨업 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   르페 시크릿 볼륨 다크베이지<br>
+                                   브라팬티 LFW6F02_T
+                               </p>
+                               <p class="amount"><span>44,000</span>8,800</p>
+                            </div>
+                        </a>
                     </li>
-                    <li>
-                        <dl>
-                            <dt>점심시간</dt>
-                            <dd>11:30~13:00</dd>
-                        </dl>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/lefee_img02.jpg" class="img-responsive" alt="볼륨업 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   르페 시크릿 볼륨 블랙 브라팬티<br>
+                                   LFW6F04_T
+                               </p>
+                               <p class="amount"><span>44,000</span>8,800</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/lefee_img03.jpg" class="img-responsive" alt="볼륨업 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   헐리우드컬렉션 그린 브라팬티<br>
+                                   2종세트 MMW5H03_T
+                               </p>
+                               <p class="amount"><span>79,000</span>34,900</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/lefee_img04.jpg" class="img-responsive" alt="볼륨업 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   PICK ME GIRL 크림 브라팬티<br>
+                                   2종세트 MDW6F04_T
+                               </p>
+                               <p class="amount"><span>35,900</span>12,900</p>
+                            </div>
+                        </a>
                     </li>
                 </ul>
-                <p class="attention">주말/공휴일은 휴무입니다.</p>
-                <div class="quick-menu">
-                    <div class="container">
-                        <ul class="row">
-                            <li class="col-xs-3">
-                                <a href="#">베스트 리뷰</a>
-                            </li>
-                            <li class="col-xs-3">
-                                <a href="#">회원등급혜택</a>
-                            </li>
-                            <li class="col-xs-3">
-                                <a href="#">자주 묻는 질문</a>
-                            </li>
-                            <li class="col-xs-3">
-                                <a href="#">상품 Q&amp;A</a>
-                            </li>
-                            <li class="col-xs-3">
-                                <a href="#">장바구니</a>
-                            </li>
-                            <li class="col-xs-3">
-                                <a href="#">배송조회</a>
-                            </li>
-                            <li class="col-xs-3">
-                                <a href="#">마이페이지</a>
-                            </li>
-                            <li class="col-xs-3">
-                                <a href="#">1:1 문의</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="btn-area">
+                    <p>
+                        <a href="#" class="btn btn-more" role="button">더보기</a>
+                    </p>
                 </div>
             </div>
-            <div class="company-info">
-                <div class="notice">
-                    <dl>
-                        <dt>NOTICE</dt>
-                        <dd><a href="#">[공지] 2016년 5월 황금연휴 휴무안내</a></dd>
-                    </dl>
-                </div>
-                <div class="company">
-                    <ul class="terms">
-                        <li><a href="#">회사소개</a></li>
-                        <li><a href="#">이용약관</a></li>
-                        <li><a href="#">개인정보취급방침</a></li>
-                        <li><a href="#">제휴문의</a></li>
-                    </ul>
-                    <ul class="information">
-                        <li>
-                            <dl>
-                                <dt>상호</dt>
-                                <dd><i class="mcorset">엠코르셋(주)</i></dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>대표명</dt>
-                                <dd>문영우</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>주소</dt>
-                                <dd>서울시 강남구 언주로 151길 7 주성빌딩 2-3층</dd>
-                            </dl>
-                        </li>
-                    </ul>
-                    <ul class="information">
-                        <li>
-                            <dl>
-                                <dt>전화번호</dt>
-                                <dd><a href="tel:15773622">1577-3622</a></dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>팩스번호</dt>
-                                <dd>02-6907-8867 </dd>
-                            </dl>
-                        </li>
-
-                        <li>
-                            <dl>
-                                <dt></dt>
-                                <dd></dd>
-                            </dl>
-                        </li>
-                    </ul>
+            <div class="wire-best">
+                <h3>와이어프리 <i>BEST</i></h3>
+                <ul class="row">
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/best_product01.jpg" class="img-responsive" alt="와이어프리 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   에꼴레이드 Daily Nostress<br>
+                                   심리스 네이비 브라팬티<br>
+                                   2종세트 ALW4F22_T
+                               </p>
+                               <p class="amount"><span>44,000</span>8,800</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/best_product02.jpg" class="img-responsive" alt="와이어프리 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   히미코 코튼 블랙 란쥬쉐이퍼<br>
+                                   2종세트 HW4F28_T
+                               </p>
+                               <p class="amount"><span>44,000</span>8,800</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/best_product03.jpg" class="img-responsive" alt="와이어프리 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   플레이텍스 18HOUR<br>
+                                   노와이어 베이지 브라팬티<br>
+                                   2종세트 PW5H53_T
+                               </p>
+                               <p class="amount"><span>79,000</span>34,900</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/best_product04.jpg" class="img-responsive" alt="와이어프리 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   크로커다일<br>
+                                   Comfort Highwaist<br>
+                                   노와이어 그레이 2종세트<br>
+                                   CDW6E02_T
+                               </p>
+                               <p class="amount"><span>35,900</span>12,900</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="btn-area">
+                    <p>
+                        <a href="#" class="btn btn-more" role="button">더보기</a>
+                    </p>
                 </div>
             </div>
-        </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="/design/brapra/js/bootstrap.min.js"></script>
-        <script src="/design/brapra/mobile/js/jquery.bxslider.min.js"></script>
-        <script src="/design/brapra/mobile/js/common.js"></script>
-    </body>
+            <div class="nudie-best">
+                <h3>누디 <i>BEST</i></h3>
+                <ul class="row">
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/best_product05.jpg" class="img-responsive" alt="누디 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   컴포트 누디 노와이어 핑크<br>
+                                   브라팬티 2종세트 BW5G09_T
+                               </p>
+                               <p class="amount"><span>83,000</span>35,900</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/best_product06.jpg" class="img-responsive" alt="누디 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   컴포트 누디 노와이어 딥핑크<br>
+                                   브라팬티 2종세트 BW5G05_T
+                               </p>
+                               <p class="amount"><span>88,000</span>42,500</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/best_product07.jpg" class="img-responsive" alt="누디 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   컴포트 누디 노와이어 아이보리<br>
+                                   브라팬티 2종세트 BW5G06_T
+                               </p>
+                               <p class="amount"><span>88,000</span>42,500</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/best_product08.jpg" class="img-responsive" alt="누디 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   컴포트 누디 노와이어 블랙<br>
+                                   브라팬티 2종세트 BW5G08_T
+                               </p>
+                               <p class="amount"><span>83,000</span>35,900</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="btn-area">
+                    <p>
+                        <a href="#" class="btn btn-more" role="button">더보기</a>
+                    </p>
+                </div>
+            </div>
+            <div class="lace-best">
+                <h3>누디 <i>BEST</i></h3>
+                <ul class="row">
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/best_product09.jpg" class="img-responsive" alt="누디 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   르페 시그니처 레이스<br>
+                                   라이트베이지 2종세트<br>
+                                   LFW6F15_T
+                               </p>
+                               <p class="amount"><span>83,000</span>35,900</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/best_product10.jpg" class="img-responsive" alt="누디 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   히미코 인견 몰드 란쥬쉐이퍼<br>
+                                   블랙 HWBS5G09T
+                               </p>
+                               <p class="amount"><span>88,000</span>42,500</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/best_product11.jpg" class="img-responsive" alt="누디 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   시그니처 레이스 블랙 3종세트<br>
+                                   LFW6F16_PS6F16
+                               </p>
+                               <p class="amount"><span>88,000</span>42,500</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/best_product12.jpg" class="img-responsive" alt="누디 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   히미코 인견 몰드 란쥬쉐이퍼<br>
+                                   바이올렛 HWBS5G12T
+                               </p>
+                               <p class="amount"><span>83,000</span>35,900</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="btn-area">
+                    <p>
+                        <a href="#" class="btn btn-more" role="button">더보기</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
+</body>
 </html>
