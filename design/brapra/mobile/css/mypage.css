@@ -1,0 +1,117 @@
+/* my-list */
+.my-list .table-wrap .table thead tr th {
+  font-size: 10px;
+  color: #333;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0; }
+.my-list .table-wrap .table tbody tr td {
+  padding: 11px 0; }
+.my-list .table-wrap .table tbody tr .date {
+  font-size: 10px;
+  color: #666;
+  vertical-align: middle; }
+.my-list .table-wrap .table tbody tr .my-product .product-name {
+  font-size: 11px;
+  color: #666;
+  line-height: 15px; }
+.my-list .table-wrap .table tbody tr .my-product dl {
+  margin: 5px 0;
+  overflow: hidden; }
+  .my-list .table-wrap .table tbody tr .my-product dl dt {
+    float: left;
+    clear: both;
+    font-size: 10px;
+    color: #999;
+    font-weight: 300;
+    line-height: 15px; }
+    .my-list .table-wrap .table tbody tr .my-product dl dt:after {
+      content: ":";
+      padding: 0 3px 0 2px; }
+  .my-list .table-wrap .table tbody tr .my-product dl dd {
+    float: left;
+    font-size: 10px;
+    color: #999;
+    line-height: 15px; }
+.my-list .table-wrap .table tbody tr .my-product .btn-area {
+  text-align: left; }
+  .my-list .table-wrap .table tbody tr .my-product .btn-area .btn-default {
+    display: inline-block;
+    width: 50px;
+    height: 26.66px;
+    padding: 4px 0;
+    background-color: #f7f7f7; }
+.my-list .paging {
+  margin: 28px 0 34.33px; }
+
+/* modal */
+/* share-modal */
+.order-details {
+  padding-top: 70px; }
+  .order-details .modal-dialog .modal-content {
+    border-radius: 0; }
+    .order-details .modal-dialog .modal-content .modal-header {
+      position: relative;
+      text-align: center;
+      padding: 26.66px 0 16px;
+      border-bottom: 0; }
+      .order-details .modal-dialog .modal-content .modal-header .close {
+        position: absolute;
+        top: 10px;
+        right: 9px;
+        opacity: 1; }
+        .order-details .modal-dialog .modal-content .modal-header .close span {
+          display: block;
+          width: 12px;
+          height: 12px;
+          background-image: url(/design/brapra/mobile/images/mypage/btn_close.gif);
+          background-repeat: no-repeat;
+          background-size: 12px; }
+      .order-details .modal-dialog .modal-content .modal-header h3 {
+        font-size: 14.33px;
+        color: #333;
+        text-align: center; }
+      .order-details .modal-dialog .modal-content .modal-header hr {
+        display: block;
+        width: 20px;
+        border-top: 1px solid #333;
+        margin: 10px auto 10px; }
+      .order-details .modal-dialog .modal-content .modal-header p {
+        font-size: 10px;
+        color: #666; }
+        .order-details .modal-dialog .modal-content .modal-header p strong {
+          color: #333; }
+    .order-details .modal-dialog .modal-content .modal-body {
+      padding: 0;
+      border-bottom: 0; }
+      .order-details .modal-dialog .modal-content .modal-body .nav.nav-pills {
+        text-align: center;
+        padding: 0 10px; }
+        .order-details .modal-dialog .modal-content .modal-body .nav.nav-pills li {
+          margin-right: 13.33px;
+          display: inline-block; }
+          .order-details .modal-dialog .modal-content .modal-body .nav.nav-pills li:last-child {
+            margin-right: 0; }
+          .order-details .modal-dialog .modal-content .modal-body .nav.nav-pills li a {
+            width: 130px;
+            height: 23.33px;
+            font-size: 10px;
+            color: #666;
+            padding: 3px 0;
+            margin-bottom: 0;
+            border: 1px solid #e3e3e3;
+            border-radius: 0; }
+        .order-details .modal-dialog .modal-content .modal-body .nav.nav-pills .active a {
+          color: #fff;
+          border-color: #ee5766;
+          background-color: #ee5766; }
+      .order-details .modal-dialog .modal-content .modal-body .tab-content {
+        padding-top: 26.66px;
+        padding-bottom: 41px; }
+        .order-details .modal-dialog .modal-content .modal-body .tab-content #tab-1 h4 {
+          font-size: 12px;
+          color: #333;
+          margin: 25px 0 6.66px 11px; }
+          .order-details .modal-dialog .modal-content .modal-body .tab-content #tab-1 h4:nth-of-type(1) {
+            margin-top: 0; }
+
+/*# sourceMappingURL=mypage.css.map */

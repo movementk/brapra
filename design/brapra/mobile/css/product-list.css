@@ -1,0 +1,462 @@
+@charset "UTF-8";
+.maven, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i {
+  font-family: 'Maven Pro', sans-serif; }
+
+/* product-list 공통 */
+.product-list {
+  text-align: center;
+  margin-top: 16.66px; }
+  .product-list .dropdown {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    margin-right: 10px; }
+    .product-list .dropdown .btn {
+      width: 100%;
+      font-size: 11px;
+      height: 26.66px;
+      color: #fff;
+      text-align: left;
+      padding: 5px 10px;
+      border-radius: 0;
+      background-color: #ffb3ba; }
+      .product-list .dropdown .btn:focus {
+        box-shadow: none; }
+      .product-list .dropdown .btn .caret {
+        float: right;
+        margin-top: 5px;
+        text-align: right; }
+    .product-list .dropdown .dropdown-menu {
+      width: 100%;
+      padding: 0;
+      border-radius: 0;
+      border: 1px solid #ddd; }
+      .product-list .dropdown .dropdown-menu li a {
+        height: 26.66px;
+        font-size: 11px;
+        color: #666; }
+  .product-list .select-form {
+    display: inline-block;
+    overflow: hidden; }
+    .product-list .select-form .form-control {
+      float: left;
+      width: 80px;
+      border-color: #ddd;
+      background-color: #fafafa; }
+    .product-list .select-form .btn {
+      width: 26.66px;
+      height: 26.66px;
+      font-size: 11px;
+      padding: 0;
+      color: #666;
+      border-radius: 0;
+      border: 1px solid #ddd;
+      border-left: 0;
+      background-color: #fafafa; }
+  .product-list .list {
+    margin-top: 16.66px; }
+    .product-list .list li {
+      margin-bottom: 22px; }
+      .product-list .list li:last-child {
+        margin-bottom: 0; }
+      .product-list .list li a {
+        text-align: center; }
+        .product-list .list li a:hover, .product-list .list li a:focus {
+          text-decoration: none; }
+        .product-list .list li a .item img {
+          display: inline-block; }
+        .product-list .list li a .details {
+          text-align: center;
+          padding-top: 8px; }
+          .product-list .list li a .details .title {
+            font-size: 10px;
+            color: #666;
+            line-height: 16px; }
+            .product-list .list li a .details .title span {
+              display: inline-block;
+              font-size: 11px;
+              color: #666;
+              margin-top: 3px;
+              margin-right: 20px;
+              text-decoration: line-through; }
+            .product-list .list li a .details .title strong {
+              font-size: 11px;
+              color: #333;
+              margin-top: 3px; }
+  .product-list .paging {
+    margin: 35px 0 43.33px; }
+
+/* procudt-list2 */
+.list-tab2 .select-form .btn {
+  display: inline-block;
+  z-index: 9999;
+  background-image: url(/design/brapra/mobile/images/product_list/btn_two.png);
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  background-position: 50% 50%; }
+.list-tab2 .paging {
+  margin: 10px 0 43.33px !important; }
+
+/* view */
+.product-view .title {
+  font-size: 15px;
+  color: #333;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: 30px 0 16px; }
+.product-view .details {
+  padding-top: 16.66px; }
+  .product-view .details .information {
+    overflow: hidden; }
+    .product-view .details .information dt {
+      float: left;
+      clear: both;
+      width: 80px;
+      font-size: 10px;
+      color: #333;
+      font-weight: 300;
+      line-height: 21.66px; }
+    .product-view .details .information dd {
+      float: left;
+      width: 73%;
+      font-size: 10px;
+      color: #777;
+      line-height: 21.66px; }
+      .product-view .details .information dd i {
+        font-size: 15px;
+        color: #ee5766;
+        font-style: normal; }
+      .product-view .details .information dd .terms {
+        line-height: 13.33px; }
+      .product-view .details .information dd p {
+        display: inline-block; }
+        .product-view .details .information dd p .btn-quick {
+          vertical-align: top;
+          margin-top: 2px;
+          margin-left: 10px;
+          width: 46.66px;
+          height: 16.66px;
+          font-size: 10px;
+          color: #666;
+          border: 1px solid #ddd;
+          border-radius: 0;
+          padding: 0; }
+    .product-view .details .information .normalcy {
+      text-decoration: line-through; }
+.product-view .option-info {
+  overflow: hidden; }
+  .product-view .option-info dt {
+    float: left;
+    clear: both;
+    width: 80px;
+    line-height: 26.33px;
+    font-size: 10px;
+    color: #333;
+    font-weight: 300;
+    vertical-align: middle;
+    padding: 5px 0; }
+  .product-view .option-info dd {
+    float: left;
+    width: 73%;
+    font-size: 10px;
+    color: #777;
+    vertical-align: middle;
+    padding: 5px 0; }
+    .product-view .option-info dd .option-size {
+      width: 100%;
+      height: 20px;
+      font-size: 11px;
+      color: #777;
+      text-align: center;
+      line-height: 20px;
+      background-color: #eee;
+      margin-bottom: 4px; }
+    .product-view .option-info dd .btn-count {
+      display: inline-block; }
+      .product-view .option-info dd .btn-count p {
+        overflow: hidden; }
+        .product-view .option-info dd .btn-count p .btn {
+          float: left;
+          width: 26.66px;
+          height: 26.66px;
+          border-radius: 0;
+          border: 1px solid #ddd; }
+        .product-view .option-info dd .btn-count p span {
+          float: left;
+          width: 31.33px;
+          height: 26.66px;
+          text-align: center;
+          font-size: 10px;
+          color: #777;
+          line-height: 26.66px;
+          border-top: 1px solid #ddd;
+          border-bottom: 1px solid #ddd; }
+        .product-view .option-info dd .btn-count p .btn-plus {
+          background-image: url(/design/brapra/mobile/images/product_list/btn_plus.gif);
+          background-repeat: no-repeat;
+          background-size: 9.66px auto;
+          background-position: 50% 50%; }
+        .product-view .option-info dd .btn-count p .btn-minus {
+          background-image: url(/design/brapra/mobile/images/product_list/btn_minus.gif);
+          background-repeat: no-repeat;
+          background-size: 9.66px auto;
+          background-position: 50% 50%; }
+    .product-view .option-info dd .del {
+      float: right;
+      padding-bottom: 10px; }
+      .product-view .option-info dd .del p {
+        line-height: 26.66px;
+        font-size: 11px;
+        color: #777; }
+        .product-view .option-info dd .del p .btn-del {
+          vertical-align: top;
+          width: 26.66px;
+          height: 26.66px;
+          border-radius: 0;
+          border: 1px solid #ddd;
+          margin-left: 5px;
+          background-image: url(/design/brapra/mobile/images/product_list/btn_del.gif);
+          background-repeat: no-repeat;
+          background-size: 8px auto;
+          background-position: 50% 50%; }
+.product-view .btn-area {
+  width: 100%;
+  padding-top: 15px;
+  border-top: 1px solid #e3e3e3; }
+  .product-view .btn-area .amount {
+    overflow: hidden;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    line-height: 17.66px;
+    text-align: right;
+    margin-bottom: 20px; }
+    .product-view .btn-area .amount i {
+      margin-left: 5px;
+      font-size: 16.66px;
+      color: #ee5766;
+      font-style: normal; }
+    .product-view .btn-area .amount .btn-share {
+      float: left;
+      width: 15.66px;
+      height: 17.66px;
+      background-image: url(/design/brapra/mobile/images/product_list/share_btn.gif);
+      background-repeat: no-repeat;
+      background-size: 15.66px 17.66px;
+      background-position: 50% 50%; }
+  .product-view .btn-area p .btn-basics {
+    width: 93px;
+    height: 33.66px;
+    padding: 8px 0; }
+  .product-view .btn-area p .btn-charcoal {
+    color: #fff;
+    background-color: #999; }
+.product-view .product-details .product-information {
+  padding-top: 50px;
+  padding-bottom: 19px;
+  overflow: hidden; }
+  .product-view .product-details .product-information li {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #e3e3e3; }
+    .product-view .product-details .product-information li a {
+      font-size: 10px;
+      color: #666; }
+  .product-view .product-details .product-information .active {
+    border-color: #ee5766; }
+    .product-view .product-details .product-information .active a {
+      color: #ee5766; }
+.product-view .product-details .detail-img {
+  text-align: center;
+  padding: 0 34px; }
+  .product-view .product-details .detail-img img {
+    display: inline-block;
+    margin-bottom: 7px; }
+    .product-view .product-details .detail-img img:last-child {
+      margin-bottom: 0; }
+.product-view .product-details h3 {
+  font-size: 12px;
+  color: #333;
+  margin: 26px 0 6px; }
+.product-view .product-details .table-wrap .table {
+  border: 0; }
+  .product-view .product-details .table-wrap .table tbody tr th {
+    font-size: 10px;
+    color: #333;
+    padding-left: 10px;
+    text-align: left;
+    vertical-align: middle;
+    border: 0;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #f7f7f7; }
+  .product-view .product-details .table-wrap .table tbody tr td {
+    font-size: 10px;
+    color: #666;
+    text-align: left;
+    padding: 13px 10px;
+    border: 0;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0; }
+    .product-view .product-details .table-wrap .table tbody tr td a {
+      display: inline;
+      color: #666; }
+.product-view .product-details .dot-list li {
+  position: relative;
+  font-size: 10px;
+  color: #666;
+  line-height: 14.33px;
+  padding-left: 10px; }
+  .product-view .product-details .dot-list li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "ㆍ";
+    font-size: 10px;
+    color: #333; }
+.product-view .product-details .related-list li {
+  display: inline-block;
+  margin-right: 20px; }
+  .product-view .product-details .related-list li:last-child {
+    margin-right: 0; }
+  .product-view .product-details .related-list li .item img {
+    width: 120px;
+    height: 120px; }
+  .product-view .product-details .related-list li .details {
+    width: 120px;
+    padding-top: 11px;
+    padding-bottom: 56px;
+    text-align: center; }
+    .product-view .product-details .related-list li .details .product-info {
+      font-size: 10px;
+      color: #666;
+      line-height: 16px; }
+    .product-view .product-details .related-list li .details .amount {
+      margin-top: 5px;
+      font-size: 11px;
+      color: #333;
+      font-weight: bold; }
+      .product-view .product-details .related-list li .details .amount span {
+        display: inline-block;
+        margin-right: 10px;
+        text-decoration: line-through;
+        font-size: 11px;
+        font-weight: 300;
+        color: #666; }
+
+/* share-modal */
+.share-modal {
+  padding-top: 150px; }
+  .share-modal .modal-dialog .modal-content {
+    margin: 0 auto;
+    width: 260px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none; }
+    .share-modal .modal-dialog .modal-content .modal-header {
+      position: relative;
+      width: 260px;
+      height: 33.33px;
+      padding: 0;
+      border: 0;
+      color: #fff;
+      text-align: center;
+      background-color: #ffb3ba; }
+      .share-modal .modal-dialog .modal-content .modal-header .modal-title {
+        font-size: 12px;
+        color: #fff;
+        line-height: 33.33px;
+        margin: 0; }
+      .share-modal .modal-dialog .modal-content .modal-header .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #fff;
+        opacity: 1;
+        font-weight: 300;
+        font-size: 17px; }
+    .share-modal .modal-dialog .modal-content .modal-body {
+      padding-top: 19.33px;
+      height: 90px;
+      background-color: #fff; }
+      .share-modal .modal-dialog .modal-content .modal-body .sns-list {
+        overflow: hidden; }
+        .share-modal .modal-dialog .modal-content .modal-body .sns-list li {
+          float: left;
+          width: 25%;
+          text-align: center; }
+          .share-modal .modal-dialog .modal-content .modal-body .sns-list li .sns-img {
+            text-align: center; }
+            .share-modal .modal-dialog .modal-content .modal-body .sns-list li .sns-img img {
+              display: inline-block;
+              width: 31.33px;
+              margin-bottom: 8px; }
+          .share-modal .modal-dialog .modal-content .modal-body .sns-list li .details {
+            font-size: 10px;
+            color: #666;
+            text-align: center;
+            letter-spacing: -.5px; }
+
+/* brand-list */
+.brand-list .bra-best {
+  margin-top: 41.33px;
+  padding-bottom: 29.3px;
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #e3e3e3; }
+  .brand-list .bra-best h3 {
+    width: 120px;
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -9px;
+    background-color: #fff; }
+    .brand-list .bra-best h3 i {
+      font-style: normal;
+      font-size: 15px;
+      font-weight: 300;
+      color: #c2c2c2; }
+  .brand-list .bra-best .best-product {
+    overflow: hidden;
+    margin-top: 36.33px; }
+    .brand-list .bra-best .best-product li {
+      float: left;
+      margin-right: 20px; }
+      .brand-list .bra-best .best-product li:last-child {
+        margin-right: 0; }
+      .brand-list .bra-best .best-product li .item img {
+        width: 120px;
+        height: 120px; }
+      .brand-list .bra-best .best-product li .details {
+        width: 120px;
+        padding-top: 10px; }
+        .brand-list .bra-best .best-product li .details .product-info {
+          font-size: 10px;
+          color: #666;
+          line-height: 16px;
+          letter-spacing: -.5px;
+          text-align: center; }
+        .brand-list .bra-best .best-product li .details .amount {
+          margin-top: 5px;
+          font-size: 11px;
+          font-weight: bold;
+          color: #333;
+          text-align: center; }
+          .brand-list .bra-best .best-product li .details .amount span {
+            display: inline-block;
+            font-weight: 300;
+            color: #666;
+            text-decoration: line-through;
+            margin-right: 10px; }
+.brand-list .select-form {
+  margin-top: 6.77px;
+  overflow: hidden;
+  float: right; }
+.brand-list .list {
+  clear: both;
+  padding-top: 16.66px; }
+
+/*# sourceMappingURL=product-list.css.map */

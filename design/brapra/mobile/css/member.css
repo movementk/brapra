@@ -1,0 +1,375 @@
+.maven, .join-terms .step-menu ul li i, .join .step-menu ul li i {
+  font-family: 'Maven Pro', sans-serif; }
+
+/* login */
+.login .form-control {
+  margin-bottom: 3.33px;
+  background-color: #f2f2f2; }
+  .login .form-control:nth-of-type(2) {
+    margin-bottom: 0; }
+.login .btn-area {
+  margin-top: 6.66px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #e3e3e3; }
+  .login .btn-area p .btn-lg {
+    width: 300px; }
+.login .btn-kakao {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 31.66px; }
+  .login .btn-kakao p .btn {
+    width: 300px;
+    height: 30px;
+    font-size: 10px;
+    color: #333;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    background-color: #fff;
+    background-image: url(/design/brapra/mobile/images/community/kakao_btn.gif);
+    background-repeat: no-repeat;
+    background-size: 10.33px auto;
+    background-position: 78px 50%; }
+.login ul {
+  margin-bottom: 44px;
+  text-align: center; }
+  .login ul li {
+    display: inline-block; }
+    .login ul li:after {
+      content: "|";
+      color: #999;
+      font-size: 12px;
+      padding: 0 8px; }
+    .login ul li:last-child:after {
+      content: "";
+      padding: 0; }
+    .login ul li a {
+      font-size: 10px;
+      color: #666; }
+
+/* non-member */
+.non-member .btn-area p .btn-pink {
+  margin-bottom: 20px; }
+.non-member .btn-area .non-btn {
+  padding-top: 20px;
+  border-top: 1px dashed #e3e3e3; }
+  .non-member .btn-area .non-btn .btn-charcoal {
+    color: #fff;
+    background-color: #999; }
+
+/* guest-check */
+.guest-check .guest-login {
+  padding-top: 22.33px;
+  border-top: 1px dashed #e3e3e3;
+  text-align: center; }
+  .guest-check .guest-login h2 {
+    font-size: 14.33px;
+    color: #333;
+    text-align: center; }
+  .guest-check .guest-login hr {
+    display: block;
+    width: 20px;
+    border-top: 1px solid #333;
+    margin: 10px auto 10px; }
+  .guest-check .guest-login p {
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 10px; }
+  .guest-check .guest-login .btn-area {
+    border: 0; }
+    .guest-check .guest-login .btn-area p {
+      margin: 0; }
+      .guest-check .guest-login .btn-area p .btn-charcoal {
+        color: #fff;
+        background-color: #999; }
+
+/* id-find */
+.id-find .btn-area {
+  border: 0;
+  margin-bottom: 40px; }
+  .id-find .btn-area p .btn-charcoal {
+    color: #fff;
+    background-color: #999; }
+
+/* join-terms */
+.join-terms .step-menu {
+  margin-bottom: 20px; }
+  .join-terms .step-menu ul {
+    overflow: hidden;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #f7f7f7; }
+    .join-terms .step-menu ul li {
+      position: relative;
+      float: left;
+      width: 33.33%;
+      font-size: 10px;
+      text-align: center;
+      color: #999;
+      padding: 33.66px 0 8px; }
+      .join-terms .step-menu ul li:after {
+        position: absolute;
+        top: 15px;
+        right: -10%;
+        display: block;
+        content: url(/design/brapra/mobile/images/member/menu_arrow.gif);
+        transform: scale(0.4); }
+      .join-terms .step-menu ul li:last-child:after {
+        content: ""; }
+      .join-terms .step-menu ul li i {
+        font-size: 11.66px;
+        font-style: normal; }
+      .join-terms .step-menu ul li:nth-of-type(2) {
+        background-image: url(/design/brapra/mobile/images/member/join_non_active02.gif);
+        background-repeat: no-repeat;
+        background-size: 17.66px 15.33px;
+        background-position: 50% 16.33px; }
+      .join-terms .step-menu ul li:nth-of-type(3) {
+        background-image: url(/design/brapra/mobile/images/member/join_non_active03.gif);
+        background-repeat: no-repeat;
+        background-size: 15px 15px;
+        background-position: 50% 17.33px; }
+    .join-terms .step-menu ul .active {
+      color: #ee5766;
+      background-image: url(/design/brapra/mobile/images/member/join_active01.gif);
+      background-repeat: no-repeat;
+      background-size: 13.33px 15.33px;
+      background-position: 50% 16.33px; }
+.join-terms .terms-privacy {
+  border: 1px solid #f0f0f0; }
+  .join-terms .terms-privacy .terms {
+    overflow: hidden;
+    padding: 6.66px 9.33px;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #f7f7f7; }
+    .join-terms .terms-privacy .terms label {
+      font-size: 12px;
+      color: #333;
+      vertical-align: top;
+      margin: 0;
+      margin-top: 2px; }
+    .join-terms .terms-privacy .terms .check {
+      margin-right: 2px; }
+    .join-terms .terms-privacy .terms .more {
+      float: right; }
+      .join-terms .terms-privacy .terms .more .btn {
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+        color: #666;
+        letter-spacing: -.5px;
+        line-height: 16px;
+        padding: 0;
+        border-radius: 0;
+        border: 1px solid #ddd;
+        background-color: #fff; }
+    .join-terms .terms-privacy .terms .sms-email {
+      display: inline-block; }
+      .join-terms .terms-privacy .terms .sms-email:before {
+        margin-top: 2px;
+        font-size: 13px;
+        vertical-align: top;
+        content: "("; }
+      .join-terms .terms-privacy .terms .sms-email:after {
+        margin-top: 2px;
+        font-size: 13px;
+        vertical-align: top;
+        content: ")"; }
+      .join-terms .terms-privacy .terms .sms-email .check {
+        margin-right: 0; }
+        .join-terms .terms-privacy .terms .sms-email .check:nth-of-type(2) {
+          margin-left: 10px; }
+  .join-terms .terms-privacy .terms-content {
+    overflow-y: scroll;
+    height: 110px;
+    padding: 9px;
+    font-size: 10px;
+    color: #999;
+    line-height: 16px; }
+    .join-terms .terms-privacy .terms-content .table-wrap .table tbody tr th {
+      text-align: center;
+      font-size: 10px;
+      color: #333;
+      letter-spacing: -1px;
+      border-left: 0;
+      border-right: 0;
+      border-color: #f0f0f0;
+      vertical-align: middle; }
+    .join-terms .terms-privacy .terms-content .table-wrap .table tbody tr td {
+      font-size: 10px;
+      color: #999;
+      letter-spacing: -1px;
+      border-left: 1px solid #f0f0f0;
+      text-align: center;
+      vertical-align: middle;
+      padding: 5px; }
+  .join-terms .terms-privacy .terms-assent {
+    font-size: 10px;
+    color: #999;
+    line-height: 14.33px;
+    padding: 9px; }
+    .join-terms .terms-privacy .terms-assent i {
+      font-style: normal;
+      color: #ee5766; }
+.join-terms .all-assent {
+  text-align: center;
+  padding: 14.33px 0 33.66px; }
+  .join-terms .all-assent label {
+    margin-bottom: 0;
+    vertical-align: top;
+    font-size: 12px;
+    color: #333;
+    margin-top: 1px;
+    margin-left: 5px; }
+.join-terms .btn-area {
+  margin-bottom: 35px; }
+  .join-terms .btn-area p .btn-default {
+    background-color: #f9f9f9; }
+
+/* join */
+.join .step-menu {
+  margin-bottom: 20px; }
+  .join .step-menu ul {
+    overflow: hidden;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #f7f7f7; }
+    .join .step-menu ul li {
+      position: relative;
+      float: left;
+      width: 33.33%;
+      font-size: 10px;
+      text-align: center;
+      color: #999;
+      padding: 33.66px 0 8px; }
+      .join .step-menu ul li:after {
+        position: absolute;
+        top: 15px;
+        right: -10%;
+        display: block;
+        content: url(/design/brapra/mobile/images/member/menu_arrow.gif);
+        transform: scale(0.4); }
+      .join .step-menu ul li:last-child:after {
+        content: ""; }
+      .join .step-menu ul li i {
+        font-size: 11.66px;
+        font-style: normal; }
+      .join .step-menu ul li:nth-of-type(1) {
+        background-image: url(/design/brapra/mobile/images/member/join_non_active01.gif);
+        background-repeat: no-repeat;
+        background-size: 13.33px 15.33px;
+        background-position: 50% 16.33px; }
+      .join .step-menu ul li:nth-of-type(3) {
+        background-image: url(/design/brapra/mobile/images/member/join_non_active03.gif);
+        background-repeat: no-repeat;
+        background-size: 15px 15px;
+        background-position: 50% 17.33px; }
+    .join .step-menu ul .active {
+      color: #ee5766;
+      background-image: url(/design/brapra/mobile/images/member/join_active02.gif);
+      background-repeat: no-repeat;
+      background-size: 17.66px 15.33px;
+      background-position: 50% 16.33px; }
+.join .table-wrap .table tbody tr th {
+  font-size: 10px;
+  color: #333;
+  vertical-align: middle;
+  border-left: 0;
+  border-right: 0;
+  border-color: #f0f0f0;
+  background-color: #f7f7f7; }
+  .join .table-wrap .table tbody tr th label {
+    font-size: 10px;
+    color: #333;
+    margin-bottom: 0; }
+.join .table-wrap .table tbody tr td {
+  font-size: 10px;
+  color: #666;
+  padding: 5px 10px;
+  text-align: left; }
+  .join .table-wrap .table tbody tr td label {
+    font-size: 10px;
+    color: #666;
+    font-weight: 300;
+    vertical-align: top;
+    margin-bottom: 0;
+    margin-top: 3px; }
+  .join .table-wrap .table tbody tr td .form-control {
+    height: 23.33px; }
+  .join .table-wrap .table tbody tr td .attention {
+    font-size: 10px;
+    color: #666;
+    letter-spacing: -1px;
+    padding-top: 3px; }
+    .join .table-wrap .table tbody tr td .attention:before {
+      content: "*";
+      font-size: 10px;
+      color: #666;
+      padding-right: 2px; }
+.join .table-wrap .table tbody tr .user-id .form-control {
+  display: inline-block;
+  width: 57%; }
+.join .table-wrap .table tbody tr .user-id .table-btn {
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: top; }
+  .join .table-wrap .table tbody tr .user-id .table-btn .btn-id-check {
+    width: 76.66px;
+    height: 23.33px;
+    line-height: 20.33px;
+    font-size: 10px;
+    color: #666;
+    letter-spacing: -1px;
+    padding: 0;
+    border: 1px solid #e3e3e3;
+    border-radius: 0;
+    background-color: #f9f9f9; }
+.join .table-wrap .table tbody tr .birth .form-control {
+  display: inline-block;
+  width: 24%;
+  padding: 0;
+  margin-left: 5px;
+  margin-bottom: 3px; }
+  .join .table-wrap .table tbody tr .birth .form-control:nth-of-type(1) {
+    margin-left: 0; }
+.join .table-wrap .table tbody tr .birth .sex {
+  display: block; }
+  .join .table-wrap .table tbody tr .birth .sex .radio {
+    display: inline-block; }
+    .join .table-wrap .table tbody tr .birth .sex .radio:nth-of-type(2) {
+      margin-left: 10px; }
+.join .table-wrap .table tbody tr .addr .form-control {
+  margin-top: 4px; }
+  .join .table-wrap .table tbody tr .addr .form-control:nth-of-type(1) {
+    display: inline-block;
+    margin-top: 0;
+    width: 57%; }
+.join .table-wrap .table tbody tr .addr .table-btn {
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: top; }
+  .join .table-wrap .table tbody tr .addr .table-btn .btn-addr {
+    width: 76.66px;
+    height: 23.33px;
+    line-height: 20.33px;
+    font-size: 10px;
+    color: #fff;
+    letter-spacing: -1px;
+    padding: 0;
+    border-radius: 0;
+    background-color: #666; }
+.join .table-wrap .table tbody tr .email .receive .radio {
+  display: inline-block; }
+  .join .table-wrap .table tbody tr .email .receive .radio:nth-of-type(2) {
+    margin-left: 10px; }
+.join .table-wrap .table tbody tr .phone .receive .radio {
+  display: inline-block; }
+  .join .table-wrap .table tbody tr .phone .receive .radio:nth-of-type(2) {
+    margin-left: 10px; }
+.join .btn-area {
+  margin-top: 26.66px;
+  margin-bottom: 35px; }
+  .join .btn-area p .btn-default {
+    background-color: #f9f9f9; }
+
+/*# sourceMappingURL=member.css.map */

@@ -1,0 +1,596 @@
+.maven {
+    font-family: 'Maven Pro', sans-serif;
+}
+/* login */
+.login {
+    .form-control {
+        margin-bottom: 3.33px;
+        background-color: #f2f2f2;
+        &:nth-of-type(2) {
+            margin-bottom: 0;
+        }
+    }
+    .btn-area {
+        margin-top: 6.66px;
+        padding-bottom: 20px;
+        border-bottom: 1px dashed #e3e3e3;
+        p {
+            .btn-lg {
+                width: 300px;
+            }
+        }
+    }
+    .btn-kakao {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 31.66px;
+        p {
+            .btn {
+                width: 300px;
+                height: 30px;
+                font-size: 10px;
+                color: #333;
+                text-align: center;
+                border: 1px solid #ddd;
+                border-radius: 0;
+                background-color: #fff;
+                background-image: url(/design/brapra/mobile/images/community/kakao_btn.gif);
+                background-repeat: no-repeat;
+                background-size: 10.33px auto;
+                background-position: 78px 50%;
+            }
+        }
+    }
+    ul {
+        margin-bottom: 44px;
+        text-align: center;
+        li {
+            display: inline-block;
+            &:after {
+                content: "|";
+                color: #999;
+                font-size: 12px;
+                padding: 0 8px;
+            }
+            &:last-child:after {
+                content: "";
+                padding: 0;
+            }
+            a {
+                font-size: 10px;
+                color: #666;
+            }
+        }
+    }
+}
+/* non-member */
+.non-member {
+    .btn-area {
+        p {
+            .btn-pink {
+                margin-bottom: 20px;
+            }
+        }
+        .non-btn {
+            padding-top: 20px;
+            border-top: 1px dashed #e3e3e3;
+            .btn-charcoal {
+                color: #fff;
+                background-color: #999;
+            }
+        }
+    }
+}
+/* guest-check */
+.guest-check {
+    .guest-login {
+        padding-top: 22.33px;
+        border-top: 1px dashed #e3e3e3;
+        text-align: center;
+        h2 {
+            font-size: 14.33px;
+            color: #333;
+            text-align: center;
+        }
+        hr {
+            display: block;
+            width: 20px;
+            border-top: 1px solid #333;
+            margin: 10px auto 10px;
+        }
+        p {
+            font-size: 10px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .btn-area {
+            border: 0;
+            p {
+                margin: 0;
+                .btn-charcoal {
+                    color: #fff;
+                    background-color: #999;
+                }
+            }
+        }
+    }
+}
+/* id-find */
+.id-find {
+    .btn-area {
+        border: 0;
+        margin-bottom: 40px;
+        p {
+            .btn-charcoal {
+                color: #fff;
+                background-color: #999;
+            }
+        }
+    }
+}
+/* join-terms */
+.join-terms {
+    .step-menu {
+        margin-bottom: 20px;
+        ul {
+            overflow: hidden;
+            border-top: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+            background-color: #f7f7f7;
+            li {
+                position: relative;
+                float: left;
+                width: 33.33%;
+                font-size: 10px;
+                text-align: center;
+                color: #999;
+                padding: 33.66px 0 8px;
+                &:after {
+                    position: absolute;
+                    top: 15px;
+                    right: -10%;
+                    display: block;
+                    content: url(/design/brapra/mobile/images/member/menu_arrow.gif);
+                    transform: scale(.4);
+                }
+                &:last-child:after {
+                    content: "";
+                }
+                i {
+                    @extend .maven;
+                    font-size: 11.66px;
+                    font-style: normal;
+                }
+                &:nth-of-type(2) {
+                    background-image: url(/design/brapra/mobile/images/member/join_non_active02.gif);
+                    background-repeat: no-repeat;
+                    background-size: 17.66px 15.33px;
+                    background-position: 50% 16.33px;
+                }
+                &:nth-of-type(3) {
+                    background-image: url(/design/brapra/mobile/images/member/join_non_active03.gif);
+                    background-repeat: no-repeat;
+                    background-size: 15px 15px;
+                    background-position: 50% 17.33px;
+                }
+            }
+            .active {
+                color: #ee5766;
+                background-image: url(/design/brapra/mobile/images/member/join_active01.gif);
+                background-repeat: no-repeat;
+                background-size: 13.33px 15.33px;
+                background-position: 50% 16.33px;
+            }
+        }
+    }
+    .terms-privacy {
+        border: 1px solid #f0f0f0;
+        .terms {
+            overflow: hidden;
+            padding: 6.66px 9.33px;
+            border-bottom: 1px solid #f0f0f0;
+            background-color: #f7f7f7;
+            label {
+                font-size: 12px;
+                color: #333;
+                vertical-align: top;
+                margin: 0;
+                margin-top: 2px;
+            }
+            .check {
+                margin-right: 2px;
+            }
+            .more {
+                float: right;
+                .btn {
+                    width: 50px;
+                    height: 20px;
+                    font-size: 10px;
+                    color: #666;
+                    letter-spacing: -.5px;
+                    line-height: 16px;
+                    padding: 0;
+                    border-radius: 0;
+                    border: 1px solid #ddd;
+                    background-color: #fff;
+                }
+            }
+            .sms-email {
+                display: inline-block;
+                &:before {
+                    margin-top: 2px;
+                    font-size: 13px;
+                    vertical-align: top;
+                    content: "(";
+                }
+                &:after {
+                    margin-top: 2px;
+                    font-size: 13px;
+                    vertical-align: top;
+                    content: ")";
+                }
+                .check {
+                    margin-right: 0;
+                    &:nth-of-type(2) {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+        .terms-content {
+            overflow-y: scroll;
+            height: 110px;
+            padding: 9px;
+            font-size: 10px;
+            color: #999;
+            line-height: 16px;
+            .table-wrap {
+                .table {
+                    tbody {
+                        tr {
+                            th {
+                                text-align: center;
+                                font-size: 10px;
+                                color: #333;
+                                letter-spacing: -1px;
+                                border-left: 0;
+                                border-right: 0;
+                                border-color: #f0f0f0;
+                                vertical-align: middle;
+                            }
+                            td {
+                                font-size: 10px;
+                                color: #999;
+                                letter-spacing: -1px;
+                                border-left: 1px solid #f0f0f0;
+                                text-align: center;
+                                vertical-align: middle;
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .terms-assent {
+            font-size: 10px;
+            color: #999;
+            line-height: 14.33px;
+            padding: 9px;
+            i {
+                font-style: normal;
+                color: #ee5766;
+            }
+        }
+    }
+    .all-assent {
+        text-align: center;
+        padding: 14.33px 0 33.66px;
+        label {
+            margin-bottom: 0;
+            vertical-align: top;
+            font-size: 12px;
+            color: #333;
+            margin-top: 1px;
+            margin-left: 5px;
+        }
+    }
+    .btn-area {
+        margin-bottom: 35px;
+        p {
+            .btn-default {
+                background-color: #f9f9f9;
+            }
+        }
+    }
+}
+/* join */
+.join {
+    .step-menu {
+        margin-bottom: 20px;
+        ul {
+            overflow: hidden;
+            border-top: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+            background-color: #f7f7f7;
+            li {
+                position: relative;
+                float: left;
+                width: 33.33%;
+                font-size: 10px;
+                text-align: center;
+                color: #999;
+                padding: 33.66px 0 8px;
+                &:after {
+                    position: absolute;
+                    top: 15px;
+                    right: -10%;
+                    display: block;
+                    content: url(/design/brapra/mobile/images/member/menu_arrow.gif);
+                    transform: scale(.4);
+                }
+                &:last-child:after {
+                    content: "";
+                }
+                i {
+                    @extend .maven;
+                    font-size: 11.66px;
+                    font-style: normal;
+                }
+                &:nth-of-type(1) {
+                    background-image: url(/design/brapra/mobile/images/member/join_non_active01.gif);
+                    background-repeat: no-repeat;
+                    background-size: 13.33px 15.33px;
+                    background-position: 50% 16.33px;
+                }
+                &:nth-of-type(3) {
+                    background-image: url(/design/brapra/mobile/images/member/join_non_active03.gif);
+                    background-repeat: no-repeat;
+                    background-size: 15px 15px;
+                    background-position: 50% 17.33px;
+                }
+            }
+            .active {
+                color: #ee5766;
+                background-image: url(/design/brapra/mobile/images/member/join_active02.gif);
+                background-repeat: no-repeat;
+                background-size: 17.66px 15.33px;
+                background-position: 50% 16.33px;
+            }
+        }
+    }
+    .table-wrap {
+        .table {
+            tbody {
+                tr {
+                    th {
+                        font-size: 10px;
+                        color: #333;
+                        vertical-align: middle;
+                        border-left: 0;
+                        border-right: 0;
+                        border-color: #f0f0f0;
+                        background-color: #f7f7f7;
+                        label {
+                            font-size: 10px;
+                            color: #333;
+                            margin-bottom: 0;
+                        }
+                    }
+                    td {
+                        font-size: 10px;
+                        color: #666;
+                        padding: 5px 10px;
+                        text-align: left;
+                        label {
+                            font-size: 10px;
+                            color: #666;
+                            font-weight: 300;
+                            vertical-align: top;
+                            margin-bottom: 0;
+                            margin-top: 3px;
+                        }
+                        .form-control {
+                            height: 23.33px;
+                        }
+                        .attention {
+                            font-size: 10px;
+                            color: #666;
+                            letter-spacing: -1px;
+                            padding-top: 3px;
+                            &:before {
+                                content: "*";
+                                font-size: 10px;
+                                color: #666;
+                                padding-right: 2px;
+                            }
+                        }
+                    }
+                    .user-id {
+                        .form-control {
+                            display: inline-block;
+                            width: 57%;
+                        }
+                        .table-btn {
+                            margin-left: 5px;
+                            display: inline-block;
+                            vertical-align: top;
+                            .btn-id-check {
+                                width: 76.66px;
+                                height: 23.33px;
+                                line-height: 20.33px;
+                                font-size: 10px;
+                                color: #666;
+                                letter-spacing: -1px;
+                                padding: 0;
+                                border: 1px solid #e3e3e3;
+                                border-radius: 0;
+                                background-color: #f9f9f9;
+                            }
+                        }
+                    }
+                    .birth {
+                        .form-control {
+                            display: inline-block;
+                            width: 24%;
+                            padding: 0;
+                            margin-left: 5px;
+                            margin-bottom: 3px;
+                            &:nth-of-type(1) {
+                                margin-left: 0;
+                            }
+                        }
+                        .sex {
+                            display: block;
+                            .radio {
+                                display: inline-block;
+                                &:nth-of-type(2) {
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .addr {
+                        .form-control {
+                            margin-top: 4px;
+                            &:nth-of-type(1) {
+                                display: inline-block;
+                                margin-top: 0;
+                                width: 57%;
+                            }
+                        }
+                        .table-btn {
+                            margin-left: 5px;
+                            display: inline-block;
+                            vertical-align: top;
+                            .btn-addr {
+                                width: 76.66px;
+                                height: 23.33px;
+                                line-height: 20.33px;
+                                font-size: 10px;
+                                color: #fff;
+                                letter-spacing: -1px;
+                                padding: 0;
+                                border-radius: 0;
+                                background-color: #666;
+                            }
+                        }
+                    }
+                    .email {
+                        .receive {
+                            .radio {
+                                display: inline-block;
+                                &:nth-of-type(2) {
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .phone {
+                        .receive {
+                            .radio {
+                                display: inline-block;
+                                &:nth-of-type(2) {
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn-area {
+        margin-top: 26.66px;
+        margin-bottom: 35px;
+        p {
+            .btn-default {
+                background-color: #f9f9f9;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
