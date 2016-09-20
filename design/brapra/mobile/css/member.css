@@ -286,6 +286,7 @@
   font-size: 10px;
   color: #666;
   padding: 5px 10px;
+  vertical-align: middle;
   text-align: left; }
   .join .table-wrap .table tbody tr td label {
     font-size: 10px;
