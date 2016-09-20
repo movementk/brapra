@@ -1,0 +1,179 @@
+.main #visual li {
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+  .main #visual li a {
+    display: block;
+    width: 100%;
+    height: 600px; }
+.main #visual .bx-wrapper {
+  position: relative; }
+.main #visual .bx-controls {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  text-align: center; }
+.main #visual .bx-pager {
+  display: inline-block; }
+.main #visual .bx-pager-item {
+  display: inline; }
+.main #visual .bx-pager-link {
+  position: relative;
+  float: left;
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.6); }
+  .main #visual .bx-pager-link.active {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 0; }
+.main #cate-best {
+  clear: both;
+  padding-top: 35px;
+  padding-bottom: 25px; }
+  .main #cate-best section h3 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 23px; }
+    .main #cate-best section h3 span {
+      font-family: 'Maven Pro', sans-serif;
+      letter-spacing: 2px; }
+  .main #cate-best section h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    font-weight: 400; }
+  .main #cate-best section .price {
+    margin-bottom: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0;
+    text-align: center; }
+  .main #cate-best section .bx-controls {
+    text-align: center; }
+  .main #cate-best section .bx-pager {
+    display: inline-block; }
+  .main #cate-best section .bx-pager-item {
+    display: inline; }
+  .main #cate-best section .bx-pager-link {
+    position: relative;
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #d7d7d7; }
+    .main #cate-best section .bx-pager-link.active {
+      background-color: #ff6776; }
+.main #brand {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .main #brand a {
+    display: block;
+    padding-top: 20px;
+    height: 150px;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+    font-size: 14px; }
+    .main #brand a:hover, .main #brand a:focus {
+      border-color: #ff6776; }
+    .main #brand a div {
+      display: table;
+      width: 100%;
+      height: 80px; }
+      .main #brand a div p {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle; }
+  .main #brand li:last-child a {
+    padding-top: 55px;
+    padding-left: 40px;
+    color: #969696;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    background-image: url(/design/brapra/images/main/ico_plus.png);
+    background-repeat: no-repeat;
+    background-position: 90px 50%; }
+.main #theme {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+.main .best-list {
+  padding-top: 50px; }
+  .main .best-list h3 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 1px; }
+    .main .best-list h3 span {
+      color: #c2c2c2;
+      font-weight: normal; }
+  .main .best-list .prd-list {
+    overflow: hidden; }
+  .main .best-list + .best-list {
+    border-top: 1px solid #ccc; }
+.main #event-bn {
+  position: relative; }
+  .main #event-bn .slider li {
+    background-repeat: no-repeat;
+    background-position: 50% 50%; }
+    .main #event-bn .slider li a {
+      display: block;
+      width: 100%;
+      height: 210px; }
+  .main #event-bn .slider .bx-wrapper {
+    position: relative; }
+  .main #event-bn .slider .bx-controls {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    width: 12px;
+    margin-left: -565px; }
+  .main #event-bn .slider .bx-pager-link {
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff; }
+    .main #event-bn .slider .bx-pager-link.active {
+      background-color: #333; }
+  .main #event-bn #event-pager {
+    display: table;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -565px;
+    width: 12px;
+    height: 160px; }
+    .main #event-bn #event-pager > div {
+      display: table-cell;
+      vertical-align: middle; }
+    .main #event-bn #event-pager ul li a {
+      display: block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #fff; }
+      .main #event-bn #event-pager ul li a.active {
+        background-color: #333; }
+    .main #event-bn #event-pager ul li + li a {
+      margin-top: 10px; }
+
+/*# sourceMappingURL=main.css.map */

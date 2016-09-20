@@ -1,25 +1,30 @@
 /* 제일 먼저 상단에 서브페이지들에서 공통으로 사용될 스타일을 작성해 주세요. */
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-
-.container {
+.sub .container,
+.container.popup {
 	font-family: 'Noto Sans KR';
 	font-weight: 300;
 	font-size: 13px;
 	color: #666666;
 }
-.container a,
-.container a:hover,
-.container a:focus {
+.sub .container a,
+.sub .container a:hover,
+.sub .container a:focus,
+.container.popup a,
+.container.popup a:hover,
+.container.popup a:focus {
 	color: inherit;
 	text-decoration: none;
 }
-.container label {
+.sub .container label,
+.container.popup label {
 	font-weight: 400;
 }
-.date, .price {
+.sub .date, .sub .price ,
+.popup .date, .popup .price {
 	font-family: 'Maven Pro';
 }
-.fpoint {
+.sub .fpoint,
+.popup .fpoint {
 	color: #ee5766! important;
 }
 
@@ -273,7 +278,8 @@ span.bracket:after {
 
 
 /*BUTTON::버튼 [.btn]*/
-.btn + .btn {
+.sub .btn + .btn,
+.popup .btn + .btn {
 	margin-left: 13px;
 }
 a.btn,
@@ -537,61 +543,61 @@ button.btn.btn-bo:focus {
 }
 
 /*TABLE::테이블  [.table]*/
-.container .table {
+.sub .container .table.default {
 	width: 100%;
 }
-.container .table > thead > tr:first-child > th,
-.container .table > tbody > tr:first-child > th,
-.container .table > tbody > tr:first-child > td {
+.sub .container .table > thead > tr:first-child > th,
+.sub .container .table > tbody > tr:first-child > th,
+.sub .container .table > tbody > tr:first-child > td {
 	border-top: 1px solid #f0f0f0;
 	border-bottom: 1px solid #f0f0f0;
 }
-.container .table > thead > tr > th,
-.container .table > thead > tr > td,
-.container .table > tbody > tr > th,
-.container .table > tbody > tr > td {
+.sub .container .table > thead > tr > th,
+.sub .container .table > thead > tr > td,
+.sub .container .table > tbody > tr > th,
+.sub .container .table > tbody > tr > td {
 	vertical-align: middle;
 	border-top: none;
 	border-bottom: 1px solid #f0f0f0;
 }
-.table > thead > tr > th,
-.table > thead > tr > td,
-.table > tbody > tr > th,
-.table > tbody > tr > td {
+.sub .table > thead > tr > th,
+.sub .table > thead > tr > td,
+.sub .table > tbody > tr > th,
+.sub .table > tbody > tr > td {
 	padding: 15px 20px;
 	text-align: center;
 }
-.container .table > thead > tr > th,
-.container .table > tbody > tr > th {
+.sub .container .table > thead > tr > th,
+.sub .container .table > tbody > tr > th {
 	color: #333333;
 	font-weight: 500;
 	background-color: #f9f9f9;
 }
-.container .table > tbody > tr > td {
+.sub .container .table > tbody > tr > td {
 	color: #666666;
 }
-.container .table > tbody > tr > td.empty-table {
+.sub .container .table > tbody > tr > td.empty-table {
 	text-align: center;
 	background-color: #ffffff! important;
 	height: 56px! important;
 	color: #999999! important;
 }
-.container .table > tbody > tr > td input,
-.container .table > tbody > tr > td textarea {
+.sub .container .table > tbody > tr > td input,
+.sub .container .table > tbody > tr > td textarea {
 	padding: 6px 12px;
 }
-.table col.no,
-.table col.hits {
+.sub .table col.no,
+.sub .table col.hits {
 	width: 80px;
 }
-.table col.score {
+.sub .table col.score {
 	width: 140px;
 }
-.table col.prd-thumnail,
-.table col.writer {
+.sub .table col.prd-thumnail,
+.sub .table col.writer {
 	width: 100px;
 }
-.table col.date {
+.sub .table col.date {
 	width: 130px;
 }
 
@@ -959,14 +965,14 @@ button.btn.btn-bo:focus {
 
 /****************************************************************************************/
 /*[SUB - COMMON] */
-.top-visual {
+.sub .top-visual {
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.community .page-header,
-.member .page-header,
-.mypage .page-header {
+.sub.community .page-header,
+.sub.member .page-header,
+.sub.mypage .page-header {
 	margin-bottom: 30px;
 }
 

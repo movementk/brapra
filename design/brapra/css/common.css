@@ -1,7 +1,8 @@
 @charset "UTF-8";
-@import "//fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900|Noto+Sans:400,700";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900);
 .noto, body {
-  font-family: "Noto Sans", sans-serif; }
+  font-family: 'Noto Sans KR', sans-serif; }
 
 .maven, #gnb .all-brand, #footer .cs h4, #footer .qr ul li, #footer .notice h4 {
   font-family: 'Maven Pro', sans-serif; }
@@ -10,7 +11,8 @@ body {
   font-size: 13px;
   line-height: 20px;
   color: #666;
-  letter-spacing: -1px; }
+  font-weight: 300;
+  min-width: 1200px; }
 
 dl dt, dl dd {
   font-size: 13px;
@@ -54,7 +56,7 @@ a {
           background-color: #f7f7f7; }
   #top-nav .util {
     float: right;
-    margin-top: 15px;
+    margin-top: 12px;
     margin-right: 55px; }
     #top-nav .util li {
       display: inline; }
@@ -79,7 +81,15 @@ a {
     right: 15px;
     width: 40px;
     height: 40px;
-    background-color: #f3e3e4; }
+    background-color: #f3e3e4;
+    color: #333;
+    text-decoration: none; }
+    #top-nav .btn-topbn:before {
+      font-family: 'GLYPHICONS Halflings';
+      content: "\e260"; }
+    #top-nav .btn-topbn.collapsed:before {
+      font-family: 'GLYPHICONS Halflings';
+      content: "\e259"; }
 
 #header {
   height: 123px; }
@@ -116,6 +126,8 @@ a {
   height: 50px;
   border-top: 1px solid #e3e3e3;
   border-bottom: 2px solid #ee5766; }
+  #gnb .row > div:nth-of-type(2) {
+    height: 47px; }
   #gnb .category {
     margin-right: -15px; }
     #gnb .category li {
@@ -219,7 +231,8 @@ a {
     margin-top: 15px; }
     #footer .cs .info dl dt, #footer .cs .info dl dd {
       float: left;
-      font-weight: 400; }
+      font-weight: 400;
+      font-size: 12px; }
     #footer .cs .info dl dt {
       font-size: 12px; }
       #footer .cs .info dl dt:before {
@@ -227,7 +240,7 @@ a {
         margin-right: 5px;
         content: '|';
         font-size: 10px;
-        vertical-align: text-bottom; }
+        vertical-align: 1px; }
       #footer .cs .info dl dt:first-child:before {
         margin-left: 0;
         margin-right: 0;
@@ -347,19 +360,19 @@ a {
   #footer .company dl {
     overflow: hidden; }
     #footer .company dl dt, #footer .company dl dd {
-      float: left; }
-    #footer .company dl dt {
-      font-weight: normal; }
-      #footer .company dl dt:before {
-        float: left;
-        padding-left: 10px;
-        padding-right: 10px;
-        content: '|';
-        font-size: 10px; }
-      #footer .company dl dt:first-child:before {
-        padding-left: 0;
-        padding-right: 0;
-        content: ''; }
+      float: left;
+      font-weight: 300; }
+    #footer .company dl dt:before {
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+      content: '|';
+      font-size: 10px;
+      vertical-align: 2px; }
+    #footer .company dl dt:first-child:before {
+      padding-left: 0;
+      padding-right: 0;
+      content: ''; }
     #footer .company dl dd address {
       display: inline; }
     #footer .company dl dd:before {
@@ -391,5 +404,86 @@ a {
     letter-spacing: 0; }
     #footer .copyright a {
       color: #bbb; }
+
+#all-brand .modal-dialog {
+  width: 1055px; }
+#all-brand .modal-content {
+  padding: 30px;
+  border-radius: 0;
+  box-shadow: none;
+  border: 0; }
+#all-brand .modal-header {
+  padding: 0; }
+  #all-brand .modal-header .modal-title {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Maven Pro', sans-serif;
+    color: #333;
+    font-weight: 700;
+    line-height: 40px; }
+  #all-brand .modal-header .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    background-color: #ff6070; }
+    #all-brand .modal-header .close:before {
+      content: url(/design/brapra/images/common/ico_close_white.png); }
+#all-brand .modal-body {
+  padding: 0; }
+  #all-brand .modal-body .brand h5 {
+    font-size: 14px;
+    color: #333; }
+  #all-brand .modal-body .brand.mcorset h5 {
+    margin-top: 30px;
+    margin-bottom: 20px; }
+  #all-brand .modal-body .brand.mcorset ul {
+    overflow: hidden;
+    margin: -10px; }
+  #all-brand .modal-body .brand.mcorset li {
+    float: left;
+    padding: 10px;
+    width: 14.28%; }
+  #all-brand .modal-body .brand.mcorset a {
+    display: block;
+    padding-top: 20px;
+    height: 110px;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none; }
+    #all-brand .modal-body .brand.mcorset a:hover, #all-brand .modal-body .brand.mcorset a:focus {
+      border-color: #ff6776; }
+    #all-brand .modal-body .brand.mcorset a div {
+      display: table;
+      width: 100%;
+      height: 50px; }
+      #all-brand .modal-body .brand.mcorset a div p {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle; }
+  #all-brand .modal-body .brand.third-party {
+    margin-bottom: 10px; }
+    #all-brand .modal-body .brand.third-party h5 {
+      margin-top: 60px;
+      margin-bottom: 10px; }
+    #all-brand .modal-body .brand.third-party:after {
+      content: ' ';
+      display: table;
+      clear: both; }
+    #all-brand .modal-body .brand.third-party div {
+      margin-left: -10px;
+      margin-right: -10px; }
+    #all-brand .modal-body .brand.third-party ul {
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 14.28%; }
+    #all-brand .modal-body .brand.third-party li a {
+      font-size: 13px;
+      line-height: 25px; }
 
 /*# sourceMappingURL=common.css.map */

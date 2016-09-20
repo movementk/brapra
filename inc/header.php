@@ -17,9 +17,7 @@
             <li><a href="#">주문조회</a></li>
             <li><a href="#">고객센터</a></li>
         </ul>
-        <button class="btn-topbn btn-link" type="button" data-toggle="collapse" data-target="#top-bn" aria-expanded="false" aria-controls="top-bn">
-            <span class="bar"></span>
-            <span class="bar"></span>
+        <button class="btn-topbn btn-link" type="button" data-toggle="collapse" data-target="#top-bn" aria-expanded="true" aria-controls="top-bn" aria-label="상단배너버튼">
         </button>
     </div>
 </nav>
@@ -71,7 +69,7 @@
                 </ul>
             </div>
             <div class="col-xs-2">
-                <a class="all-brand" href="#">ALL BRAND</a>
+                <a class="all-brand" href="#" data-toggle="modal" data-target="#all-brand">ALL BRAND</a>
             </div>
         </div>
     </div>
