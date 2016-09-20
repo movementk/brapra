@@ -135,3 +135,183 @@
         </div>
     </div>
 </footer>
+<div id="all-brand" class="modal fade" tabindex="-1" role="dialog" data-show="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="닫기"></button>
+                <h4 class="modal-title">BRAND LIST</h4>
+            </div>
+            <div class="modal-body">
+                <div class="brand mcorset">
+                    <h5>엠코르셋 브랜드</h5>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_wonderbra.gif" alt=""></p>
+                                </div>
+                                <span>원더브라</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_palytex.gif" alt=""></p>
+                                </div>
+                                <span>플레이텍스</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_jms.gif" alt=""></p>
+                                </div>
+                                <span>저스트마이사이즈</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_missingdorothy.gif" alt=""></p>
+                                </div>
+                                <span>미싱도로시</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_lefee.gif" alt=""></p>
+                                </div>
+                                <span>르페</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_barelythere.gif" alt=""></p>
+                                </div>
+                                <span>베어리데어</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_hanes.gif" alt=""></p>
+                                </div>
+                                <span>헤인즈</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_himico.gif" alt=""></p>
+                                </div>
+                                <span>히미코</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_crocodile.gif" alt=""></p>
+                                </div>
+                                <span>크로커다일</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_maidenform.gif" alt=""></p>
+                                </div>
+                                <span>메이든폼</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_pearlyshell.gif" alt=""></p>
+                                </div>
+                                <span>펄리쉘</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_secretlab.gif" alt=""></p>
+                                </div>
+                                <span>시크릿랩</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p><img src="/design/brapra/images/main/logo_accolade.gif" alt=""></p>
+                                </div>
+                                <span>에끌레이드</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="brand third-party">
+                    <h5>타사 브랜드</h5>
+                    <div>
+                        <ul>
+                            <li><a href="#">애플스토리</a></li>
+                            <li><a href="#">아놀드바시니</a></li>
+                            <li><a href="#">에이스클럽</a></li>
+                            <li><a href="#">본비엔</a></li>
+                            <li><a href="#">하이앤로우</a></li>
+                            <li><a href="#">CFCLUB</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">라비앙</a></li>
+                            <li><a href="#">노블레스</a></li>
+                            <li><a href="#">핑크룩</a></li>
+                            <li><a href="#">핑크룩</a></li>
+                            <li><a href="#">베라</a></li>
+                            <li><a href="#">시크릿제이</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">핑크앤도트</a></li>
+                            <li><a href="#">힙핑크</a></li>
+                            <li><a href="#">라보라</a></li>
+                            <li><a href="#">미치코런던</a></li>
+                            <li><a href="#">애니멀숩</a></li>
+                            <li><a href="#">키스해링</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">크라시앙</a></li>
+                            <li><a href="#">파마셀</a></li>
+                            <li><a href="#">핑크밤쉘</a></li>
+                            <li><a href="#">아이엔지뷰티</a></li>
+                            <li><a href="#">시크릿제이</a></li>
+                            <li><a href="#">러브팬티</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">테지움</a></li>
+                            <li><a href="#">월트디즈니</a></li>
+                            <li><a href="#">마블코믹스</a></li>
+                            <li><a href="#">디카렌</a></li>
+                            <li><a href="#">울바</a></li>
+                            <li><a href="#">니플렉스</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">레일리브</a></li>
+                            <li><a href="#">쿨요시</a></li>
+                            <li><a href="#">주글</a></li>
+                            <li><a href="#">에어스킨</a></li>
+                            <li><a href="#">언제이피오나</a></li>
+                            <li><a href="#">모스트</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">탑바디</a></li>
+                            <li><a href="#">레그에비뉴</a></li>
+                            <li><a href="#">LEONISA</a></li>
+                            <li><a href="#">O-SEXY</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
