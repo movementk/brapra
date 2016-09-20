@@ -10,14 +10,7 @@
              <h2>회원가입</h2>
              <hr>
          </div>
-         <article class="join">
-             <nav class="step-menu">
-                 <ul>
-                     <li><i>01</i>.약관동의</li>
-                     <li class="active"><i>02</i>.정보입력</li>
-                     <li><i>03</i>.가입완료</li>
-                 </ul>
-             </nav>
+         <article class="join modify">
              <div class="table-wrap">
                  <table class="table table-bordered">
                      <colgroup>
@@ -26,13 +19,8 @@
                      </colgroup>
                      <tbody>
                          <tr>
-                             <th><label for="user-id">아이디</label></th>
-                             <td class="user-id">
-                                 <input type="text" class="form-control" id="user-id" placeholder="TEST">
-                                 <p class="table-btn">
-                                     <a href="#" class="btn btn-id-check" role="button">아이디 중복확인</a>
-                                 </p>
-                             </td>
+                             <th>아이디</th>
+                             <td>TEST</td>
                          </tr>
                          <tr>
                              <th><label for="user-pw">비밀번호</label></th>
@@ -121,16 +109,16 @@
                              </td>
                          </tr>
                          <tr>
-                             <th><label for="recommend">추천인</label></th>
-                             <td><input type="text" class="form-control" id="recommend"></td>
+                             <th>추천인</th>
+                             <td>추천인없음 1명이 당신을 추천하였습니다.</td>
                          </tr>
                      </tbody>
                  </table>
              </div>
              <div class="btn-area">
                  <p>
-                     <a href="#" class="btn btn-basics btn-default" role="button">이전</a>
-                     <a href="#" class="btn btn-basics btn-pink" role="button">다음</a>
+                     <a href="#" class="btn btn-sm btn-default" role="button">취소</a>
+                     <a href="#" class="btn btn-sm btn-gray" role="button">확인</a>
                  </p>
              </div>
          </article>
