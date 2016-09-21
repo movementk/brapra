@@ -10,7 +10,7 @@
             <h2>장바구니</h2>
             <hr>
         </div>
-        <article class="basket my-basket">
+        <article class="my-basket">
             <nav class="step-menu">
                 <ul>
                     <li class="active"><i>01</i>.장바구니</li>
@@ -61,9 +61,9 @@
                                     </dl>
                                     <div class="btn-count">
                                         <p>
-                                            <a href="#" class="btn btn-minus" role="button"></a>
-                                            <span>1</span>
                                             <a href="#" class="btn btn-plus" role="button"></a>
+                                            <span>1</span>
+                                            <a href="#" class="btn btn-minus" role="button"></a>
                                         </p>
                                         <p class="modify-del-btn">
                                             <a href="#" class="btn" role="button">수정</a>
