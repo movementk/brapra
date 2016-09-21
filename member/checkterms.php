@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="member checkerms">
+    <main id="content" class="sub member checkerms">
         <!-- 작업 영역 -->
         <div class="page-header">
             <h2 class="page-title">회원가입</h2>

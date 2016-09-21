@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="member mbinquiry">
+    <main id="content" class="sub member mbinquiry">
         <!-- 작업 영역 -->
         <div class="container">
 

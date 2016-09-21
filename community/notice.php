@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="community notice">
+    <main id="content" class="sub community notice">
         <!-- 작업 영역 -->
         <div class="page-header">
             <h2 class="page-title">공지사항</h2>

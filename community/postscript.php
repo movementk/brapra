@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="community postscript">
+    <main id="content" class="sub community postscript">
         <!-- 작업 영역 -->
         <div class="page-header">
             <h2 class="page-title">구매후기</h2>
@@ -37,139 +37,6 @@
                     </a>
                 </li>
             </ul>
-
-
-            <ul class="bestpost-list mb80">
-                <li class="bpost">
-                    <a href="#">
-                        <div class="img-area">
-                            <img src="/design/brapra/images/community/community_review_best1.jpg" alt="">
-                            <img src="/design/brapra/images/community/mark_best.png" class="mark" alt="Best Mark">
-                        </div>
-                        <ul class="info-area">
-                            <li>
-                                <div class="thumnail-area">
-                                    <img src="/design/brapra/images/community/community_review_best1_p.jpg" alt="">
-                                </div>
-                                <p class="prd-title">
-                                    베어리데어 슈퍼 누디 브라팬티<br>4스타일 택1 BT_SELECT4
-                                </p>
-                            </li>
-                            <li>
-                                <p class="title">너무 이뻐요~!!</p>
-                                <p class="content">컬러며 구성이며 정말 맘에 쏙들어요~!대박</p>
-                            </li>
-                            <li>
-                                <span>김유림</span>
-                                <span>
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star.png" alt="score">
-                                </span>
-                            </li>
-                        </ul>
-                    </a>
-                </li>
-                <li class="bpost">
-                    <a href="#">
-                        <div class="img-area">
-                            <img src="/design/brapra/images/community/community_review_best2.jpg" alt="">
-                            <img src="/design/brapra/images/community/mark_best.png" class="mark" alt="Best Mark">
-                        </div>
-                        <ul class="info-area">
-                            <li>
-                                <div class="thumnail-area">
-                                    <img src="/design/brapra/images/community/community_review_best2_p.jpg" alt="">
-                                </div>
-                                <p class="prd-title">
-                                    베어리데어 슈퍼 누디 브라팬티<br>4스타일 택1 BT_SELECT4
-                                </p>
-                            </li>
-                            <li>
-                                <p class="title">잘 받았습니다~</p>
-                                <p class="content">이뻐요~ 또 구매해야겠어요!</p>
-                            </li>
-                            <li>
-                                <span>김유림</span>
-                                <span>
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star.png" alt="score">
-                                </span>
-                            </li>
-                        </ul>
-                    </a>
-                </li>
-                <li class="bpost">
-                    <a href="#">
-                        <div class="img-area">
-                            <img src="/design/brapra/images/community/community_review_best3.jpg" alt="">
-                            <img src="/design/brapra/images/community/mark_best.png" class="mark" alt="Best Mark">
-                        </div>
-                        <ul class="info-area">
-                            <li>
-                                <div class="thumnail-area">
-                                    <img src="/design/brapra/images/community/community_review_best3_p.jpg" alt="">
-                                </div>
-                                <p class="prd-title">
-                                    베어리데어 슈퍼 누디 브라팬티<br>4스타일 택1 BT_SELECT4
-                                </p>
-                            </li>
-                            <li>
-                                <p class="title">최고최고~!!!</p>
-                                <p class="content">이뻐요~ 또 구매해야겠어요!</p>
-                            </li>
-                            <li>
-                                <span>김유림</span>
-                                <span>
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star.png" alt="score">
-                                </span>
-                            </li>
-                        </ul>
-                    </a>
-                </li>
-                <li class="bpost">
-                    <a href="#">
-                        <div class="img-area">
-                            <img src="/design/brapra/images/community/community_review_best4.jpg" alt="">
-                            <img src="/design/brapra/images/community/mark_best.png" class="mark" alt="Best Mark">
-                        </div>
-                        <ul class="info-area">
-                            <li>
-                                <div class="thumnail-area">
-                                    <img src="/design/brapra/images/community/community_review_best1_p.jpg" alt="">
-                                </div>
-                                <p class="prd-title">
-                                    베어리데어 슈퍼 누디 브라팬티<br>4스타일 택1 BT_SELECT4
-                                </p>
-                            </li>
-                            <li>
-                                <p class="title">잘 받았습니다~</p>
-                                <p class="content">이뻐요~ 또 구매해야겠어요!</p>
-                            </li>
-                            <li>
-                                <span>김유림</span>
-                                <span>
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star_a.png" alt="score">
-                                    <img src="/design/brapra/images/common/icon_star.png" alt="score">
-                                </span>
-                            </li>
-                        </ul>
-                    </a>
-                </li>
-            </ul>
-            <div class="clearfix"></div>
 
 
             <div class="search-area form-inline mb30">

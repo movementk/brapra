@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="">
+    <main id="content" class="sub">
         <!-- 작업 영역 -->
         <div class="top-visual bra">
             <div>
@@ -15,9 +15,9 @@
         <div class="container">
 
             <ul class="nav nav-justified nav-category">
-                <li class="active"><a href="#">ALL</a></li>
+                <li><a href="#">ALL</a></li>
                 <li><a href="#">와이어브라</a></li>
-                <li><a href="#">노와이어브라</a></li>
+                <li class="active"><a href="#">노와이어브라</a></li>
                 <li><a href="#">볼륨업 / 왕뽕브라</a></li>
                 <li><a href="#">누디브라</a></li>
                 <li><a href="#">빅사이즈브라</a></li>

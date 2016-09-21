@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="mypage order cart">
+    <main id="content" class="sub mypage order cart">
         <!-- 작업 영역 -->
         <div class="page-header">
             <h2 class="page-title">장바구니</h2>

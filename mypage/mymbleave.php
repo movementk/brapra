@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="mypage mymbleave">
+    <main id="content" class="sub mypage mymbleave">
         <!-- 작업 영역 -->
         <div class="page-header">
             <h2 class="page-title">회원탈퇴</h2>

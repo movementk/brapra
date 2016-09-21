@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="mypage mywishlist">
+    <main id="content" class="sub mypage mywishlist">
         <!-- 작업 영역 -->
         <div class="page-header">
             <h2 class="page-title">위시리스트</h2>

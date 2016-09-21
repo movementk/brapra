@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="mypage myprd">
+    <main id="content" class="sub mypage myprd">
         <!-- 작업 영역 -->
         <div class="page-header">
             <h2 class="page-title">최근 본 상품목록</h2>

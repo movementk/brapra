@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="mypage mycheck">
+    <main id="content" class="sub mypage mycheck">
         <!-- 작업 영역 -->
         <div class="page-header">
             <h2 class="page-title">취소/교환/환불 조회</h2>

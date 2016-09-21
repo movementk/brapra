@@ -12,7 +12,6 @@
 .container.popup a,
 .container.popup a:hover,
 .container.popup a:focus {
-	color: inherit;
 	text-decoration: none;
 }
 .sub .container label,
@@ -282,12 +281,12 @@ span.bracket:after {
 .popup .btn + .btn {
 	margin-left: 13px;
 }
-a.btn,
-a.btn:hover,
-a.btn:focus,
-button.btn,
-button.btn:hover,
-button.btn:focus {
+.sub a.btn,
+.sub a.btn:hover,
+.sub a.btn:focus,
+.sub button.btn,
+.sub button.btn:hover,
+.sub button.btn:focus {
 	font-size: 16px;
 	line-height: 38px;
 	min-width: 190px;
@@ -297,73 +296,73 @@ button.btn:focus {
 	-moz-border-radius: 0;
 	border-radius: 0;
 }
-a.btn-p,
-a.btn-p:hover,
-a.btn-p:focus,
-button.btn-p,
-button.btn-p:hover,
-button.btn-p:focus {
+.sub a.btn-p,
+.sub a.btn-p:hover,
+.sub a.btn-p:focus,
+.sub button.btn-p,
+.sub button.btn-p:hover,
+.sub button.btn-p:focus {
 	color: #ffffff;
 	background-color: #ee5766;
 	border: 1px solid #ee5766;
 }
-a.btn-d,
-a.btn-d:hover,
-a.btn-d:focus,
-button.btn-d,
-button.btn-d:hover,
-button.btn-d:focus {
+.sub a.btn-d,
+.sub a.btn-d:hover,
+.sub a.btn-d:focus,
+.sub button.btn-d,
+.sub button.btn-d:hover,
+.sub button.btn-d:focus {
 	color: #ffffff;
 	background-color: #666666;
 	border: 1px solid #666666;
 }
-a.btn-l,
-a.btn-l:hover,
-a.btn-l:focus,
-button.btn-l,
-button.btn-l:hover,
-button.btn-l:focus {
+.sub a.btn-l,
+.sub a.btn-l:hover,
+.sub a.btn-l:focus,
+.sub button.btn-l,
+.sub button.btn-l:hover,
+.sub button.btn-l:focus {
 	color: #ffffff;
 	background-color: #999999;
 	border: 1px solid #999999;
 }
-a.btn-bg,
-a.btn-bg:hover,
-a.btn-bg:focus,
-button.btn-bg,
-button.btn-bg:hover,
-button.btn-bg:focus {
+.sub a.btn-bg,
+.sub a.btn-bg:hover,
+.sub a.btn-bg:focus,
+.sub button.btn-bg,
+.sub button.btn-bg:hover,
+.sub button.btn-bg:focus {
 	background-color: #f9f9f9;
 }
-a.btn.btn-sm,
-a.btn.btn-sm:hover,
-a.btn.btn-sm:focus,
-button.btn.btn-sm,
-button.btn.btn-sm:hover,
-button.btn.btn-sm:focus {
+.sub a.btn.btn-sm,
+.sub a.btn.btn-sm:hover,
+.sub a.btn.btn-sm:focus,
+.sub button.btn.btn-sm,
+.sub button.btn.btn-sm:hover,
+.sub button.btn.btn-sm:focus {
 	font-size: 13px;
 	min-width: 100px;
 	line-height: 23px;
 	letter-spacing: 0;
 }
-a.btn.btn-xs,
-a.btn.btn-xs:hover,
-a.btn.btn-xs:focus,
-button.btn.btn-xs,
-button.btn.btn-xs:hover,
-button.btn.btn-xs:focus {
+.sub a.btn.btn-xs,
+.sub a.btn.btn-xs:hover,
+.sub a.btn.btn-xs:focus,
+.sub button.btn.btn-xs,
+.sub button.btn.btn-xs:hover,
+.sub button.btn.btn-xs:focus {
 	font-size: 11px;
 	min-width: 55px;
 	line-height: 20px;
 	letter-spacing: 0;
 	padding: 0 6px;
 }
-a.btn.btn-bo,
-a.btn.btn-bo:hover,
-a.btn.btn-bo:focus,
-button.btn.btn-bo,
-button.btn.btn-bo:hover,
-button.btn.btn-bo:focus {
+.sub a.btn.btn-bo,
+.sub a.btn.btn-bo:hover,
+.sub a.btn.btn-bo:focus,
+.sub button.btn.btn-bo,
+.sub button.btn.btn-bo:hover,
+.sub button.btn.btn-bo:focus {
 	font-size: 13px;
 	min-width: 90px;
 	line-height: 21px;
@@ -543,19 +542,27 @@ button.btn.btn-bo:focus {
 }
 
 /*TABLE::테이블  [.table]*/
-.sub .container .table.default {
+.sub .container .table.default,
+.popup.container .table.default {
 	width: 100%;
 }
 .sub .container .table > thead > tr:first-child > th,
 .sub .container .table > tbody > tr:first-child > th,
-.sub .container .table > tbody > tr:first-child > td {
+.sub .container .table > tbody > tr:first-child > td,
+.popup.container .table > thead > tr:first-child > th,
+.popup.container .table > tbody > tr:first-child > th,
+.popup.container .table > tbody > tr:first-child > td {
 	border-top: 1px solid #f0f0f0;
 	border-bottom: 1px solid #f0f0f0;
 }
 .sub .container .table > thead > tr > th,
 .sub .container .table > thead > tr > td,
 .sub .container .table > tbody > tr > th,
-.sub .container .table > tbody > tr > td {
+.sub .container .table > tbody > tr > td,
+.popup.container .table > thead > tr > th,
+.popup.container .table > thead > tr > td,
+.popup.container .table > tbody > tr > th,
+.popup.container .table > tbody > tr > td {
 	vertical-align: middle;
 	border-top: none;
 	border-bottom: 1px solid #f0f0f0;
@@ -563,41 +570,55 @@ button.btn.btn-bo:focus {
 .sub .table > thead > tr > th,
 .sub .table > thead > tr > td,
 .sub .table > tbody > tr > th,
-.sub .table > tbody > tr > td {
+.sub .table > tbody > tr > td,
+.popup.table > thead > tr > th,
+.popup.table > thead > tr > td,
+.popup.table > tbody > tr > th,
+.popup.table > tbody > tr > td {
 	padding: 15px 20px;
 	text-align: center;
 }
 .sub .container .table > thead > tr > th,
-.sub .container .table > tbody > tr > th {
+.sub .container .table > tbody > tr > th,
+.popup.container .table > thead > tr > th,
+.popup.container .table > tbody > tr > th {
 	color: #333333;
 	font-weight: 500;
 	background-color: #f9f9f9;
 }
-.sub .container .table > tbody > tr > td {
+.sub .container .table > tbody > tr > td,
+.popup.container .table > tbody > tr > td {
 	color: #666666;
 }
-.sub .container .table > tbody > tr > td.empty-table {
+.sub .container .table > tbody > tr > td.empty-table,
+.popup.container .table > tbody > tr > td.empty-table {
 	text-align: center;
 	background-color: #ffffff! important;
 	height: 56px! important;
 	color: #999999! important;
 }
 .sub .container .table > tbody > tr > td input,
-.sub .container .table > tbody > tr > td textarea {
+.sub .container .table > tbody > tr > td textarea ,
+.popup.container .table > tbody > tr > td input,
+.popup.container .table > tbody > tr > td textarea {
 	padding: 6px 12px;
 }
-.sub .table col.no,
-.sub .table col.hits {
+.sub .table col.no, .sub .table col.hits,
+.popup .table col.no, .popup .table col.hits {
 	width: 80px;
 }
-.sub .table col.score {
+.sub .table col.score,
+.popup .table col.score {
 	width: 140px;
 }
 .sub .table col.prd-thumnail,
-.sub .table col.writer {
+.sub .table col.writer ,
+.popup .table col.prd-thumnail,
+.popup .table col.writer {
 	width: 100px;
 }
-.sub .table col.date {
+.sub .table col.date,
+.popup .table col.date {
 	width: 130px;
 }
 
@@ -1374,6 +1395,9 @@ button.btn.btn-bo:focus {
 	max-width: 840px;
 	padding: 0;
 }
+.mypage.popup .nav-mypage > li {
+	width: 50%;
+}
 .mypage.popup .table.table-throw > tbody > tr > th,
 .mypage.popup .table.table-throw > tbody > tr > td {
 	padding: 20px 30px;
@@ -1563,12 +1587,12 @@ button.btn.btn-bo:focus {
 
 /*[SUB 13] mypage > myorder */
 .mypage a.btn.btn-bo.btn-bg,
-.mypage a.btn.btn-bo.btn-bg:hover,
-.mypage a.btn.btn-bo.btn-bg:focus,
-.mypage button.btn.btn-bo.btn-bg,
-.mypage button.btn.btn-bo.btn-bg:hover,
-.mypage button.btn.btn-bo.btn-bg:focus {
+.mypage button.btn.btn-bo.btn-bg {
 	min-width: 70px;
+}
+.mypage .btn-area-sm.pull-right a.btn.btn-bo,
+.mypage .btn-area-sm.pull-right button.btn.btn-bo {
+	min-width: 100px;
 }
 
 .mypage .gridbox-area > .grid > .in-box {

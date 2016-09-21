@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="mypage myinfo">
+    <main id="content" class="sub mypage myinfo">
         <!-- 작업 영역 -->
         <div class="page-header">
             <h2 class="page-title">회원정보수정</h2>

@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="mypage mypwcheck">
+    <main id="content" class="sub mypage mypwcheck">
         <!-- 작업 영역 -->
         <div class="page-header">
             <h2 class="page-title">회원정보수정</h2>
@@ -69,8 +69,8 @@
 
 
             <div class="btn-area btn-area-sm mb100 text-center">
-                <a href="javascript:history.back();" class="btn btn-sm btn-bg">취소</a>
-                <a href="/mypage/myinfo.php" class="btn btn-d btn-sm">확인</a>
+                <a href="javascript:history.back();" class="btn btn-f btn-sm btn-bg">취소</a>
+                <a href="/mypage/myinfo.php" class="btn btn-f btn-d btn-sm">확인</a>
             </div>
             <div class="clearfix"></div>
 

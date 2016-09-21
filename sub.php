@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class=""><!-- 대메뉴 또는 소메뉴별 클래스가 필요할 경우 이곳에 작성 -->
+    <main id="content" class="sub"><!-- 대메뉴 또는 소메뉴별 클래스가 필요할 경우 이곳에 작성 -->
         <!-- 작업 영역 -->
         <div class="top-visual about">
             <div>

@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
-    <main id="content" class="mypage myorder">
+    <main id="content" class="sub mypage myorder">
         <!-- 작업 영역 -->
         <div class="page-header">
             <h2 class="page-title">주문내역/배송조회</h2>
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <table class="table table-dlist mb30">
+            <table class="table t-default table-dlist mb30">
                 <colgroup>
                     <col class="no">
                     <col class="date">
