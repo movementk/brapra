@@ -282,6 +282,9 @@
       display: inline-block;
       width: 46.66px;
       height: 46.66px; }
+    .qna .table-wrap .table tbody tr td .logo-img img {
+      width: 43.33px;
+      height: 9px; }
   .qna .table-wrap .table tbody tr .review-subject {
     padding: 0 13px;
     text-align: left; }

@@ -115,6 +115,7 @@ ul, ol {
         background-size: 20.66px 20.66px;
         background-position: 0 0; }
     #header .quick-btn .btn-basket {
+      position: relative;
       padding: 0;
       background-color: #fff; }
       #header .quick-btn .btn-basket .basket {
@@ -125,6 +126,19 @@ ul, ol {
         background-repeat: no-repeat;
         background-size: 23.66px 21.33px;
         background-position: 0 0; }
+      #header .quick-btn .btn-basket .basket-count {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        display: block;
+        width: 12px;
+        height: 12px;
+        font-size: 10px;
+        color: #fff;
+        padding: 0;
+        line-height: 11px;
+        border-radius: 50%;
+        background-color: #ff6776; }
 
 #primary-menu {
   height: 28px;
@@ -358,6 +372,34 @@ ul, ol {
         margin: 0 7px; }
         #footer .company-info .sns li a img {
           width: 27.33px; }
+
+#quick-top {
+  position: absolute;
+  bottom: 14px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  z-index: 9999; }
+  #quick-top .top {
+    width: 30px;
+    height: 30px; }
+    #quick-top .top a {
+      display: block;
+      width: 100%;
+      height: 30px;
+      font-size: 10px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      background-image: url(/design/brapra/mobile/images/menu/quick_top.jpg);
+      background-size: 30px 30px;
+      background-repeat: no-repeat;
+      background-position: 0 0; }
+      #quick-top .top a:focus, #quick-top .top a:hover {
+        opacity: .8; }
+      #quick-top .top a .glyphicon-menu-up {
+        display: block;
+        padding-top: 3px; }
 
 #footer .container {
   padding-left: 15px;
