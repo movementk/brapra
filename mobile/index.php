@@ -1,5 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
-<link href="/design/brapra/mobile/css/main.css" rel="stylesheet">
 </head>
 <body>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>

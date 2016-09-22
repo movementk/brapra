@@ -10,6 +10,7 @@
         </button>
         <button type="button" class="btn btn-basket">
             <span class="basket"></span>
+            <span class="basket-count">4</span>
         </button>
     </div>
 </header>
@@ -69,7 +70,6 @@
                 </div>
             </div>
 
-
             <!-- Login out member -->
             <div class="logout-member">
                 <h3>고객님은 '로그아웃' 중입니다.</h3>
@@ -80,7 +80,6 @@
                     </p>
                 </div>
             </div>
-
 
             <ul class="nav nav-pills nav-justified" role="tablist">
                 <li role="presentation" class="active"><a href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab" aria-expanded="true">카테고리<span></span></a></li>
@@ -140,11 +139,102 @@
                     </ul>
                 </div>
 
-
-
-                <div role="tabpanel" class="tab-pane" id="tab-2">nav-tab-2</div>
-
-
+                <div role="tabpanel" class="tab-pane" id="tab-2">
+                    <div class="brand-list">
+                        <div class="container">
+                            <h3>엠코르셋 브랜드</h3>
+                            <ul class="brand row">
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/band_img01.gif" alt="원더브라 이미지">
+                                        </p>
+                                        <p class="details">원더브라</p>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/band_img02.gif" alt="원더브라 이미지">
+                                        </p>
+                                        <p class="details">플레이텍스</p>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/band_img03.gif" alt="원더브라 이미지">
+                                        </p>
+                                        <p class="details">저스트마이사이즈</p>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/band_img04.gif" alt="원더브라 이미지">
+                                        </p>
+                                        <p class="details">미싱도로시</p>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/band_img05.gif" alt="원더브라 이미지">
+                                        </p>
+                                        <p class="details">르페</p>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/band_img06.gif" alt="원더브라 이미지">
+                                        </p>
+                                        <p class="details">베어리데어</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="btn-area">
+                                <p>
+                                    <a href="#" class="btn btn-more" role="button">브랜드 더보기</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <h4>타사 브랜드</h4>
+                    <ul class="gnb">
+                        <li>
+                            <a href="#" class="type-1">A to Z</a>
+                            <ul>
+                                <li><a href="#">Andra</a></li>
+                                <li><a href="#">CFCLUB</a></li>
+                                <li><a href="#">Dkaren</a></li>
+                                <li><a href="#">Leilieve</a></li>
+                                <li><a href="#">Leonisa</a></li>
+                                <li><a href="#">Mat</a></li>
+                                <li><a href="#">MOST</a></li>
+                                <li><a href="#">Nipplex</a></li>
+                                <li><a href="#">O-sexy</a></li>
+                                <li><a href="#">TRY</a></li>
+                                <li><a href="#">Wolbar</a></li>
+                                <li><a href="#">ZOOGLE</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="type-1">ㄱ ~ ㅇ</a>
+                            <ul>
+                                <li><a href="#">#메뉴1</a></li>
+                                <li><a href="#">#메뉴2</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="type-1">ㅈ ~ ㅎ</a>
+                            <ul>
+                                <li><a href="#">#메뉴1</a></li>
+                                <li><a href="#">#메뉴2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
 
                 <div role="tabpanel" class="tab-pane" id="tab-3">
                     <div class="quick-menu-2">
@@ -157,19 +247,19 @@
                                     <a href="#">회원등급혜택</a>
                                 </li>
                                 <li class="col-xs-3">
-                                    <a href="#">자주 묻는 질문</a>
+                                    <a href="/mobile/community/faq.php">자주 묻는 질문</a>
                                 </li>
                                 <li class="col-xs-3">
-                                    <a href="#">상품 Q&amp;A</a>
+                                    <a href="/mobile/community/qna.php">상품 Q&amp;A</a>
                                 </li>
                                 <li class="col-xs-3">
-                                    <a href="#">장바구니</a>
+                                    <a href="/mobile/mypage/my_basket.php">장바구니</a>
                                 </li>
                                 <li class="col-xs-3">
                                     <a href="#">배송조회</a>
                                 </li>
                                 <li class="col-xs-3">
-                                    <a href="#">마이페이지</a>
+                                    <a href="/mobile/mypage/my_list.php">마이페이지</a>
                                 </li>
                                 <li class="col-xs-3">
                                     <a href="#">1:1 문의</a>

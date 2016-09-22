@@ -1,6 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
-<link href="/design/brapra/mobile/css/sub.css" rel="stylesheet">
-<link href="/design/brapra/mobile/css/product-list.css" rel="stylesheet">
 </head>
 <body>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
@@ -210,7 +208,7 @@
                     <li>
                         <a href="#">
                             <p class="sns-img">
-                                <img src="/design/brapra/mobile/images/product_list/sns_btn02.gif" alt="트위터 로고">
+                                <img src="/design/brapra/mobile/images/product_list/sns_btn02.gif" alt="페이스북 로고">
                             </p>
                             <p class="details">페이스북</p>
                         </a>
@@ -218,7 +216,7 @@
                     <li>
                         <a href="#">
                             <p class="sns-img">
-                                <img src="/design/brapra/mobile/images/product_list/sns_btn03.gif" alt="트위터 로고">
+                                <img src="/design/brapra/mobile/images/product_list/sns_btn03.gif" alt="카카오스토리 로고">
                             </p>
                             <p class="details">카카오스토리</p>
                         </a>
@@ -226,7 +224,7 @@
                     <li>
                         <a href="#">
                             <p class="sns-img">
-                                <img src="/design/brapra/mobile/images/product_list/sns_btn04.gif" alt="트위터 로고">
+                                <img src="/design/brapra/mobile/images/product_list/sns_btn04.gif" alt="utl 복사 이미지">
                             </p>
                             <p class="details">URL복사</p>
                         </a>

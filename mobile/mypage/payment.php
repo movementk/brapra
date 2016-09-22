@@ -1,6 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
-<link href="/design/brapra/mobile/css/sub.css" rel="stylesheet">
-<link href="/design/brapra/mobile/css/mypage.css" rel="stylesheet">
 </head>
 <body>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
@@ -164,11 +162,13 @@
                                     <label for="lately">최근 배송지</label>
                                     <input type="radio" id="new-addr" class="radio">
                                     <label for="new-addr">신규 배송지</label>
-                                    <input type="text" class="form-control form-control-2" id="addr">
-                                    <label for="addr" class="sr-only">주소</label>
-                                    <p class="addr-btn">
-                                        <a href="#" class="btn" role="button">우편번호 검색</a>
-                                    </p>
+                                    <div class="address-area">
+                                        <input type="text" class="form-control form-control-2" id="addr">
+                                        <label for="addr" class="sr-only">주소</label>
+                                        <p class="addr-btn">
+                                            <a href="#" class="btn" role="button">우편번호 검색</a>
+                                        </p>
+                                    </div>
                                     <input type="text" class="form-control" id="addr-2">
                                     <label for="addr-2" class="sr-only">기본주소</label>
                                     <input type="text" class="form-control" id="addr-3">

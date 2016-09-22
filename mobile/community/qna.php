@@ -1,6 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
-<link href="/design/brapra/mobile/css/sub.css" rel="stylesheet">
-<link href="/design/brapra/mobile/css/community.css" rel="stylesheet">
 </head>
 <body>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
@@ -55,7 +53,11 @@
                             <td>9</td>
                             <td></td>
                             <td class="reply"><a href="#">안녕하세요! 브라프라입니다.</a></td>
-                            <td><strong>브라프라</strong>닷컴</td>
+                            <td>
+                                <p class="logo-img">
+                                    <img src="/design/brapra/mobile/images/community/logo_qna.jpg" alt="브라프라닷컴">
+                                </p>
+                            </td>
                         </tr>
                         <tr>
                             <td>8</td>
@@ -73,7 +75,11 @@
                             <td>7</td>
                             <td></td>
                             <td class="reply"><a href="#">안녕하세요! 브라프라입니다.</a></td>
-                            <td><strong>브라프라</strong>닷컴</td>
+                            <td>
+                                <p class="logo-img">
+                                    <img src="/design/brapra/mobile/images/community/logo_qna.jpg" alt="브라프라닷컴">
+                                </p>
+                            </td>
                         </tr>
                         <tr>
                             <td>6</td>
@@ -91,7 +97,11 @@
                             <td>5</td>
                             <td></td>
                             <td class="reply"><a href="#">안녕하세요! 브라프라입니다.</a></td>
-                            <td><strong>브라프라</strong>닷컴</td>
+                            <td>
+                                <p class="logo-img">
+                                    <img src="/design/brapra/mobile/images/community/logo_qna.jpg" alt="브라프라닷컴">
+                                </p>
+                            </td>
                         </tr>
                         <tr>
                             <td>4</td>

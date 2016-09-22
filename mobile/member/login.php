@@ -1,6 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
-<link href="/design/brapra/mobile/css/sub.css" rel="stylesheet">
-<link href="/design/brapra/mobile/css/member.css" rel="stylesheet">
 </head>
 <body>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
@@ -15,6 +13,8 @@
             <input type="text" class="form-control" id="user-id" placeholder="아이디를 입력하세요">
             <label for="user-pw" class="sr-only">비밀번호</label>
             <input type="password" class="form-control" id="user-pw" placeholder="비밀번호를 입력하세요">
+            <input type="checkbox" class="check" id="id-save">
+            <label for="id-save">아이디저장</label>
             <div class="btn-area">
                 <p>
                     <a href="#" class="btn btn-lg btn-pink" role="button">로그인</a>

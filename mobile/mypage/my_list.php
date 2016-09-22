@@ -1,6 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
-<link href="/design/brapra/mobile/css/sub.css" rel="stylesheet">
-<link href="/design/brapra/mobile/css/mypage.css" rel="stylesheet">
 </head>
 <body>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
@@ -99,14 +97,14 @@
                 <div class="modal-body">
                     <ul class="nav nav-pills nav-justified" role="tablist">
                         <li role="presentation" class="active">
-                            <a href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab" aria-expanded="true">주문상세내역</a>
+                            <a href="#tab-1-1" aria-controls="tab-1-1" role="tab" data-toggle="tab" aria-expanded="true">주문상세내역</a>
                         </li>
                         <li role="presentation" class="">
-                            <a href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab" aria-expanded="false">상품후기등록</a>
+                            <a href="#tab-2-1" aria-controls="tab-2-1" role="tab" data-toggle="tab" aria-expanded="false">상품후기등록</a>
                         </li>
                     </ul>
                     <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="tab-1">
+                        <div role="tabpanel" class="tab-pane active" id="tab-1-1">
                             <div class="common-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 <h3>주문상세내역</h3>
@@ -256,7 +254,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane" id="tab-2">
+                        <div role="tabpanel" class="tab-pane" id="tab-2-1">
                             <div class="common-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 <h3>상품후기등록</h3>

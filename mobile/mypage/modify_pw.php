@@ -1,6 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
-<link href="/design/brapra/mobile/css/sub.css" rel="stylesheet">
-<link href="/design/brapra/mobile/css/mypage.css" rel="stylesheet">
 </head>
 <body>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
@@ -22,7 +20,7 @@
                         <dt>아이디</dt>
                         <dd><strong>TEST</strong></dd>
                         <dt><label for="user-pw">비밀번호</label></dt>
-                        <dd><input type="text" class="form-control" id="user-pw"></dd>
+                        <dd><input type="password" class="form-control" id="user-pw"></dd>
                     </dl>
                     <div class="btn-area">
                         <p>

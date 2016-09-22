@@ -1,395 +1,46 @@
-@charset "UTF-8";
-@import "//fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900|Noto+Sans:400,700";
-.noto, body {
-  font-family: "Noto Sans", sans-serif; }
-
-.maven, #gnb .all-brand, #footer .cs h4, #footer .qr ul li, #footer .notice h4 {
-  font-family: 'Maven Pro', sans-serif; }
-
-body {
-  font-size: 13px;
-  line-height: 20px;
-  color: #666;
-  letter-spacing: -1px; }
-
-dl dt, dl dd {
-  font-size: 13px;
-  line-height: 20px; }
-
-a {
-  color: #666; }
-  a:hover {
-    color: #666; }
-
-.container {
-  width: 1200px; }
-
-.form-control {
-  font-size: 13px; }
-
 /*
- * @헤더영역
- */
-#top-nav {
-  overflow: hidden;
-  height: 40px; }
-  #top-nav .container {
-    position: relative; }
-  #top-nav .sns {
-    margin-top: -1px; }
-    #top-nav .sns li {
-      display: inline; }
-      #top-nav .sns li a {
-        float: left;
-        margin-left: -1px;
-        width: 40px;
-        height: 40px;
-        border: 1px solid #ebebeb;
-        text-align: center; }
-        #top-nav .sns li a img {
-          display: block;
-          margin: 12px auto 0;
-          opacity: .3; }
-        #top-nav .sns li a:hover, #top-nav .sns li a:focus {
-          background-color: #f7f7f7; }
-  #top-nav .util {
-    float: right;
-    margin-top: 15px;
-    margin-right: 55px; }
-    #top-nav .util li {
-      display: inline; }
-      #top-nav .util li a {
-        float: left;
-        font-size: 12px;
-        color: #999;
-        letter-spacing: -1px; }
-        #top-nav .util li a.cart b {
-          color: #ed5665; }
-      #top-nav .util li + li:before {
-        float: left;
-        margin-top: -1px;
-        padding-right: 10px;
-        padding-left: 10px;
-        content: '|';
-        color: #ccc;
-        font-size: 10px; }
-  #top-nav .btn-topbn {
-    position: absolute;
-    top: 0;
-    right: 15px;
-    width: 40px;
-    height: 40px;
-    background-color: #f3e3e4; }
+Error: Invalid CP949 character "\xED"
+        on line 38 of ./design/brapra/css/common.scss
 
-#header {
-  height: 123px; }
-  #header .ad {
-    display: block;
-    margin-top: 30px; }
-  #header .logo {
-    margin-top: 25px;
-    text-align: center; }
-  #header .search {
-    position: relative;
-    overflow: hidden;
-    float: right;
-    margin-top: 45px;
-    width: 200px;
-    height: 35px;
-    border: 1px solid #b4b4b4;
-    border-radius: 17px; }
-    #header .search .form-group {
-      margin-right: 36px; }
-    #header .search .form-control {
-      height: 33px;
-      border: 0; }
-    #header .search .btn-search {
-      position: absolute;
-      top: 0;
-      right: 3px;
-      width: 33px;
-      height: 33px;
-      color: #ff6776;
-      font-size: 16px; }
+33: .form-control {
+34:     font-size: 13px;
+35: }
+36:
+37: /*
+38:  * @헤더영역
+39:  *\/
+40: #top-bn {
+41:     //min-height: 100px;
+42: }
+43:
 
-#gnb {
-  height: 50px;
-  border-top: 1px solid #e3e3e3;
-  border-bottom: 2px solid #ee5766; }
-  #gnb .category {
-    margin-right: -15px; }
-    #gnb .category li {
-      float: left; }
-      #gnb .category li + li {
-        margin-left: 60px; }
-      #gnb .category li a {
-        font-size: 15px;
-        font-weight: bold;
-        color: #333;
-        line-height: 47px; }
-  #gnb .split {
-    text-align: center; }
-    #gnb .split:before {
-      display: block;
-      margin: 0 auto;
-      content: url(/design/brapra/images/common/bg_gnb_diagonal.gif); }
-  #gnb .event {
-    margin-left: -15px;
-    margin-right: -30px; }
-    #gnb .event li {
-      float: left; }
-      #gnb .event li + li {
-        margin-left: 58px; }
-      #gnb .event li a {
-        font-size: 15px;
-        font-weight: bold;
-        color: #ff6070;
-        line-height: 47px;
-        letter-spacing: -1px; }
-  #gnb .all-brand {
-    position: relative;
-    display: block;
-    float: right;
-    padding-top: 10px;
-    width: 132px;
-    height: 47px;
-    background-color: #ee5766;
-    text-align: center;
-    color: #fff;
-    font-size: 17px; }
-    #gnb .all-brand:before {
-      position: absolute;
-      top: -15px;
-      left: -8px;
-      content: url(/design/brapra/images/common/bg_all_brand.gif); }
-    #gnb .all-brand:after {
-      display: block;
-      content: url(/design/brapra/images/common/ico_angle_down.png);
-      line-height: 10px; }
-
-#content {
-  min-height: 300px; }
-
-.top-visual {
-  height: 270px;
-  text-align: center; }
-  .top-visual > div {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.37); }
-    .top-visual > div .visual-title {
-      margin-top: 120px; }
-  .top-visual.about {
-    background-image: url(/design/brapra/images/common/bg_about_underwear.jpg);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover; }
-
-.page-header {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding-bottom: 0;
-  border-bottom: 0;
-  text-align: center; }
-  .page-header .page-title {
-    margin-bottom: 15px;
-    font-size: 23px;
-    color: #333; }
-  .page-header hr {
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 30px;
-    border-top: 2px solid #333; }
-    .page-header hr + p {
-      margin-top: 20px; }
-  .page-header p {
-    font-size: 14px;
-    line-height: 25px; }
-
-#footer {
-  padding-top: 57px;
-  border-top: 3px solid #333; }
-  #footer .cs h4 {
-    margin-bottom: 25px;
-    font-size: 19px;
-    font-weight: 900;
-    color: #333; }
-  #footer .cs .info dl {
-    overflow: hidden;
-    margin-top: 15px; }
-    #footer .cs .info dl dt, #footer .cs .info dl dd {
-      float: left;
-      font-weight: 400; }
-    #footer .cs .info dl dt {
-      font-size: 12px; }
-      #footer .cs .info dl dt:before {
-        margin-left: 5px;
-        margin-right: 5px;
-        content: '|';
-        font-size: 10px;
-        vertical-align: text-bottom; }
-      #footer .cs .info dl dt:first-child:before {
-        margin-left: 0;
-        margin-right: 0;
-        content: ''; }
-    #footer .cs .info dl dd:before {
-      content: ':'; }
-  #footer .cs .info p {
-    font-size: 12px; }
-    #footer .cs .info p:before {
-      margin-right: 5px;
-      content: '※'; }
-  #footer .cs .quick {
-    float: right;
-    width: 230px; }
-    #footer .cs .quick ul {
-      margin-left: -5px;
-      margin-right: -5px; }
-      #footer .cs .quick ul li {
-        float: left;
-        width: 50%;
-        margin-bottom: 10px;
-        padding-left: 5px;
-        padding-right: 5px; }
-        #footer .cs .quick ul li a {
-          display: block;
-          width: 95px;
-          height: 40px;
-          border: 1px solid #ccc;
-          font-size: 13px;
-          line-height: 38px;
-          text-align: center; }
-  #footer .qr {
-    margin-top: 45px; }
-    #footer .qr ul {
-      margin: 0 auto;
-      padding-left: 29px;
-      padding-right: 29px;
-      width: 240px;
-      height: 90px;
-      border-left: 1px solid #dfdfdf;
-      border-right: 1px solid #dfdfdf; }
-      #footer .qr ul li {
-        float: left;
-        width: 90px;
-        height: 100%;
-        text-align: center;
-        font-weight: 600;
-        font-size: 12px; }
-        #footer .qr ul li img {
-          margin-bottom: 10px; }
-  #footer .notice {
-    position: relative; }
-    #footer .notice h4 {
-      margin-bottom: 20px;
-      font-size: 19px;
-      font-weight: 900;
-      color: #333; }
-    #footer .notice ol li {
-      position: relative;
-      line-height: 25px; }
-      #footer .notice ol li p {
-        overflow: hidden;
-        margin-right: 80px;
-        text-overflow: ellipsis;
-        white-space: nowrap; }
-        #footer .notice ol li p:before {
-          margin-right: 5px;
-          content: '·'; }
-        #footer .notice ol li p a {
-          line-height: 25px; }
-      #footer .notice ol li span {
-        position: absolute;
-        right: 0;
-        top: 0;
-        letter-spacing: 0; }
-    #footer .notice .more {
-      position: absolute;
-      top: 0;
-      right: 0; }
-      #footer .notice .more:before {
-        content: url(/design/brapra/images/common/ico_plus.png); }
-  #footer .foot-nav {
-    margin-top: 55px;
-    margin-bottom: 40px;
-    height: 46px;
-    background-color: #eee;
-    border-bottom: 1px solid #dbdbdb; }
-    #footer .foot-nav .policy li {
-      float: left;
-      line-height: 45px; }
-      #footer .foot-nav .policy li + li:before {
-        float: left;
-        margin-left: 10px;
-        margin-right: 10px;
-        content: '·'; }
-      #footer .foot-nav .policy li a {
-        color: #8f8f8f; }
-    #footer .foot-nav .sns {
-      float: right; }
-      #footer .foot-nav .sns li {
-        float: left; }
-        #footer .foot-nav .sns li a {
-          display: block;
-          width: 35px;
-          height: 45px;
-          text-align: center; }
-          #footer .foot-nav .sns li a img {
-            margin-top: 15px;
-            opacity: .3; }
-          #footer .foot-nav .sns li a:hover img, #footer .foot-nav .sns li a:focus img {
-            opacity: .7; }
-  #footer .company h5 {
-    margin-bottom: 10px;
-    font-size: 13px;
-    color: #333;
-    font-weight: 600; }
-  #footer .company dl {
-    overflow: hidden; }
-    #footer .company dl dt, #footer .company dl dd {
-      float: left; }
-    #footer .company dl dt {
-      font-weight: normal; }
-      #footer .company dl dt:before {
-        float: left;
-        padding-left: 10px;
-        padding-right: 10px;
-        content: '|';
-        font-size: 10px; }
-      #footer .company dl dt:first-child:before {
-        padding-left: 0;
-        padding-right: 0;
-        content: ''; }
-    #footer .company dl dd address {
-      display: inline; }
-    #footer .company dl dd:before {
-      float: left;
-      padding-left: 3px;
-      padding-right: 3px;
-      content: ':';
-      vertical-align: 1px; }
-    #footer .company dl dd .num {
-      font-size: 14px; }
-    #footer .company dl dd .check {
-      color: #ef677d; }
-  #footer .escrow h5 {
-    margin-bottom: 10px;
-    font-size: 13px;
-    color: #333;
-    font-weight: 600; }
-  #footer .escrow p {
-    color: #999; }
-    #footer .escrow p .check {
-      color: #999; }
-    #footer .escrow p:after {
-      content: '▶';
-      font-size: 10px; }
-  #footer .copyright {
-    margin-top: 25px;
-    margin-bottom: 20px;
-    font-family: 'Myriad Pro', sans-serif;
-    letter-spacing: 0; }
-    #footer .copyright a {
-      color: #bbb; }
-
-/*# sourceMappingURL=common.css.map */
+Backtrace:
+./design/brapra/css/common.scss:38
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1300:in `rescue in block in find_encoding_error'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1297:in `block in find_encoding_error'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1296:in `each'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1296:in `each_with_index'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:1296:in `find_encoding_error'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/util.rb:905:in `check_sass_encoding'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:436:in `check_encoding!'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:392:in `_to_tree'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+C:/Ruby23-x64/bin/sass:23:in `load'
+C:/Ruby23-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CP949 character \"\xED\"\A         on line 38 of ./design/brapra/css/common.scss\A \A 33: .form-control {\A 34:     font-size: 13px;\A 35: }\A 36: \A 37: /*\A 38:  * @헤더영역\A 39:  */\A 40: #top-bn {\A 41:     //min-height: 100px;\A 42: }\A 43: "; }
