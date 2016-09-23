@@ -496,9 +496,7 @@ ul, ol {
     margin-top: 36.33px; }
     #content .best-content .container > div .best-product li {
       display: inline-block;
-      margin-right: 20px; }
-      #content .best-content .container > div .best-product li:last-child {
-        margin-right: 0; }
+      width: 120px; }
       #content .best-content .container > div .best-product li .item img {
         width: 120px;
         height: 120px; }

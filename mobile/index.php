@@ -54,6 +54,110 @@
                            <p class="amount"><span>35,900</span>12,900</p>
                        </div>
                    </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
                </ul>
             </div>
             <div class="bra-best">
@@ -85,11 +189,219 @@
                            <p class="amount"><span>35,900</span>12,900</p>
                        </div>
                    </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
                </ul>
             </div>
             <div class="revisionbra-best">
                 <h3>보정 <i>BEST</i></h3>
                 <ul class="best-product">
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               원더브라 Basic volume up<br>
+                               베이지+블랙 4종<br>
+                               <span class="product-name">WBW6F8587_T</span>
+                           </p>
+                           <p class="amount"><span>42,500</span>22,900</p>
+                       </div>
+                   </li>
+                   <li>
+                       <p class="item">
+                           <img src="/design/brapra/mobile/images/main/produce_img02.jpg" alt="원더브라 베스트 상품">
+                       </p>
+                       <div class="details">
+                           <p class="product-info">
+                               미싱도로시PICK ME GIRL<br>
+                               네이비 브라팬티 2종세트<br>
+                               <span class="product-name">MDW6F06_T</span>
+                           </p>
+                           <p class="amount"><span>35,900</span>12,900</p>
+                       </div>
+                   </li>
                    <li>
                        <p class="item">
                            <img src="/design/brapra/mobile/images/main/produce_img01.jpg" alt="원더브라 베스트 상품">
@@ -578,5 +890,19 @@
 </main>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
+<script src="/design/brapra/mobile/js/jquery.bxslider.min.js"></script>
+<script>
+    (function($) {
+        $('.best-content .best-product').bxSlider({
+            pager: false,
+            controls: false,
+            slideWidth: 120,
+            minSlides: 2,
+            maxSlides: 5,
+            moveSlides: 2,
+            slideMargin: 20
+        });
+    })(jQuery);
+</script>
 </body>
 </html>

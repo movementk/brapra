@@ -578,10 +578,7 @@ ul, ol {
                     margin-top: 36.33px;
                     li {
                         display: inline-block;
-                        margin-right: 20px;
-                        &:last-child {
-                            margin-right: 0;
-                        }
+                        width: 120px;
                         .item {
                             img {
                                 width: 120px;
