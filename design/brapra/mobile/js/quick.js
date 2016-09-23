@@ -1,11 +1,12 @@
 $(window).on('scroll', function() {
-    if ($(this).scrollTop() >= 855) {
-        $('#quick-top').stop().animate({
-            top: $(this).scrollTop() + 200
-        }, 'slow');
+    if ($(this).scrollTop() >= 1000) {
+        $('#quick-top').show('fast');
     } else {
-        $('#quick-top').stop().animate({
-            top: 855
-        }, 'slow');
+        $('#quick-top').hide('fast');
     }
+});
+
+$(document).on('click', '#quick-top', function(e) {
+    $(window).scrollTop(0);
+    e.preventDefault();
 });

@@ -179,6 +179,32 @@
                                 <p class="amount"><span>35,900</span>12,900</p>
                             </div>
                         </li>
+                        <li>
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/product_list/related_img01.jpg" alt="관련상품 이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                    원더브라 Basic volume up<br>
+                                    베이지+블랙 4종<br>
+                                    WBW6F8587_T
+                                </p>
+                                <p class="amount"><span>42,500</span>22,900</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/product_list/related_img02.jpg" alt="관련상품 이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                    미싱도로시PICK ME GIRL<br>
+                                    네이비 브라팬티 2종세트<br>
+                                    MDW6F06_T
+                                </p>
+                                <p class="amount"><span>35,900</span>12,900</p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -234,5 +260,22 @@
         </div>
     </div>
 </div>
+<script>
+    (function($) {
+        $('.related-list').bxSlider({
+            useCSS: false,
+            pager: false,
+            controls: false,
+            slideWidth: 120,
+            minSlides: 2,
+            maxSlides: 5,
+            moveSlides: 2,
+            slideMargin: 20,
+            onSliderLoad: function() {
+                $('.best-content .bx-viewport').css('height', 'auto');
+            }
+        });
+    })(jQuery);
+</script>
 </body>
 </html>
