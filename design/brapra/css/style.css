@@ -2069,3 +2069,117 @@ span.bracket:after {
 .sub.about .prd-list.bottom > .prd .info-area {
 	padding: 30px 10px;
 }
+
+
+
+
+
+
+.sub.search-list > .container > .search-list-form {
+    position: relative;
+    margin: 40px 0 50px;
+    height: 210px;
+    padding: 39px 51px;
+    border: 1px solid #dfdfdf;
+}
+.sub.search-list > .container > .search-list-form form > h3 {
+    font-size: 18px;
+    color: #ee5766;
+    font-weight: bold;
+    font-family: "Maven Pro", sans-serif;
+    margin-bottom: 30px;
+}
+.sub.search-list > .container > .search-list-form .form-control {
+    display: inline-block;
+    height: 35px;
+    border-radius: 0;
+    border: 1px solid #dfdfdf;
+}
+.sub.search-list > .container > .search-list-form .price {
+    display: inline-block;
+    margin-right: 70px;
+}
+.sub.search-list > .container > .search-list-form .price h4 {
+    width: 48px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #666;
+    font-family: "Noto Sans KR";
+    display: inline-block;
+}
+.sub.search-list > .container > .search-list-form .price .input-form {
+    display: inline-block;
+}
+.sub.search-list > .container > .search-list-form .price .input-form .price-input {
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    border-radius: 0;
+    border: 1px solid #dfdfdf;
+}
+.sub.search-list > .container > .search-list-form .price .input-form i {
+    display: inline-block;
+    content: "~";
+    color: #ee5766;
+    font-style: normal;
+    margin: 0 12px;
+}
+.sub.search-list > .container > .search-list-form .price .input-form span {
+    margin-left: 19px;
+    font-size: 13px;
+    color: #666;
+}
+.sub.search-list > .container > .search-list-form .product-name {
+    display: inline-block;
+}
+.sub.search-list > .container > .search-list-form .product-name h4 {
+    width: 60px;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Noto Sans KR";
+    color: #666;
+    display: inline-block;
+}
+.sub.search-list > .container > .search-list-form .product-name .form-control {
+    width: 339px;
+}
+.sub.search-list > .container > .search-list-form .price-2 {
+    margin-top: 15px;
+}
+.sub.search-list > .container > .search-list-form .price-2 .input-form .form-control {
+    width: 315px;
+}
+.sub.search-list > .container > .search-list-form .product-name2 {
+    margin-top: 15px;
+}
+.sub.search-list > .container > .search-list-form .btn-area {
+    position: absolute;
+    top: 89px;
+    right: 41px;
+}
+.sub.search-list > .container > .search-list-form .btn-area > p > .btn-search {
+    width: 128px;
+    height: 86px;
+    font-size: 15px;
+    color: #fff;
+    padding: 24px 0;
+    border: 0;
+    background-color: #ee5766;
+}
+.sub.search-list > .container > .search-result {
+    text-align: center;
+    font-size: 16px;
+    line-height: 29px;
+    height: 29px;
+    color: #333;
+    margin-bottom: 50px;
+    background-image: url(/design/brapra/images/brand/search_bg_img01.gif);
+    background-repeat: no-repeat;
+    background-position: 363px 2px;
+}
+.sub.search-list > .container > .search-result > i {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ee5766;
+    font-style: normal;
+}
