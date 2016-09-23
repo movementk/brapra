@@ -4,7 +4,7 @@
 .noto, body {
   font-family: 'Noto Sans KR', sans-serif; }
 
-.maven, #gnb .all-brand, #footer .cs h4, #footer .qr ul li, #footer .notice h4 {
+.maven, #header #btn-all-brand, #footer .cs h4, #footer .qr ul li, #footer .notice h4 {
   font-family: 'Maven Pro', sans-serif; }
 
 body {
@@ -92,7 +92,9 @@ a {
       content: "\e259"; }
 
 #header {
-  height: 123px; }
+  position: relative;
+  padding-bottom: 50px;
+  height: 173px; }
   #header .ad {
     display: block;
     margin-top: 30px; }
@@ -121,30 +123,78 @@ a {
       height: 33px;
       color: #ff6776;
       font-size: 16px; }
+  #header #btn-all-brand {
+    position: absolute;
+    z-index: 1001;
+    bottom: 2px;
+    left: 50%;
+    display: block;
+    padding-top: 5px;
+    margin-left: 453px;
+    width: 132px;
+    height: 47px;
+    background-color: #ee5766;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold; }
+    #header #btn-all-brand:before {
+      position: absolute;
+      top: -16px;
+      left: -8px;
+      content: url(/design/brapra/images/common/bg_all_brand.gif); }
+    #header #btn-all-brand:after {
+      display: block;
+      content: url(/design/brapra/images/common/ico_angle_down.png);
+      line-height: 10px; }
 
 #gnb {
+  overflow: hidden;
+  position: absolute;
+  z-index: 1000;
+  top: 123px;
+  width: 100%;
+  min-width: 1200px;
   height: 50px;
-  border-top: 1px solid #e3e3e3;
-  border-bottom: 2px solid #ee5766; }
+  -webkit-transition: height .3s;
+  transition: height .3s;
+  background-color: rgba(255, 255, 255, 0.95); }
+  #gnb > div {
+    height: 50px;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 2px solid #ee5766; }
   #gnb .row > div:nth-of-type(2) {
     height: 47px; }
   #gnb .category {
     margin-right: -15px; }
-    #gnb .category li {
-      float: left; }
-      #gnb .category li + li {
+    #gnb .category > li {
+      float: left;
+      position: relative; }
+      #gnb .category > li + li {
         margin-left: 60px; }
-      #gnb .category li a {
+      #gnb .category > li > a {
         font-size: 15px;
-        font-weight: bold;
+        font-weight: 600;
         color: #333;
         line-height: 47px; }
+      #gnb .category > li > ul {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 90px; }
+        #gnb .category > li > ul > li > a {
+          font-size: 12px;
+          line-height: 28px;
+          color: #666; }
+          #gnb .category > li > ul > li > a:hover, #gnb .category > li > ul > li > a:focus {
+            color: #ff6070; }
   #gnb .split {
     text-align: center; }
     #gnb .split:before {
       display: block;
       margin: 0 auto;
-      content: url(/design/brapra/images/common/bg_gnb_diagonal.gif); }
+      content: url(/design/brapra/images/common/bg_gnb_diagonal.png); }
   #gnb .event {
     margin-left: -15px;
     margin-right: -30px; }
@@ -158,26 +208,76 @@ a {
         color: #ff6070;
         line-height: 47px;
         letter-spacing: -1px; }
-  #gnb .all-brand {
-    position: relative;
-    display: block;
-    float: right;
-    padding-top: 10px;
-    width: 132px;
-    height: 47px;
-    background-color: #ee5766;
-    text-align: center;
-    color: #fff;
-    font-size: 17px; }
-    #gnb .all-brand:before {
-      position: absolute;
-      top: -15px;
-      left: -8px;
-      content: url(/design/brapra/images/common/bg_all_brand.gif); }
-    #gnb .all-brand:after {
-      display: block;
-      content: url(/design/brapra/images/common/ico_angle_down.png);
-      line-height: 10px; }
+  #gnb .quick {
+    display: none;
+    margin-top: 25px;
+    margin-left: -30px;
+    padding-left: 40px;
+    height: 210px;
+    border-left: 1px solid #e3e3e3; }
+    #gnb .quick ul {
+      overflow: hidden; }
+    #gnb .quick li {
+      float: left;
+      width: 105px; }
+      #gnb .quick li a {
+        position: relative;
+        display: block;
+        padding-top: 25px;
+        height: 105px;
+        font-size: 12px;
+        color: #666;
+        text-align: center;
+        text-decoration: none; }
+        #gnb .quick li a:before {
+          display: block;
+          margin: 0 auto 5px;
+          width: 35px;
+          height: 32px;
+          opacity: .7;
+          text-align: center; }
+        #gnb .quick li a:hover, #gnb .quick li a:focus {
+          color: #ff6070; }
+      #gnb .quick li:nth-of-type(1) a:before {
+        content: url(/design/brapra/images/common/ico_quick_1.png); }
+      #gnb .quick li:nth-of-type(1) a:hover:before, #gnb .quick li:nth-of-type(1) a:focus:before {
+        content: url(/design/brapra/images/common/ico_quick_1_on.png); }
+      #gnb .quick li:nth-of-type(2) a:before {
+        content: url(/design/brapra/images/common/ico_quick_2.png); }
+      #gnb .quick li:nth-of-type(2) a:hover:before, #gnb .quick li:nth-of-type(2) a:focus:before {
+        content: url(/design/brapra/images/common/ico_quick_2_on.png); }
+      #gnb .quick li:nth-of-type(3) a:before {
+        content: url(/design/brapra/images/common/ico_quick_3.png); }
+      #gnb .quick li:nth-of-type(3) a:hover:before, #gnb .quick li:nth-of-type(3) a:focus:before {
+        content: url(/design/brapra/images/common/ico_quick_3_on.png); }
+      #gnb .quick li:nth-of-type(4) a:before {
+        content: url(/design/brapra/images/common/ico_quick_4.png); }
+      #gnb .quick li:nth-of-type(4) a:hover:before, #gnb .quick li:nth-of-type(4) a:focus:before {
+        content: url(/design/brapra/images/common/ico_quick_4_on.png); }
+      #gnb .quick li:nth-of-type(5) a:before {
+        content: url(/design/brapra/images/common/ico_quick_5.png); }
+      #gnb .quick li:nth-of-type(5) a:hover:before, #gnb .quick li:nth-of-type(5) a:focus:before {
+        content: url(/design/brapra/images/common/ico_quick_5_on.png); }
+      #gnb .quick li:nth-of-type(6) a:before {
+        content: url(/design/brapra/images/common/ico_quick_6.png); }
+      #gnb .quick li:nth-of-type(6) a:hover:before, #gnb .quick li:nth-of-type(6) a:focus:before {
+        content: url(/design/brapra/images/common/ico_quick_6_on.png); }
+      #gnb .quick li:nth-of-type(7) a:before {
+        content: url(/design/brapra/images/common/ico_quick_7.png); }
+      #gnb .quick li:nth-of-type(7) a:hover:before, #gnb .quick li:nth-of-type(7) a:focus:before {
+        content: url(/design/brapra/images/common/ico_quick_7_on.png); }
+      #gnb .quick li:nth-of-type(8) a:before {
+        content: url(/design/brapra/images/common/ico_quick_8.png); }
+      #gnb .quick li:nth-of-type(8) a:hover:before, #gnb .quick li:nth-of-type(8) a:focus:before {
+        content: url(/design/brapra/images/common/ico_quick_8_on.png); }
+  #gnb.open {
+    height: 303px; }
+    #gnb.open > div > .container {
+      padding-bottom: 20px; }
+    #gnb.open .category > li > ul {
+      display: block; }
+    #gnb.open .quick {
+      display: block; }
 
 #content {
   min-height: 300px; }

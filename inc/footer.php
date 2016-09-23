@@ -149,7 +149,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_wonderbra.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_wonderbra.gif" alt=""></p>
                                 </div>
                                 <span>원더브라</span>
                             </a>
@@ -157,7 +157,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_palytex.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_palytex.gif" alt=""></p>
                                 </div>
                                 <span>플레이텍스</span>
                             </a>
@@ -165,7 +165,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_jms.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_jms.gif" alt=""></p>
                                 </div>
                                 <span>저스트마이사이즈</span>
                             </a>
@@ -173,7 +173,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_missingdorothy.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_missingdorothy.gif" alt=""></p>
                                 </div>
                                 <span>미싱도로시</span>
                             </a>
@@ -181,7 +181,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_lefee.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_lefee.gif" alt=""></p>
                                 </div>
                                 <span>르페</span>
                             </a>
@@ -189,7 +189,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_barelythere.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_barelythere.gif" alt=""></p>
                                 </div>
                                 <span>베어리데어</span>
                             </a>
@@ -197,7 +197,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_hanes.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_hanes.gif" alt=""></p>
                                 </div>
                                 <span>헤인즈</span>
                             </a>
@@ -205,7 +205,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_himico.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_himico.gif" alt=""></p>
                                 </div>
                                 <span>히미코</span>
                             </a>
@@ -213,7 +213,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_crocodile.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_crocodile.gif" alt=""></p>
                                 </div>
                                 <span>크로커다일</span>
                             </a>
@@ -221,7 +221,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_maidenform.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_maidenform.gif" alt=""></p>
                                 </div>
                                 <span>메이든폼</span>
                             </a>
@@ -229,7 +229,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_pearlyshell.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_pearlyshell.gif" alt=""></p>
                                 </div>
                                 <span>펄리쉘</span>
                             </a>
@@ -237,7 +237,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_secretlab.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_secretlab.gif" alt=""></p>
                                 </div>
                                 <span>시크릿랩</span>
                             </a>
@@ -245,7 +245,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <p><img src="/design/brapra/images/main/logo_accolade.gif" alt=""></p>
+                                    <p><img src="/design/brapra/images/common/logo_accolade.gif" alt=""></p>
                                 </div>
                                 <span>에끌레이드</span>
                             </a>

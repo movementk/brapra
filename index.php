@@ -1,4 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php');?>
+<link href="/design/brapra/css/style.css" rel="stylesheet">
 <link href="/design/brapra/css/main.css" rel="stylesheet">
 </head>
 <body>
@@ -47,7 +48,7 @@
                     <li class="col-xs-2">
                         <a href="#">
                             <div>
-                                <p><img src="/design/brapra/images/main/logo_barelythere.png" alt=""></p>
+                                <p><img src="/design/brapra/images/main/logo_barelythere.gif" alt=""></p>
                             </div>
                             <span>베어리데어</span>
                         </a>
@@ -84,7 +85,7 @@
         </div>
         <div id="theme" style="background-image: url(/design/brapra/images/main/bg_theme.jpg);">
             <div class="container">
-                <p><img src="/design/brapra/images/main/img_theme.png"></p>
+                <p><img src="/design/brapra/images/main/img_theme.png" alt=""></p>
             </div>
         </div>
         <div class="container">
@@ -96,8 +97,58 @@
                 <h3>WIREFREE <span>BEST</span></h3>
                 <?php require($_SERVER['DOCUMENT_ROOT'].'/inc/_prd_list.php');?>
             </section>
-            <div class="">
-                검색 영역
+            <div class="search-help">
+                <div class="row">
+                    <div class="col-xs-5">
+                        <div class="category">
+                            <h4>CATEGORY</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">브라</a>
+                                </li>
+                                <li>
+                                    <a href="#">팬티</a>
+                                </li>
+                                <li>
+                                    <a href="#">보정</a>
+                                </li>
+                                <li>
+                                    <a href="#">남성</a>
+                                </li>
+                                <li>
+                                    <a href="#">웨어</a>
+                                </li>
+                                <li>
+                                    <a href="#">기타</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-1">
+                        <span class="bar"></span>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="search">
+                            <h4>KEYWORD SEARCH</h4>
+                            <form class="form-inline">
+                                <div class="form-group keyword">
+                                    <label for="search-help-keyword" class="sr-only">검색어</label>
+                                    <input id="search-help-keyword" class="form-control" type="text" name="#">
+                                </div>
+                                <div class="form-group price">
+                                    <label for="search-price-min"><span class="sr-only">최소 </span>가격</label>
+                                    <input id="search-price-min" class="form-control" type="text" name="#">
+                                    <span>~</span>
+                                    <label for="search-price-max" class="sr-only">최대 가격</label>
+                                    <input id="search-price-max" class="form-control" type="text" name="#"> 원
+                                </div>
+                                <div class="form-group btn-area">
+                                    <button class="btn btn-search" type="submit">검색</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
             <section id="nudie-best" class="best-list">
                 <h3>NUDIE <span>BEST</span></h3>
@@ -163,6 +214,35 @@
             $('#event-bn .slider').bxSlider({
                 controls: false,
                 pagerCustom: '#event-pager'
+            });
+            $(document).on('mouseenter', '#gnb > div > .container', function() {
+               $('#gnb').addClass('open');
+            });
+            $(document).on('mouseleave', '#gnb > div > .container', function() {
+               $('#gnb').removeClass('open');
+            });
+            $(window).on('scroll', function() {
+                if ( $(this).scrollTop() > ($('#top-bn').height()+$('#top-nav').height()+$('#header').height()) ) {
+                    $('#gnb').css({
+                        'position': 'fixed',
+                        'top': -1
+                    });
+                    $('#btn-all-brand').css({
+                        'position': 'fixed',
+                        'top': 0,
+                        'bottom': 'auto'
+                    });
+                } else {
+                    $('#gnb').css({
+                        'position': 'absolute',
+                        'top': 123
+                    });
+                    $('#btn-all-brand').css({
+                        'position': 'absolute',
+                        'top': 'auto',
+                        'bottom': 2
+                    });
+                }
             });
         })(jQuery);
     </script>
