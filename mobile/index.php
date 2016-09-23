@@ -894,13 +894,17 @@
 <script>
     (function($) {
         $('.best-content .best-product').bxSlider({
+            useCSS: false,
             pager: false,
             controls: false,
             slideWidth: 120,
             minSlides: 2,
             maxSlides: 5,
             moveSlides: 2,
-            slideMargin: 20
+            slideMargin: 20,
+            onSliderLoad: function() {
+                $('.best-content .bx-viewport').css('height', 'auto');
+            }
         });
     })(jQuery);
 </script>
