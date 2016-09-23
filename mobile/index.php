@@ -1,5 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
-<link href="/design/brapra/mobile/css/main.css" rel="stylesheet">
 </head>
 <body>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
@@ -196,6 +195,118 @@
             <div class="curvy-up">
                 <h3>볼륨업 <i>BEST</i></h3>
                 <ul class="row">
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/lefee_img01.jpg" class="img-responsive" alt="볼륨업 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   르페 시크릿 볼륨 다크베이지<br>
+                                   브라팬티 LFW6F02_T
+                               </p>
+                               <p class="amount"><span>44,000</span>8,800</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/lefee_img02.jpg" class="img-responsive" alt="볼륨업 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   르페 시크릿 볼륨 블랙 브라팬티<br>
+                                   LFW6F04_T
+                               </p>
+                               <p class="amount"><span>44,000</span>8,800</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/lefee_img03.jpg" class="img-responsive" alt="볼륨업 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   헐리우드컬렉션 그린 브라팬티<br>
+                                   2종세트 MMW5H03_T
+                               </p>
+                               <p class="amount"><span>79,000</span>34,900</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/lefee_img04.jpg" class="img-responsive" alt="볼륨업 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   PICK ME GIRL 크림 브라팬티<br>
+                                   2종세트 MDW6F04_T
+                               </p>
+                               <p class="amount"><span>35,900</span>12,900</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/lefee_img01.jpg" class="img-responsive" alt="볼륨업 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   르페 시크릿 볼륨 다크베이지<br>
+                                   브라팬티 LFW6F02_T
+                               </p>
+                               <p class="amount"><span>44,000</span>8,800</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/lefee_img02.jpg" class="img-responsive" alt="볼륨업 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   르페 시크릿 볼륨 블랙 브라팬티<br>
+                                   LFW6F04_T
+                               </p>
+                               <p class="amount"><span>44,000</span>8,800</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/lefee_img03.jpg" class="img-responsive" alt="볼륨업 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   헐리우드컬렉션 그린 브라팬티<br>
+                                   2종세트 MMW5H03_T
+                               </p>
+                               <p class="amount"><span>79,000</span>34,900</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col-xs-6">
+                        <a href="#">
+                            <p class="item">
+                                <img src="/design/brapra/mobile/images/main/lefee_img04.jpg" class="img-responsive" alt="볼륨업 베스트 상품이미지">
+                            </p>
+                            <div class="details">
+                                <p class="product-info">
+                                   PICK ME GIRL 크림 브라팬티<br>
+                                   2종세트 MDW6F04_T
+                               </p>
+                               <p class="amount"><span>35,900</span>12,900</p>
+                            </div>
+                        </a>
+                    </li>
                     <li class="col-xs-6">
                         <a href="#">
                             <p class="item">

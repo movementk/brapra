@@ -1,5 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
-<link href="/design/brapra/mobile/css/sub.css" rel="stylesheet">
 </head>
 <body>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
@@ -11,13 +10,15 @@
          </div>
          <article>
             <div class="search-form" style="margin: 20px 0;">
-                <select class="form-control">
-                    <option value="">전체</option>
-                    <option value="">전체1</option>
-                </select>
-                <input type="text" class="form-control" id="search">
-                <label for="search" class="sr-only">검색하기</label>
-                <button type="button" class="btn btn-search"><span class="glyphicon glyphicon-search"></span></button>
+                <form>
+                    <select class="form-control">
+                        <option value="">전체</option>
+                        <option value="">전체1</option>
+                    </select>
+                    <input type="text" class="form-control" id="search">
+                    <label for="search" class="sr-only">검색하기</label>
+                    <button type="button" class="btn btn-search"><span class="glyphicon glyphicon-search"></span></button>
+                </form>
             </div>
             <div class="table-wrap">
                 <table class="table table-bordered">

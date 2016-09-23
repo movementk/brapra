@@ -1,3 +1,4 @@
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/quick.php'); ?>
 <footer id="footer">
     <nav class="banner">
         <ul>
@@ -50,19 +51,19 @@
                         <a href="#">회원등급혜택</a>
                     </li>
                     <li class="col-xs-3">
-                        <a href="#">자주 묻는 질문</a>
+                        <a href="/mobile/community/faq.php">자주 묻는 질문</a>
                     </li>
                     <li class="col-xs-3">
-                        <a href="#">상품 Q&amp;A</a>
+                        <a href="/mobile/community/qna.php">상품 Q&amp;A</a>
                     </li>
                     <li class="col-xs-3">
-                        <a href="#">장바구니</a>
+                        <a href="/mobile/mypage/my_basket.php">장바구니</a>
                     </li>
                     <li class="col-xs-3">
                         <a href="#">배송조회</a>
                     </li>
                     <li class="col-xs-3">
-                        <a href="#">마이페이지</a>
+                        <a href="/mobile/mypage/my_list.php">마이페이지</a>
                     </li>
                     <li class="col-xs-3">
                         <a href="#">1:1 문의</a>

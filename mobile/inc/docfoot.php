@@ -2,3 +2,4 @@
 <script src="/design/brapra/js/bootstrap.min.js"></script>
 <script src="/design/brapra/mobile/js/jquery.bxslider.min.js"></script>
 <script src="/design/brapra/mobile/js/common.js"></script>
+<script src="/design/brapra/mobile/js/quick.js"></script>
