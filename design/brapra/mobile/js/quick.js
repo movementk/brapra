@@ -1,5 +1,5 @@
 $(window).on('scroll', function() {
-    if ($(this).scrollTop() >= 1000) {
+    if ($(this).scrollTop() >= 400) {
         $('#quick-top').show('fast');
     } else {
         $('#quick-top').hide('fast');

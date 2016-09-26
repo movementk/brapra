@@ -54,7 +54,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="heading-1">
                             <div class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#faq" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#faq" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
                                     <dl>
                                         <dt>회원가입/정보</dt>
                                         <dd>배송정보변경 가능하죠?</dd>
@@ -62,7 +62,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div id="collapse-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+                        <div id="collapse-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-1">
                             <div class="panel-body">
                                 먼저 해당 주문의 배송비가 무료인지 My page→주문/배송조회 메뉴 에서 확인해 주시기 바랍니다. 만약 해당 주문의 배송비가 무료인 것이 확인되면 판매자의 Q&amp;A 혹은 유선전화로 내용 전달하시고 배송비 환불받을 계좌번호를 알려주시고 나서 환불 요청해주시면 됩니다.
                             </div>

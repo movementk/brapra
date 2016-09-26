@@ -1057,6 +1057,76 @@ span.bracket:after {
 .table-prddetail > tbody > tr > td > ul > li .select-d {
 	display: inline-block;
 }
+/* 옵션 추가 160925 */
+.table-prddetail .MK_inner-opt-cm li {
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+.table-prddetail .MK_inner-opt-cm li + li {
+    margin-top: 0 !important;
+    border-top: 0 !important;
+}
+.table-prddetail .MK_inner-opt-cm .MK_p-name {
+    display: inline-block;
+    line-height: 30px !important;
+    vertical-align: middle;
+}
+.table-prddetail .MK_inner-opt-cm .MK_qty-ctrl {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 15px;
+    vertical-align: middle;
+}
+.table-prddetail .MK_inner-opt-cm .MK_qty-ctrl input {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0;
+    padding-right: 10px;
+    width: 55px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+}
+.table-prddetail .MK_inner-opt-cm .MK_qty-ctrl .MK_btn-up {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    width: 11px;
+    height: 9px;
+}
+.table-prddetail .MK_inner-opt-cm .MK_qty-ctrl .MK_btn-up img {
+    vertical-align: top;
+}
+.table-prddetail .MK_inner-opt-cm .MK_qty-ctrl .MK_btn-dw {
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    width: 11px;
+    height: 9px;
+}
+.table-prddetail .MK_inner-opt-cm .MK_qty-ctrl .MK_btn-dw img {
+    vertical-align: top;
+}
+.table-prddetail .MK_inner-opt-cm .MK_price {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 30px;
+}
+.table-prddetail .MK_inner-opt-cm .MK_price span {
+    display: inline-block;
+    line-height: 30px;
+}
+.table-prddetail .MK_inner-opt-cm .MK_btn-del {
+    display: inline-block;
+    line-height: 30px;
+}
+.table-prddetail .MK_inner-opt-cm .MK_btn-del img {
+    vertical-align: -1px;
+}
+/* // 옵션 추가 160925 */
 .table-prddetail .cnt-area {
 	text-align: right;
 	margin-top: 12px;

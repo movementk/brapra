@@ -43,7 +43,7 @@
                         </div>
                         <div class="info-area text-center">
                             <p class="title">컴포트 누디 노와이어 핑크<br>브라팬티 2종세트 BW5G09_T</p>
-                            <p class="price">83,000</p>
+                            <p class="price"><strike style="color:#aaa;font-size:14px;">95,000</strike><br/>83,000</p>
                         </div>
                     </a>
                 </li>
