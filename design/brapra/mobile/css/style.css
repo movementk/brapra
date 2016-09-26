@@ -497,7 +497,9 @@ ul, ol {
     margin-top: 36.33px; }
     #content .best-content .container > div .best-product li {
       display: inline-block;
-      width: 120px; }
+      margin-right: 20px; }
+      #content .best-content .container > div .best-product li:last-child {
+        margin-right: 0; }
       #content .best-content .container > div .best-product li .item img {
         width: 120px;
         height: 120px; }
@@ -5211,7 +5213,67 @@ body.nav-opened {
     font-size: 10px;
     color: #777;
     vertical-align: middle;
-    padding: 5px 0; }
+    padding: 5px 0;
+            /*
+            .btn-count {
+                display: inline-block;
+                p {
+                    overflow: hidden;
+                    .btn {
+                        float: left;
+                        width: 26.66px;
+                        height: 26.66px;
+                        border-radius: 0;
+                        border: 1px solid #ddd;
+                    }
+                    span {
+                        float: left;
+                        width: 31.33px;
+                        height: 26.66px;
+                        text-align: center;
+                        font-size: 10px;
+                        color: #777;
+                        line-height: 26.66px;
+                        border-top: 1px solid #ddd;
+                        border-bottom: 1px solid #ddd;
+                    }
+                    .btn-plus {
+                        background-image: url(/design/brapra/mobile/images/product_list/btn_plus.gif);
+                        background-repeat: no-repeat;
+                        background-size: 9.66px auto;
+                        background-position: 50% 50%;
+                    }
+                    .btn-minus {
+                        background-image: url(/design/brapra/mobile/images/product_list/btn_minus.gif);
+                        background-repeat: no-repeat;
+                        background-size: 9.66px auto;
+                        background-position: 50% 50%;
+                    }
+                }
+            }
+
+            .del {
+                float: right;
+                padding-bottom: 10px;
+                p {
+                    line-height: 26.66px;
+                    font-size: 11px;
+                    color: #777;
+                    .btn-del {
+                        vertical-align: top;
+                        width: 26.66px;
+                        height: 26.66px;
+                        border-radius: 0;
+                        border: 1px solid #ddd;
+                        margin-left: 5px;
+                        background-image: url(/design/brapra/mobile/images/product_list/btn_del.gif);
+                        background-repeat: no-repeat;
+                        background-size: 8px auto;
+                        background-position: 50% 50%;
+                    }
+                }
+            }
+            */ }
     .product-view .option-info dd .option-size {
       width: 100%;
       height: 20px;
@@ -5221,54 +5283,58 @@ body.nav-opened {
       line-height: 20px;
       background-color: #eee;
       margin-bottom: 4px; }
-    .product-view .option-info dd .btn-count {
-      display: inline-block; }
-      .product-view .option-info dd .btn-count p {
-        overflow: hidden; }
-        .product-view .option-info dd .btn-count p .btn {
-          float: left;
-          width: 26.66px;
-          height: 26.66px;
-          border-radius: 0;
-          border: 1px solid #ddd; }
-        .product-view .option-info dd .btn-count p span {
-          float: left;
-          width: 31.33px;
-          height: 26.66px;
-          text-align: center;
-          font-size: 10px;
-          color: #777;
-          line-height: 26.66px;
-          border-top: 1px solid #ddd;
-          border-bottom: 1px solid #ddd; }
-        .product-view .option-info dd .btn-count p .btn-plus {
-          background-image: url(/design/brapra/mobile/images/product_list/btn_plus.gif);
-          background-repeat: no-repeat;
-          background-size: 9.66px auto;
-          background-position: 50% 50%; }
-        .product-view .option-info dd .btn-count p .btn-minus {
-          background-image: url(/design/brapra/mobile/images/product_list/btn_minus.gif);
-          background-repeat: no-repeat;
-          background-size: 9.66px auto;
-          background-position: 50% 50%; }
-    .product-view .option-info dd .del {
-      float: right;
-      padding-bottom: 10px; }
-      .product-view .option-info dd .del p {
-        line-height: 26.66px;
-        font-size: 11px;
-        color: #777; }
-        .product-view .option-info dd .del p .btn-del {
-          vertical-align: top;
-          width: 26.66px;
-          height: 26.66px;
-          border-radius: 0;
+    .product-view .option-info dd .MK_inner-opt-cm li {
+      padding-bottom: 10px;
+      text-align: right; }
+      .product-view .option-info dd .MK_inner-opt-cm li:last-child {
+        padding-bottom: 0; }
+      .product-view .option-info dd .MK_inner-opt-cm li .MK_p-name {
+        display: block;
+        margin-bottom: 5px;
+        line-height: 30px;
+        color: #666;
+        text-align: left;
+        background-color: #f1f1f1;
+        text-align: center; }
+      .product-view .option-info dd .MK_inner-opt-cm li .MK_qty-ctrl {
+        position: relative;
+        float: left;
+        width: 100px;
+        height: 30px;
+        margin-bottom: 5px;
+        padding-left: 29px;
+        padding-right: 29px;
+        vertical-align: top;
+        text-align: right; }
+        .product-view .option-info dd .MK_inner-opt-cm li .MK_qty-ctrl .basic_option {
+          width: 100%;
+          height: 30px;
+          padding-left: 5px;
+          padding-right: 5px;
           border: 1px solid #ddd;
-          margin-left: 5px;
-          background-image: url(/design/brapra/mobile/images/product_list/btn_del.gif);
-          background-repeat: no-repeat;
-          background-size: 8px auto;
-          background-position: 50% 50%; }
+          text-align: center !important;
+          color: #666;
+          font-size: 11px; }
+        .product-view .option-info dd .MK_inner-opt-cm li .MK_qty-ctrl .btn-type-02 {
+          position: absolute;
+          top: 0;
+          right: 0;
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          text-align: center;
+          line-height: 30px;
+          color: #777 !important;
+          border: 1px solid #ddd;
+          font-size: 10px; }
+          .product-view .option-info dd .MK_inner-opt-cm li .MK_qty-ctrl .btn-type-02:nth-of-type(2) {
+            left: 0; }
+      .product-view .option-info dd .MK_inner-opt-cm li .MK_price {
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #666; }
+      .product-view .option-info dd .MK_inner-opt-cm li .MK_btn-del img {
+        width: 30px; }
 .product-view .btn-area {
   width: 100%;
   padding-top: 15px;
@@ -5507,5 +5573,61 @@ body.nav-opened {
 .brand-list .list {
   clear: both;
   padding-top: 16.66px; }
+
+.about .structure .about-list {
+  padding: 30px 0;
+  overflow: hidden; }
+  .about .structure .about-list li {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #e3e3e3; }
+    .about .structure .about-list li a {
+      font-size: 10px;
+      color: #666; }
+  .about .structure .about-list .active {
+    border-color: #ee5766; }
+    .about .structure .about-list .active a {
+      color: #ee5766; }
+.about .structure .circle-list {
+  margin-bottom: 40px; }
+  .about .structure .circle-list li {
+    position: relative;
+    padding-left: 20px;
+    counter-increment: my-list-index;
+    margin: 17px 0;
+    line-height: 16px; }
+    .about .structure .circle-list li:before {
+      position: absolute;
+      left: 0;
+      top: 2px;
+      display: inline-block;
+      margin-right: 5px;
+      width: 13px;
+      height: 13px;
+      color: #fff;
+      border-radius: 50%;
+      background-color: #ee5766;
+      line-height: 12px !important;
+      content: counter(my-list-index);
+      font-size: 11px;
+      text-align: center;
+      line-height: 10px;
+      font-weight: bold; }
+    .about .structure .circle-list li h3 {
+      font-size: 11px;
+      color: #ee5766;
+      margin-bottom: 2px;
+      line-height: 16px; }
+    .about .structure .circle-list li p {
+      font-size: 10px;
+      color: #666;
+      line-height: 16px;
+      letter-spacing: -.5px; }
+    .about .structure .circle-list li .details-img {
+      margin-left: -20px; }
+      .about .structure .circle-list li .details-img img {
+        margin-top: 25px; }
 
 /*# sourceMappingURL=style.css.map */
