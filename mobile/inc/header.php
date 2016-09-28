@@ -144,52 +144,95 @@
                         <div class="container">
                             <h3>엠코르셋 브랜드</h3>
                             <ul class="brand row">
-                                <li class="col-xs-4">
+                                <li class="col-xs-4 col-md-4">
                                     <a href="#">
                                         <p class="item">
-                                            <img src="/design/brapra/mobile/images/menu/band_img01.gif" alt="원더브라 이미지">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo01.gif" alt="원더브라 로고">
                                         </p>
-                                        <p class="details">원더브라</p>
                                     </a>
                                 </li>
-                                <li class="col-xs-4">
+                                <li class="col-xs-4 col-md-4">
                                     <a href="#">
                                         <p class="item">
-                                            <img src="/design/brapra/mobile/images/menu/band_img02.gif" alt="원더브라 이미지">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo02.gif" alt="플레이 텍스">
                                         </p>
-                                        <p class="details">플레이텍스</p>
                                     </a>
                                 </li>
-                                <li class="col-xs-4">
+                                <li class="col-xs-4 col-md-4">
                                     <a href="#">
                                         <p class="item">
-                                            <img src="/design/brapra/mobile/images/menu/band_img03.gif" alt="원더브라 이미지">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo03.gif" alt="저스트마이사이즈 로고">
                                         </p>
-                                        <p class="details">저스트마이사이즈</p>
                                     </a>
                                 </li>
-                                <li class="col-xs-4">
+                                <li class="col-xs-4 col-md-4">
                                     <a href="#">
                                         <p class="item">
-                                            <img src="/design/brapra/mobile/images/menu/band_img04.gif" alt="원더브라 이미지">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo04.gif" alt="미싱도로시 로고">
                                         </p>
-                                        <p class="details">미싱도로시</p>
                                     </a>
                                 </li>
-                                <li class="col-xs-4">
+                                <li class="col-xs-4 col-md-4">
                                     <a href="#">
                                         <p class="item">
-                                            <img src="/design/brapra/mobile/images/menu/band_img05.gif" alt="원더브라 이미지">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo05.gif" alt="르페 로고">
                                         </p>
-                                        <p class="details">르페</p>
                                     </a>
                                 </li>
-                                <li class="col-xs-4">
+                                <li class="col-xs-4 col-md-4">
                                     <a href="#">
                                         <p class="item">
-                                            <img src="/design/brapra/mobile/images/menu/band_img06.gif" alt="원더브라 이미지">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo06.gif" alt="베어리데어 로고">
                                         </p>
-                                        <p class="details">베어리데어</p>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4 col-md-4" style="display: none;">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo07.gif" alt="헤인즈 로고">
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4 col-md-4" style="display: none;">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo08.gif" alt="히미코 로고">
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4 col-md-4" style="display: none;">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo09.gif" alt="크로커다일 로고">
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4 col-md-4" style="display: none;">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo10.gif" alt="메이든폼 로고">
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4 col-md-4" style="display: none;">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo11.gif" alt="펄리쉘 로고">
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4 col-md-4" style="display: none;">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo12.gif" alt="시크릿랩 로고">
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4 col-md-4" style="display: none;">
+                                    <a href="#">
+                                        <p class="item">
+                                            <img src="/design/brapra/mobile/images/menu/brand_logo13.gif" alt="에꼴레이드 로고">
+                                        </p>
                                     </a>
                                 </li>
                             </ul>

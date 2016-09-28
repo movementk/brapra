@@ -30,4 +30,15 @@
         $('body').addClass('nav-opened');
         $('#nav').removeClass('collapsed');
     });
+
+	$(document).on('click', '#header .btn-menu', function() {
+        $('body').addClass('nav-opened');
+        $('#nav').removeClass('collapsed');
+    });
+
+	$(document).on('click', '#nav .brand-list .btn-more', function(e) {
+		$('.brand-list ul li:gt(4)').show();
+		$('.brand-list .btn-area').hide();
+		e.preventDefault();
+    });
 })(jQuery);

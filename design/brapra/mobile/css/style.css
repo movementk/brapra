@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css?family=Maven+Pro|Noto+Sans";
-.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i {
+.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i, .measure-size .article-header .mark-size dt span, .measure-size .article-content .attention-list li h4 strong {
   font-family: 'Maven Pro', sans-serif; }
 
 .noto, #primary-menu ul li:nth-of-type(3) {
@@ -445,7 +445,7 @@ ul, ol {
       padding-left: 5px;
       padding-right: 5px; }
 
-.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i {
+.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i, .measure-size .article-header .mark-size dt span, .measure-size .article-content .attention-list li h4 strong {
   font-family: 'Maven Pro', sans-serif; }
 
 .noto, #primary-menu ul li:nth-of-type(3) {
@@ -676,7 +676,7 @@ ul, ol {
   #content .product-best .container .lace-best ul li a .details {
     height: 80px; }
 
-.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i {
+.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i, .measure-size .article-header .mark-size dt span, .measure-size .article-content .attention-list li h4 strong {
   font-family: 'Maven Pro', sans-serif; }
 
 .quick-menu {
@@ -837,7 +837,7 @@ textarea {
     height: 26px;
     padding: 4px 0; }
 
-.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i {
+.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i, .measure-size .article-header .mark-size dt span, .measure-size .article-content .attention-list li h4 strong {
   font-family: 'Maven Pro', sans-serif; }
 
 .event .table-wrap {
@@ -1233,7 +1233,7 @@ textarea {
   margin: 16px 0 38px;
   text-align: right; }
 
-.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i {
+.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i, .measure-size .article-header .mark-size dt span, .measure-size .article-content .attention-list li h4 strong {
   font-family: 'Maven Pro', sans-serif; }
 
 /* login */
@@ -1614,7 +1614,7 @@ textarea {
   .join .btn-area p .btn-default {
     background-color: #f9f9f9; }
 
-.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i {
+.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i, .measure-size .article-header .mark-size dt span, .measure-size .article-content .attention-list li h4 strong {
   font-family: 'Maven Pro', sans-serif; }
 
 /* nav */
@@ -1908,6 +1908,7 @@ textarea {
   padding: 5px 0 15px 10px;
   border-bottom: 1px solid #ddd; }
 #tab-2 .container {
+  max-width: 320px;
   padding-left: 15px;
   padding-right: 15px; }
   #tab-2 .container .row {
@@ -1955,6 +1956,7 @@ textarea {
     font-size: 11px;
     color: #333; }
   #tab-2 .brand-list .brand {
+    max-width: 320px;
     margin-top: 15.33px; }
     #tab-2 .brand-list .brand li {
       text-align: center;
@@ -1962,54 +1964,10 @@ textarea {
       margin-bottom: 10px; }
       #tab-2 .brand-list .brand li a {
         position: relative;
-        display: block;
-        height: 79px;
-        border: 1px solid #e3e3e3; }
-        #tab-2 .brand-list .brand li a .details {
-          font-size: 10px;
-          color: #666; }
-      #tab-2 .brand-list .brand li:nth-of-type(1) a .item {
-        padding-top: 24px; }
-        #tab-2 .brand-list .brand li:nth-of-type(1) a .item img {
-          width: 57.33px;
-          height: 9px; }
-      #tab-2 .brand-list .brand li:nth-of-type(1) a .details {
-        margin-top: 10px; }
-      #tab-2 .brand-list .brand li:nth-of-type(2) a .item {
-        padding-top: 17.66px; }
-        #tab-2 .brand-list .brand li:nth-of-type(2) a .item img {
-          width: 52.66px;
-          height: 23.33px; }
-      #tab-2 .brand-list .brand li:nth-of-type(2) a .details {
-        margin-top: 7px; }
-      #tab-2 .brand-list .brand li:nth-of-type(3) a .item {
-        padding-top: 20px; }
-        #tab-2 .brand-list .brand li:nth-of-type(3) a .item img {
-          width: 30px;
-          height: 25.33px; }
-      #tab-2 .brand-list .brand li:nth-of-type(3) a .details {
-        margin-top: 3px; }
-      #tab-2 .brand-list .brand li:nth-of-type(4) a .item {
-        padding-top: 23px; }
-        #tab-2 .brand-list .brand li:nth-of-type(4) a .item img {
-          width: 40.33px;
-          height: 20px; }
-      #tab-2 .brand-list .brand li:nth-of-type(4) a .details {
-        margin-top: 5px; }
-      #tab-2 .brand-list .brand li:nth-of-type(5) a .item {
-        padding-top: 23px; }
-        #tab-2 .brand-list .brand li:nth-of-type(5) a .item img {
-          width: 53.66px;
-          height: 12.33px; }
-      #tab-2 .brand-list .brand li:nth-of-type(5) a .details {
-        margin-top: 11px; }
-      #tab-2 .brand-list .brand li:nth-of-type(6) a .item {
-        padding-top: 23px; }
-        #tab-2 .brand-list .brand li:nth-of-type(6) a .item img {
-          width: 60px;
-          height: 13px; }
-      #tab-2 .brand-list .brand li:nth-of-type(6) a .details {
-        margin-top: 11px; }
+        display: block; }
+        #tab-2 .brand-list .brand li a .item img {
+          width: 100%;
+          height: 100%; }
   #tab-2 .brand-list .btn-area {
     text-align: center;
     margin-top: 5px; }
@@ -2033,6 +1991,8 @@ textarea {
         font-size: 11px;
         font-weight: bold; }
 
+#tab-3 .container {
+  max-width: 320px; }
 #tab-3 .quick-menu-2 {
   padding-top: 20px;
   padding-bottom: 12px;
@@ -2138,7 +2098,7 @@ body.nav-opened {
   width: 100%;
   height: 100%; }
 
-.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i {
+.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i, .measure-size .article-header .mark-size dt span, .measure-size .article-content .attention-list li h4 strong {
   font-family: 'Maven Pro', sans-serif; }
 
 /* my-list */
@@ -3593,7 +3553,7 @@ body.nav-opened {
           list-style: decimal;
           list-style-position: inside; }
 
-.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i {
+.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i, .measure-size .article-header .mark-size dt span, .measure-size .article-content .attention-list li h4 strong {
   font-family: 'Maven Pro', sans-serif; }
 
 /* my-list */
@@ -5050,7 +5010,7 @@ body.nav-opened {
           list-style: decimal;
           list-style-position: inside; }
 
-.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i {
+.maven, #primary-menu ul li, #footer .cs-center h3, #footer .company-info .notice dl dt, #content .best-content .container > div h3 i, #content .product-best .container > div h3 i, .table-wrap .table tbody tr .date, .table-wrap .table tbody tr .count, .view .reply-form .reply-list li dl dd, .join-terms .step-menu ul li i, .join .step-menu ul li i, #nav .nav-container .nav-content .call-center .btn-area p .btn-lg i, #nav .nav-container .nav-content .call-center ul li dl dd, .my-basket .step-menu ul li i, .payment .step-menu ul li i, .sucess .step-menu ul li i, .product-list .list li a .details .title span, .product-list .list li a .details .title strong, .brand-list .bra-best h3 i, .measure-size .article-header .mark-size dt span, .measure-size .article-content .attention-list li h4 strong {
   font-family: 'Maven Pro', sans-serif; }
 
 /* product-list 공통 */
@@ -5574,22 +5534,28 @@ body.nav-opened {
   clear: both;
   padding-top: 16.66px; }
 
-.about .structure .about-list {
+/* about 공통 탭 */
+.about-list {
   padding: 30px 0;
   overflow: hidden; }
-  .about .structure .about-list li {
+  .about-list li {
     float: left;
     width: 33.33%;
     text-align: center;
     padding-bottom: 7px;
     border-bottom: 1px solid #e3e3e3; }
-    .about .structure .about-list li a {
+    .about-list li a {
       font-size: 10px;
       color: #666; }
-  .about .structure .about-list .active {
+  .about-list .active {
     border-color: #ee5766; }
-    .about .structure .about-list .active a {
+    .about-list .active a {
       color: #ee5766; }
+
+.about .structure .details-img {
+  text-align: center; }
+  .about .structure .details-img img {
+    display: inline-block; }
 .about .structure .circle-list {
   margin-bottom: 40px; }
   .about .structure .circle-list li {
@@ -5626,8 +5592,393 @@ body.nav-opened {
       line-height: 16px;
       letter-spacing: -.5px; }
     .about .structure .circle-list li .details-img {
-      margin-left: -20px; }
+      margin-left: -20px;
+      text-align: center; }
       .about .structure .circle-list li .details-img img {
+        display: inline-block;
         margin-top: 25px; }
+
+.about .coupon-zone {
+  margin-top: 30px; }
+  .about .coupon-zone .login-btn {
+    text-align: center;
+    font-size: 10px;
+    color: #666;
+    padding: 8px 0;
+    margin-bottom: 8px;
+    border: 1px solid #e3e3e3; }
+    .about .coupon-zone .login-btn .btn-xs {
+      font-size: 10px;
+      color: #ff6070;
+      margin-left: 10px;
+      border-radius: 0;
+      border: 1px solid #ff6070; }
+  .about .coupon-zone .coupon-list li {
+    overflow: hidden;
+    position: relative;
+    padding: 22px 0;
+    border-bottom: 1px solid #d7d7d7; }
+    .about .coupon-zone .coupon-list li:last-child {
+      padding-bottom: 0;
+      border-bottom: 0; }
+    .about .coupon-zone .coupon-list li h3 {
+      float: left;
+      vertical-align: top;
+      font-size: 20px;
+      color: #222;
+      letter-spacing: -.5px;
+      display: inline-block; }
+      .about .coupon-zone .coupon-list li h3 small {
+        font-size: 10px;
+        color: #666;
+        letter-spacing: 0;
+        line-height: 12px;
+        display: inline-block;
+        margin-bottom: 3px; }
+      .about .coupon-zone .coupon-list li h3 img {
+        width: 47.33px;
+        height: 10px; }
+    .about .coupon-zone .coupon-list li .coupon-img {
+      padding-top: 8px;
+      width: 48%;
+      display: inline-block;
+      float: right; }
+    .about .coupon-zone .coupon-list li .join_btn {
+      position: absolute;
+      bottom: 30px;
+      left: 0;
+      display: block;
+      font-size: 10px;
+      color: #666;
+      padding-right: 7px;
+      border-bottom: 1px solid #666;
+      background-image: url(/design/brapra/mobile/images/about/arrow_gr.gif);
+      background-repeat: no-repeat;
+      background-size: 5.33px 7.66px;
+      background-position: 100% 4px; }
+    .about .coupon-zone .coupon-list li .btn-apps {
+      position: absolute;
+      bottom: 25px;
+      left: 0;
+      margin-top: 13px; }
+      .about .coupon-zone .coupon-list li .btn-apps .btn {
+        width: 60px;
+        height: 16px;
+        text-align: center;
+        line-height: 12px;
+        padding: 0;
+        border-radius: 0;
+        border: 1px solid #e3e3e3; }
+      .about .coupon-zone .coupon-list li .btn-apps .btn-google {
+        margin-right: 10px; }
+        .about .coupon-zone .coupon-list li .btn-apps .btn-google img {
+          display: inline-block;
+          width: 38.33px;
+          height: 8px; }
+      .about .coupon-zone .coupon-list li .btn-apps .btn-apple img {
+        display: inline-block;
+        width: 31.66px;
+        height: 6.66px; }
+    .about .coupon-zone .coupon-list li .web-mobile {
+      clear: both;
+      padding-top: 23px; }
+      .about .coupon-zone .coupon-list li .web-mobile dl {
+        display: inline-block;
+        overflow: hidden; }
+        .about .coupon-zone .coupon-list li .web-mobile dl dt {
+          float: left;
+          width: 40px; }
+          .about .coupon-zone .coupon-list li .web-mobile dl dt img {
+            vertical-align: top;
+            width: 31px;
+            height: 31px; }
+        .about .coupon-zone .coupon-list li .web-mobile dl dd {
+          font-size: 10px;
+          color: #666;
+          float: left; }
+          .about .coupon-zone .coupon-list li .web-mobile dl dd a {
+            display: block;
+            margin-top: 10px;
+            font-size: 10px;
+            color: #666;
+            font-weight: bold; }
+          .about .coupon-zone .coupon-list li .web-mobile dl dd .friend {
+            width: 50px;
+            font-size: 10px;
+            color: #666;
+            border-bottom: 1px solid #666;
+            background-image: url(/design/brapra/mobile/images/about/arrow_gr.gif);
+            background-repeat: no-repeat;
+            background-size: 5.33px 7.66px;
+            background-position: 100% 4px; }
+      .about .coupon-zone .coupon-list li .web-mobile .phone {
+        margin-right: 30px; }
+  .about .coupon-zone h2 {
+    font-size: 11px;
+    color: #333;
+    margin: 40px 0 10px; }
+  .about .coupon-zone .table-wrap {
+    margin-bottom: 60px;
+    border-top: 1px solid #5b5b5b; }
+    .about .coupon-zone .table-wrap .table thead tr th {
+      font-size: 10px;
+      color: #666;
+      text-align: center;
+      padding: 21px 0;
+      border-color: #ededed;
+      letter-spacing: -.5px; }
+      .about .coupon-zone .table-wrap .table thead tr th:nth-of-type(2) {
+        border-left: 1px solid #ededed;
+        border-right: 1px solid #ededed; }
+    .about .coupon-zone .table-wrap .table tbody tr:nth-of-type(1) .member-level img {
+      width: 37px;
+      height: 41.66px; }
+    .about .coupon-zone .table-wrap .table tbody tr:nth-of-type(2) .member-level img {
+      width: 42.66px;
+      height: 38px; }
+    .about .coupon-zone .table-wrap .table tbody tr:nth-of-type(3) .member-level img {
+      width: 42.66px;
+      height: 38px; }
+    .about .coupon-zone .table-wrap .table tbody tr:nth-of-type(4) .member-level img {
+      width: 39.66px;
+      height: 39.33px; }
+    .about .coupon-zone .table-wrap .table tbody tr td {
+      font-size: 10px;
+      color: #666;
+      text-align: center;
+      vertical-align: middle;
+      padding: 20px 0;
+      border-color: #ededed; }
+      .about .coupon-zone .table-wrap .table tbody tr td:nth-of-type(2) {
+        border-left: 1px solid #ededed;
+        border-right: 1px solid #ededed; }
+    .about .coupon-zone .table-wrap .table tbody tr .benefit img {
+      width: 94.33px;
+      height: 54.66px; }
+    .about .coupon-zone .table-wrap .table tbody tr .benefit .details {
+      letter-spacing: -1px;
+      margin: 5px 0; }
+    .about .coupon-zone .table-wrap .table tbody tr .benefit .btn-down {
+      text-align: center; }
+      .about .coupon-zone .table-wrap .table tbody tr .benefit .btn-down p .btn {
+        display: inline-block;
+        width: 70px;
+        height: 19px;
+        font-size: 10px;
+        color: #666;
+        padding: 0;
+        padding-right: 5px;
+        border-radius: 0;
+        border: 1px solid #dfdfdf;
+        background-image: url(/design/brapra/mobile/images/about/down_arrow.gif);
+        background-repeat: no-repeat;
+        background-size: 6.66px 6.66px;
+        background-position: 52px 5px; }
+
+.measure-size {
+  padding-bottom: 60px; }
+  .measure-size .article-header {
+    text-align: center; }
+    .measure-size .article-header h3 {
+      font-size: 14.33px;
+      color: #333;
+      font-weight: 300;
+      margin-bottom: 14.33px; }
+    .measure-size .article-header p {
+      font-size: 10px;
+      color: #666;
+      line-height: 15px; }
+    .measure-size .article-header .mark-size {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+      .measure-size .article-header .mark-size dt span {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        font-size: 35px;
+        color: #ee5766;
+        text-align: center;
+        line-height: 50px;
+        margin-right: 2px;
+        border-radius: 50%;
+        background-color: #fcdde0; }
+        .measure-size .article-header .mark-size dt span:last-child {
+          margin-right: 0; }
+      .measure-size .article-header .mark-size dd {
+        margin-top: 11.66px;
+        font-size: 10px;
+        color: #333; }
+    .measure-size .article-header .attention-circle p {
+      display: block;
+      width: 260px;
+      height: 23px;
+      font-size: 10px;
+      color: #ee5766;
+      text-align: left;
+      line-height: 20px;
+      margin: 0 auto;
+      margin-bottom: 5px;
+      padding-left: 13px;
+      border: 1px solid #ee5766;
+      border-radius: 10px; }
+      .measure-size .article-header .attention-circle p:last-child {
+        margin-bottom: 0; }
+    .measure-size .article-header .attention-circle .active {
+      color: #fff;
+      background-color: #ee5766; }
+  .measure-size .article-content {
+    margin-top: 25px; }
+    .measure-size .article-content .attention-list li {
+      margin-bottom: 14px;
+      padding: 19px;
+      border: 1px solid #dfdfdf; }
+      .measure-size .article-content .attention-list li:last-child {
+        margin-bottom: 0; }
+      .measure-size .article-content .attention-list li h4 {
+        font-size: 11px;
+        color: #333;
+        font-weight: 600;
+        letter-spacing: -.5px;
+        vertical-align: top;
+        margin-bottom: 10px; }
+        .measure-size .article-content .attention-list li h4 strong {
+          font-size: 13px;
+          color: #ee5766;
+          font-weight: bold;
+          margin-right: 5px; }
+      .measure-size .article-content .attention-list li p {
+        font-size: 10px;
+        color: #666;
+        line-height: 15px;
+        padding-left: 22.33px; }
+        .measure-size .article-content .attention-list li p span {
+          display: inline-block;
+          width: 24px;
+          height: 12px;
+          font-size: 10px;
+          color: #fff;
+          line-height: 12px;
+          text-align: center;
+          background-color: #ee5766; }
+        .measure-size .article-content .attention-list li p img {
+          display: block;
+          text-align: center;
+          margin: 0 auto;
+          margin-top: 13px;
+          padding: 0 50px; }
+      .measure-size .article-content .attention-list li .table-wrap {
+        border-top: 1px solid #3f3d3e; }
+        .measure-size .article-content .attention-list li .table-wrap .table thead tr th {
+          border-color: #dfdfdf !important;
+          border-right: 1px solid #dfdfdf !important; }
+          .measure-size .article-content .attention-list li .table-wrap .table thead tr th:last-child {
+            border-right: 0 !important; }
+        .measure-size .article-content .attention-list li .table-wrap .table tbody tr td {
+          border-color: #dfdfdf !important;
+          border-right: 1px solid #dfdfdf !important;
+          text-align: center;
+          color: #666; }
+          .measure-size .article-content .attention-list li .table-wrap .table tbody tr td:last-child {
+            border-right: 0 !important; }
+          .measure-size .article-content .attention-list li .table-wrap .table tbody tr td:first-child {
+            color: #ee5766; }
+      .measure-size .article-content .attention-list li:nth-of-type(5) p {
+        padding-left: 10px;
+        letter-spacing: -1px; }
+      .measure-size .article-content .attention-list li:nth-of-type(5) .attention-circle p {
+        display: block;
+        width: 260px;
+        height: 23px;
+        font-size: 10px;
+        text-align: center;
+        line-height: 20px;
+        margin: 0 auto;
+        margin-top: 5px;
+        border: 1px solid #ee5766;
+        border-radius: 10px; }
+      .measure-size .article-content .attention-list li:nth-of-type(5) .attention-circle .active {
+        color: #fff;
+        background-color: #ee5766; }
+      .measure-size .article-content .attention-list li:nth-of-type(5) .size-img {
+        padding-left: 0; }
+        .measure-size .article-content .attention-list li:nth-of-type(5) .size-img img {
+          padding: 0 22px; }
+      .measure-size .article-content .attention-list li:nth-of-type(6) {
+        text-align: center; }
+        .measure-size .article-content .attention-list li:nth-of-type(6) p {
+          padding-left: 0;
+          margin-bottom: 20px; }
+          .measure-size .article-content .attention-list li:nth-of-type(6) p img {
+            padding: 0 78px; }
+      .measure-size .article-content .attention-list li:nth-of-type(7) {
+        text-align: center; }
+        .measure-size .article-content .attention-list li:nth-of-type(7) p {
+          padding-left: 0;
+          margin-bottom: 20px; }
+          .measure-size .article-content .attention-list li:nth-of-type(7) p img {
+            padding: 0 78px; }
+        .measure-size .article-content .attention-list li:nth-of-type(7) .table-wrap .table thead tr th {
+          letter-spacing: -.5px; }
+    .measure-size .article-content h5 {
+      font-size: 11px;
+      color: #ee5766;
+      margin: 10px 0;
+      padding-left: 14px;
+      background-image: url(/design/brapra/mobile/images/about/reference_img.png);
+      background-repeat: no-repeat;
+      background-size: 10.66px 9.66px;
+      background-position: 0 50%; }
+    .measure-size .article-content .reference {
+      letter-spacing: -1px;
+      color: #666;
+      line-height: 15px; }
+
+.sort-bra {
+  padding-bottom: 56px; }
+  .sort-bra .article-content {
+    text-align: center; }
+    .sort-bra .article-content h3 {
+      font-size: 14.33px;
+      color: #333;
+      font-weight: 300;
+      margin-top: 40px; }
+      .sort-bra .article-content h3:first-child {
+        margin-top: 0; }
+    .sort-bra .article-content hr {
+      display: inline-block;
+      width: 20px;
+      border-top: 1px solid #333;
+      margin: 10px 0 22px; }
+    .sort-bra .article-content .sort li {
+      text-align: center;
+      margin-bottom: 14px; }
+      .sort-bra .article-content .sort li:last-child {
+        margin-bottom: 0; }
+      .sort-bra .article-content .sort li .item img {
+        display: block;
+        margin: 0 auto; }
+      .sort-bra .article-content .sort li .details {
+        display: block;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 19px 0;
+        border: 1px solid #dfdfdf; }
+        .sort-bra .article-content .sort li .details h4 {
+          font-size: 12px;
+          color: #333;
+          margin-bottom: 9px; }
+          .sort-bra .article-content .sort li .details h4 small {
+            font-size: 10px;
+            color: #666; }
+        .sort-bra .article-content .sort li .details p {
+          font-size: 10px;
+          color: #666;
+          line-height: 15px; }
+    .sort-bra .article-content .panties li:last-child {
+      margin-bottom: 0; }
+    .sort-bra .article-content .panties li .item img {
+      padding: 36.66px 80px; }
+    .sort-bra .article-content .panties li:nth-of-type(2) .item img {
+      padding: 36.66px 49.66px 36.66px 80px; }
 
 /*# sourceMappingURL=style.css.map */

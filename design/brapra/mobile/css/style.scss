@@ -2542,6 +2542,7 @@ textarea {
         border-bottom: 1px solid #ddd;
     }
     .container {
+        max-width: 320px;
         padding-left: 15px;
         padding-right: 15px;
         .row {
@@ -2562,6 +2563,7 @@ textarea {
             color: #333;
         }
         .brand {
+            max-width: 320px;
             margin-top: 15.33px;
             li {
                 text-align: center;
@@ -2570,104 +2572,17 @@ textarea {
                 a {
                     position: relative;
                     display: block;
-                    height: 79px;
-                    border: 1px solid #e3e3e3;
                     .item {
                         img {
-                            
-                        }
-                    }
-                    .details {
-                        font-size: 10px;
-                        color: #666;
-                    }
-                }
-                &:nth-of-type(1) {
-                    a {
-                        .item {
-                            padding-top: 24px;
-                            img {
-                                width: 57.33px;
-                                height: 9px;
-                            }
-                        }
-                        .details {
-                            margin-top: 10px;
-                        }
-                    }
-                }
-                &:nth-of-type(2) {
-                    a {
-                        .item {
-                            padding-top: 17.66px;
-                            img {
-                                width: 52.66px;
-                                height: 23.33px;
-                            }
-                        }
-                        .details {
-                            margin-top: 7px;
-                        }
-                    }
-                }
-                &:nth-of-type(3) {
-                    a {
-                        .item {
-                            padding-top: 20px;
-                            img {
-                                width: 30px;
-                                height: 25.33px;
-                            }
-                        }
-                        .details {
-                            margin-top: 3px;
-                        }
-                    }
-                }
-                &:nth-of-type(4) {
-                    a {
-                        .item {
-                            padding-top: 23px;
-                            img {
-                                width: 40.33px;
-                                height: 20px;
-                            }
-                        }
-                        .details {
-                            margin-top: 5px;
-                        }
-                    }
-                }
-                &:nth-of-type(5) {
-                    a {
-                        .item {
-                            padding-top: 23px;
-                            img {
-                                width: 53.66px;
-                                height: 12.33px;
-                            }
-                        }
-                        .details {
-                            margin-top: 11px;
-                        }
-                    }
-                }
-                &:nth-of-type(6) {
-                    a {
-                        .item {
-                            padding-top: 23px;
-                            img {
-                                width: 60px;
-                                height: 13px;
-                            }
-                        }
-                        .details {
-                            margin-top: 11px;
+                            width: 100%;
+                            height: 100%;
                         }
                     }
                 }
             }
         }
+
+
         .btn-area {
             text-align: center;
             margin-top: 5px;
@@ -2698,6 +2613,9 @@ textarea {
     }
 }
 #tab-3 {
+    .container {
+        max-width: 320px;
+    }
     .quick-menu-2 {
         padding-top: 20px;
         padding-bottom: 12px;
@@ -7621,27 +7539,34 @@ body.nav-opened {
         padding-top: 16.66px;
     }
 }
+/* about 공통 탭 */
+.about-list {
+    padding: 30px 0;
+    overflow: hidden;
+    li {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #e3e3e3;
+        a {
+            font-size: 10px;
+            color: #666;
+        }
+    }
+    .active {
+        border-color: #ee5766;
+        a {
+            color: #ee5766;
+        }
+    }
+}
 .about {
     .structure {
-        .about-list {
-            padding: 30px 0;
-            overflow: hidden;
-            li {
-                float: left;
-                width: 33.33%;
-                text-align: center;
-                padding-bottom: 7px;
-                border-bottom: 1px solid #e3e3e3;
-                a {
-                    font-size: 10px;
-                    color: #666;
-                }
-            }
-            .active {
-                border-color: #ee5766;
-                a {
-                    color: #ee5766;
-                }
+        .details-img {
+            text-align: center;
+            img {
+                display: inline-block;
             }
         }
         .circle-list {
@@ -7684,7 +7609,9 @@ body.nav-opened {
                 }
                 .details-img {
                     margin-left: -20px;
+                    text-align: center;
                     img {
+                        display: inline-block;
                         margin-top: 25px;
                     }
                 }
@@ -7692,3 +7619,611 @@ body.nav-opened {
         }
     }
 }
+.about {
+    .coupon-zone {
+        margin-top: 30px;
+        .login-btn {
+            text-align: center;
+            font-size: 10px;
+            color: #666;
+            padding: 8px 0;
+            margin-bottom: 8px;
+            border: 1px solid #e3e3e3;
+            .btn-xs {
+                font-size: 10px;
+                color: #ff6070;
+                margin-left: 10px;
+                border-radius: 0;
+                border: 1px solid #ff6070;
+            }
+        }
+        .coupon-list {
+            li {
+                overflow: hidden;
+                position: relative;
+                padding: 22px 0;
+                border-bottom: 1px solid #d7d7d7;
+                &:last-child {
+                    padding-bottom: 0;
+                    border-bottom: 0;
+                }
+                h3 {
+                    float: left;
+                    vertical-align: top;
+                    font-size: 20px;
+                    color: #222;
+                    letter-spacing: -.5px;
+                    display: inline-block;
+                    small {
+                        font-size: 10px;
+                        color: #666;
+                        letter-spacing: 0;
+                        line-height: 12px;
+                        display: inline-block;
+                        margin-bottom: 3px;
+                    }
+                    img {
+                        width: 47.33px;
+                        height: 10px;
+                    }
+                }
+                .coupon-img {
+                    padding-top: 8px;
+                    width: 48%;
+                    display: inline-block;
+                    float: right;
+                }
+                .join_btn {
+                    position: absolute;
+                    bottom: 30px;
+                    left: 0;
+                    display: block;
+                    font-size: 10px;
+                    color: #666;
+                    padding-right: 7px;
+                    border-bottom: 1px solid #666;
+                    background-image: url(/design/brapra/mobile/images/about/arrow_gr.gif);
+                    background-repeat: no-repeat;
+                    background-size: 5.33px 7.66px;
+                    background-position: 100% 4px;
+                }
+                .btn-apps {
+                    position: absolute;
+                    bottom: 25px;
+                    left: 0;
+                    margin-top: 13px;
+                    .btn {
+                        width: 60px;
+                        height: 16px;
+                        text-align: center;
+                        line-height: 12px;
+                        padding: 0;
+                        border-radius: 0;
+                        border: 1px solid #e3e3e3;
+                    }
+                    .btn-google {
+                        margin-right: 10px;
+                        img {
+                            display: inline-block;
+                            width: 38.33px;
+                            height: 8px;
+                        }
+                    }
+                    .btn-apple {
+                        img {
+                            display: inline-block;
+                            width: 31.66px;
+                            height: 6.66px;
+                        }
+                    }
+                }
+                .web-mobile {
+                    clear: both;
+                    padding-top: 23px;
+                    dl {
+                        display: inline-block;
+                        overflow: hidden;
+                        dt {
+                            float: left;
+                            width: 40px;
+                            img {
+                                vertical-align: top;
+                                width: 31px;
+                                height: 31px;
+                            }
+
+                        }
+                        dd {
+                            font-size: 10px;
+                            color: #666;
+                            float: left;
+                            a {
+                                display: block;
+                                margin-top: 10px;
+                                font-size: 10px;
+                                color: #666;
+                                font-weight: bold;
+                            }
+                            .friend {
+                                width: 50px;
+                                font-size: 10px;
+                                color: #666;
+                                border-bottom: 1px solid #666;
+                                background-image: url(/design/brapra/mobile/images/about/arrow_gr.gif);
+                                background-repeat: no-repeat;
+                                background-size: 5.33px 7.66px;
+                                background-position: 100% 4px;
+                            }
+                        }
+                    }
+                    .phone {
+                        margin-right: 30px;
+                    }
+                    .web {
+
+                    }
+                }
+            }
+        }
+        h2 {
+            font-size: 11px;
+            color: #333;
+            margin: 40px 0 10px;
+        }
+        .table-wrap {
+            margin-bottom: 60px;
+            border-top: 1px solid #5b5b5b;
+            .table {
+                thead {
+                    tr {
+                        th {
+                            font-size: 10px;
+                            color: #666;
+                            text-align: center;
+                            padding: 21px 0;
+                            border-color: #ededed;
+                            letter-spacing: -.5px;
+                            &:nth-of-type(2) {
+                                border-left: 1px solid #ededed;
+                                border-right: 1px solid #ededed;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        &:nth-of-type(1) {
+                            .member-level {
+                                img {
+                                    width: 37px;
+                                    height: 41.66px;
+                                }
+                            }
+                        }
+                        &:nth-of-type(2) {
+                            .member-level {
+                                img {
+                                    width: 42.66px;
+                                    height: 38px;
+                                }
+                            }
+                        }
+                        &:nth-of-type(3) {
+                            .member-level {
+                                img {
+                                    width: 42.66px;
+                                    height: 38px;
+                                }
+                            }
+                        }
+                        &:nth-of-type(4) {
+                            .member-level {
+                                img {
+                                    width: 39.66px;
+                                    height: 39.33px;
+                                }
+                            }
+                        }
+                        td {
+                            font-size: 10px;
+                            color: #666;
+                            text-align: center;
+                            vertical-align: middle;
+                            padding: 20px 0;
+                            border-color: #ededed;
+                            &:nth-of-type(2) {
+                                border-left: 1px solid #ededed;
+                                border-right: 1px solid #ededed;
+                            }
+                        }
+                        .benefit {
+                            img {
+                                width: 94.33px;
+                                height: 54.66px;
+                            }
+                            .details {
+                                letter-spacing: -1px;
+                                margin: 5px 0;
+                            }
+                            .btn-down {
+                                text-align: center;
+                                p {
+                                    .btn {
+                                        display: inline-block;
+                                        width: 70px;
+                                        height: 19px;
+                                        font-size: 10px;
+                                        color: #666;
+                                        padding: 0;
+                                        padding-right: 5px;
+                                        border-radius: 0;
+                                        border: 1px solid #dfdfdf;
+                                        background-image: url(/design/brapra/mobile/images/about/down_arrow.gif);
+                                        background-repeat: no-repeat;
+                                        background-size: 6.66px 6.66px;
+                                        background-position: 52px 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.measure-size {
+    padding-bottom: 60px;
+    .article-header {
+        text-align: center;
+        h3 {
+            font-size: 14.33px;
+            color: #333;
+            font-weight: 300;
+            margin-bottom: 14.33px;
+        }
+        p {
+            font-size: 10px;
+            color: #666;
+            line-height: 15px;
+        }
+        .mark-size {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            dt {
+                span {
+                    display: inline-block;
+                    width: 50px;
+                    height: 50px;
+                    font-size: 35px;
+                    color: #ee5766;
+                    @extend .maven;
+                    text-align: center;
+                    line-height: 50px;
+                    margin-right: 2px;
+                    border-radius: 50%;
+                    background-color: #fcdde0;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+            dd {
+                margin-top: 11.66px;
+                font-size: 10px;
+                color: #333;
+            }
+        }
+        .attention-circle {
+            p {
+                display: block;
+                width: 260px;
+                height: 23px;
+                font-size: 10px;
+                color: #ee5766;
+                text-align: left;
+                line-height: 20px;
+                margin: 0 auto;
+                margin-bottom: 5px;
+                padding-left: 13px;
+                border: 1px solid #ee5766;
+                border-radius: 10px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            .active {
+                color: #fff;
+                background-color: #ee5766;
+            }
+        }
+    }
+    .article-content {
+        margin-top: 25px;
+        .attention-list {
+            li {
+                margin-bottom: 14px;
+                padding: 19px;
+                border: 1px solid #dfdfdf;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                h4 {
+                    font-size: 11px;
+                    color: #333;
+                    font-weight: 600;
+                    letter-spacing: -.5px;
+                    vertical-align: top;
+                    margin-bottom: 10px;
+                    strong {
+                        font-size: 13px;
+                        color: #ee5766;
+                        font-weight: bold;
+                        @extend .maven;
+                        margin-right: 5px;
+                    }
+                }
+                p {
+                    font-size: 10px;
+                    color: #666;
+                    line-height: 15px;
+                    padding-left: 22.33px;
+                    span {
+                        display: inline-block;
+                        width: 24px;
+                        height: 12px;
+                        font-size: 10px;
+                        color: #fff;
+                        line-height: 12px;
+                        text-align: center;
+                        background-color: #ee5766;
+                    }
+                    img {
+                        display: block;
+                        text-align: center;
+                        margin: 0 auto;
+                        margin-top: 13px;
+                        padding: 0 50px;
+                    }
+                }
+                .table-wrap {
+                    border-top: 1px solid #3f3d3e;
+                    .table {
+                        thead {
+                            tr {
+                                th {
+                                    border-color: #dfdfdf !important;
+                                    border-right: 1px solid #dfdfdf !important;
+                                    &:last-child {
+                                        border-right: 0 !important;
+                                    }
+                                }
+                            }
+                        }
+                        tbody {
+                            tr {
+                                td {
+                                    border-color: #dfdfdf !important;
+                                    border-right: 1px solid #dfdfdf !important;
+                                    text-align: center;
+                                    color: #666;
+                                    &:last-child {
+                                        border-right: 0 !important;
+                                    }
+                                    &:first-child {
+                                        color: #ee5766;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(5) {
+                    p {
+                        padding-left: 10px;
+                        letter-spacing: -1px;
+                    }
+                    .attention-circle {
+                        p {
+                            display: block;
+                            width: 260px;
+                            height: 23px;
+                            font-size: 10px;
+                            text-align: center;
+                            line-height: 20px;
+                            margin: 0 auto;
+                            margin-top: 5px;
+                            border: 1px solid #ee5766;
+                            border-radius: 10px;
+                        }
+                        .active {
+                            color: #fff;
+                            background-color: #ee5766;
+                        }
+                    }
+                    .size-img {
+                        padding-left: 0;
+                        img {
+                            padding: 0 22px;
+                        }
+                    }
+                }
+                &:nth-of-type(6) {
+                    text-align: center;
+                    p {
+                        padding-left: 0;
+                        margin-bottom: 20px;
+                        img {
+                            padding: 0 78px;
+                        }
+                    }
+                }
+                &:nth-of-type(7) {
+                    text-align: center;
+                    p {
+                        padding-left: 0;
+                        margin-bottom: 20px;
+                        img {
+                            padding: 0 78px;
+                        }
+                    }
+                    .table-wrap {
+                        .table {
+                            thead {
+                                tr {
+                                    th {
+                                        letter-spacing: -.5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        h5 {
+            font-size: 11px;
+            color: #ee5766;
+            margin: 10px 0;
+            padding-left: 14px;
+            background-image: url(/design/brapra/mobile/images/about/reference_img.png);
+            background-repeat: no-repeat;
+            background-size: 10.66px 9.66px;
+            background-position: 0 50%;
+        }
+        .reference {
+            letter-spacing: -1px;
+            color: #666;
+            line-height: 15px;
+        }
+    }
+}
+.sort-bra {
+    padding-bottom: 56px;
+    .article-content {
+        text-align: center;
+        h3 {
+            font-size: 14.33px;
+            color: #333;
+            font-weight: 300;
+            margin-top: 40px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+        hr {
+            display: inline-block;
+            width: 20px;
+            border-top: 1px solid #333;
+            margin: 10px 0 22px;
+        }
+        .sort {
+            li {
+                text-align: center;
+                margin-bottom: 14px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                .item {
+                    img {
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+                .details {
+                    display: block;
+                    max-width: 900px;
+                    margin: 0 auto;
+                    padding: 19px 0;
+                    border: 1px solid #dfdfdf;
+                    h4 {
+                        font-size: 12px;
+                        color: #333;
+                        margin-bottom: 9px;
+                        small {
+                            font-size: 10px;
+                            color: #666;
+
+                        }
+                    }
+                    p {
+                        font-size: 10px;
+                        color: #666;
+                        line-height: 15px;
+                    }
+                }
+            }
+        }
+        .panties {
+            li {
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                .item {
+                    img {
+                        padding: 36.66px 80px;
+                    }
+                }
+                &:nth-of-type(2) {
+                    .item {
+                    img {
+                        padding: 36.66px 49.66px 36.66px 80px;
+                    }
+                }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
